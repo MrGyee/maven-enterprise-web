@@ -1,0 +1,52 @@
+[
+  {
+    "id": "f1",
+    "question": "Which areas in Kenya do you serve?",
+    "answer": "We supply and install across Nairobi and surrounding areas including Westlands, Karen, Syokimau, Rongai, Ngong, Kitengela, Ruiru and Kiambu, as well as Mombasa, Kisumu, Nakuru, Eldoret, Thika and Machakos. Contact us to confirm coverage for your specific location."
+  },
+  {
+    "id": "f2",
+    "question": "Do you offer installation, or only supply?",
+    "answer": "Both. Every product category we stock has professional installation available, and our team can also manage supply-only orders for contractors and developers who have their own installation crews."
+  },
+  {
+    "id": "f3",
+    "question": "How do I request a quotation?",
+    "answer": "Use the Request Quotation form on our website, WhatsApp us directly, or call our office. Provide your location, product or service of interest and approximate quantities for the fastest response."
+  },
+  {
+    "id": "f4",
+    "question": "Do you offer bulk pricing for contractors and developers?",
+    "answer": "Yes, we offer competitive bulk pricing for contractors, developers and hospitality businesses. Use our Bulk Purchase Inquiry form or contact our team directly to discuss volume pricing."
+  },
+  {
+    "id": "f5",
+    "question": "What is your typical installation timeline?",
+    "answer": "Timelines vary by project scope — a single bathroom renovation typically takes 5-10 working days, while full office or hotel fit-outs are scheduled individually based on site size and material lead times."
+  },
+  {
+    "id": "f6",
+    "question": "Can you help if I don't know exactly what products I need?",
+    "answer": "Absolutely. Our Interior Design Consultation service is designed for exactly this — our team will guide you through options that suit your space, budget and style preferences."
+  },
+  {
+    "id": "f7",
+    "question": "Do your products come with a warranty?",
+    "answer": "Most products carry manufacturer warranties, and our installation workmanship is also guaranteed. Warranty terms are confirmed at the point of quotation for your specific products."
+  },
+  {
+    "id": "f8",
+    "question": "Can I see samples before placing an order?",
+    "answer": "Yes, physical samples for flooring, wall panels, tiles and similar materials are available at our Nairobi showroom, or we can share detailed photos and specifications via WhatsApp."
+  },
+  {
+    "id": "f9",
+    "question": "Do you work directly with architects and interior designers?",
+    "answer": "Yes, we regularly partner with architects, interior designers and contractors, offering trade pricing, specification support and reliable project-based delivery schedules."
+  },
+  {
+    "id": "f10",
+    "question": "How can I register as a supplier or contractor with Maven Enterprise?",
+    "answer": "Use our Supplier Registration or Contractor Registration forms on the Contact page, and our procurement team will reach out to discuss partnership opportunities."
+  }
+]

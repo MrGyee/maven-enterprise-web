@@ -1,0 +1,3086 @@
+[
+  {
+    "slug": "estate-3d-textured-wall-panel",
+    "name": "Estate 3D Textured Wall Panel",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "wall-panels",
+    "shortDescription": "Lightweight 3D textured panels for a striking feature wall.",
+    "description": "Lightweight 3D textured panels for a striking feature wall. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      }
+    ],
+    "features": [
+      "Easy click-fit installation",
+      "Paintable surface",
+      "Sound-dampening core"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Gypsum composite"
+      },
+      {
+        "label": "Panel size",
+        "value": "500 x 500 mm"
+      },
+      {
+        "label": "Finish",
+        "value": "Matte white, paintable"
+      }
+    ],
+    "price": 1800,
+    "priceUnit": "per panel",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel",
+      "marble-effect-pvc-ceiling-wall-panel",
+      "coffered-ceiling-design-system"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "nairobi-slat-wood-effect-wall-panel",
+    "name": "Nairobi Slat Wood-Effect Wall Panel",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "wall-panels",
+    "shortDescription": "Warm slat-style wall panelling for living rooms and offices.",
+    "description": "Warm slat-style wall panelling for living rooms and offices. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "features": [
+      "Acoustic felt backing",
+      "Real wood veneer finish",
+      "Fire-retardant rated"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "MDF with wood veneer"
+      },
+      {
+        "label": "Panel size",
+        "value": "2400 x 300 mm"
+      }
+    ],
+    "price": 3200,
+    "priceUnit": "per panel",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "estate-3d-textured-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel",
+      "marble-effect-pvc-ceiling-wall-panel",
+      "coffered-ceiling-design-system"
+    ]
+  },
+  {
+    "slug": "aquaguard-waterproof-pvc-wall-panel",
+    "name": "AquaGuard Waterproof PVC Wall Panel",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "pvc-panels",
+    "shortDescription": "Fully waterproof PVC panelling ideal for kitchens and bathrooms.",
+    "description": "Fully waterproof PVC panelling ideal for kitchens and bathrooms. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright interior with patterned wallpaper feature wall"
+      }
+    ],
+    "features": [
+      "100% waterproof",
+      "Easy to wipe clean",
+      "Termite and mould resistant"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "PVC"
+      },
+      {
+        "label": "Panel size",
+        "value": "2900 x 250 mm"
+      },
+      {
+        "label": "Thickness",
+        "value": "8 mm"
+      }
+    ],
+    "price": 1400,
+    "priceUnit": "per panel",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "marble-effect-pvc-ceiling-wall-panel",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "coffered-ceiling-design-system"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "marble-effect-pvc-ceiling-wall-panel",
+    "name": "Marble-Effect PVC Ceiling & Wall Panel",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "pvc-panels",
+    "shortDescription": "Marble-finish PVC panels for a premium look at a fraction of the cost.",
+    "description": "Marble-finish PVC panels for a premium look at a fraction of the cost. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright interior with patterned wallpaper feature wall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      }
+    ],
+    "features": [
+      "High-gloss marble print",
+      "Lightweight and easy to cut",
+      "UV-resistant finish"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "PVC"
+      },
+      {
+        "label": "Panel size",
+        "value": "3000 x 300 mm"
+      }
+    ],
+    "price": 1650,
+    "priceUnit": "per panel",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "aquaguard-waterproof-pvc-wall-panel",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "coffered-ceiling-design-system"
+    ]
+  },
+  {
+    "slug": "coffered-ceiling-design-system",
+    "name": "Coffered Ceiling Design System",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "ceiling-designs",
+    "shortDescription": "Recessed coffered ceiling grid for a grand architectural finish.",
+    "description": "Recessed coffered ceiling grid for a grand architectural finish. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      }
+    ],
+    "features": [
+      "Custom grid sizing",
+      "Integrated LED recesses",
+      "Fire-rated boards"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Gypsum & timber frame"
+      },
+      {
+        "label": "Ceiling drop",
+        "value": "From 100 mm"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "floating-suspended-ceiling-panels",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "floating-suspended-ceiling-panels",
+    "name": "Floating Suspended Ceiling Panels",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "ceiling-designs",
+    "shortDescription": "Modern floating ceiling islands for offices and hospitality spaces.",
+    "description": "Modern floating ceiling islands for offices and hospitality spaces. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "features": [
+      "Modular panel sizes",
+      "Concealed suspension system",
+      "Acoustic-rated core"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Mineral fibre"
+      },
+      {
+        "label": "Panel size",
+        "value": "600 x 600 mm"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "coffered-ceiling-design-system",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ]
+  },
+  {
+    "slug": "standard-gypsum-ceiling-board",
+    "name": "Standard Gypsum Ceiling Board",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "gypsum-products",
+    "shortDescription": "Smooth-finish gypsum boards for false ceilings and partitions.",
+    "description": "Smooth-finish gypsum boards for false ceilings and partitions. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright interior with patterned wallpaper feature wall"
+      }
+    ],
+    "features": [
+      "Fire-resistant core",
+      "Smooth paintable surface",
+      "Lightweight handling"
+    ],
+    "specifications": [
+      {
+        "label": "Board size",
+        "value": "1200 x 2400 mm"
+      },
+      {
+        "label": "Thickness",
+        "value": "9.5 / 12.5 mm"
+      }
+    ],
+    "price": 950,
+    "priceUnit": "per board",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "decorative-gypsum-cornice-moulding",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ]
+  },
+  {
+    "slug": "decorative-gypsum-cornice-moulding",
+    "name": "Decorative Gypsum Cornice Moulding",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "gypsum-products",
+    "shortDescription": "Classic cornice mouldings to finish ceiling-to-wall junctions.",
+    "description": "Classic cornice mouldings to finish ceiling-to-wall junctions. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright interior with patterned wallpaper feature wall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      }
+    ],
+    "features": [
+      "Classic and modern profiles",
+      "Pre-primed for painting",
+      "Easy adhesive fixing"
+    ],
+    "specifications": [
+      {
+        "label": "Length",
+        "value": "2 m per length"
+      },
+      {
+        "label": "Profile widths",
+        "value": "75–150 mm"
+      }
+    ],
+    "price": 650,
+    "priceUnit": "per length",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "standard-gypsum-ceiling-board",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ]
+  },
+  {
+    "slug": "botanical-print-feature-wallpaper",
+    "name": "Botanical Print Feature Wallpaper",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "wallpaper",
+    "shortDescription": "Nature-inspired wallpaper for statement living and bedroom walls.",
+    "description": "Nature-inspired wallpaper for statement living and bedroom walls. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      }
+    ],
+    "features": [
+      "Non-woven, tear-resistant",
+      "Washable surface",
+      "Wide roll coverage"
+    ],
+    "specifications": [
+      {
+        "label": "Roll size",
+        "value": "0.53 x 10 m"
+      },
+      {
+        "label": "Pattern repeat",
+        "value": "64 cm"
+      }
+    ],
+    "price": 4200,
+    "priceUnit": "per roll",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "textured-linen-look-wallpaper",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "textured-linen-look-wallpaper",
+    "name": "Textured Linen-Look Wallpaper",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "wallpaper",
+    "shortDescription": "Subtle textured wallpaper for a refined, understated backdrop.",
+    "description": "Subtle textured wallpaper for a refined, understated backdrop. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "features": [
+      "Fabric-textured finish",
+      "Fade-resistant",
+      "Easy paste-the-wall application"
+    ],
+    "specifications": [
+      {
+        "label": "Roll size",
+        "value": "0.7 x 10 m"
+      }
+    ],
+    "price": 3600,
+    "priceUnit": "per roll",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "botanical-print-feature-wallpaper",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ]
+  },
+  {
+    "slug": "blackout-living-room-curtain-set",
+    "name": "Blackout Living Room Curtain Set",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "curtains",
+    "shortDescription": "Made-to-measure blackout curtains in premium fabric blends.",
+    "description": "Made-to-measure blackout curtains in premium fabric blends. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright interior with patterned wallpaper feature wall"
+      }
+    ],
+    "features": [
+      "100% blackout lining",
+      "Custom sizing",
+      "Wide fabric and colour range"
+    ],
+    "specifications": [
+      {
+        "label": "Fabric",
+        "value": "Poly-cotton blend"
+      },
+      {
+        "label": "Lining",
+        "value": "Thermal blackout"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "sheer-voile-curtain-panels",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ]
+  },
+  {
+    "slug": "sheer-voile-curtain-panels",
+    "name": "Sheer Voile Curtain Panels",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "curtains",
+    "shortDescription": "Light-filtering sheer voile panels for an airy, elegant finish.",
+    "description": "Light-filtering sheer voile panels for an airy, elegant finish. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright interior with patterned wallpaper feature wall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      }
+    ],
+    "features": [
+      "Soft drape sheer fabric",
+      "Custom width and drop",
+      "Machine washable"
+    ],
+    "specifications": [
+      {
+        "label": "Fabric",
+        "value": "Polyester voile"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "blackout-living-room-curtain-set",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ]
+  },
+  {
+    "slug": "aluminium-venetian-blinds",
+    "name": "Aluminium Venetian Blinds",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "blinds",
+    "shortDescription": "Precision aluminium venetian blinds for offices and homes.",
+    "description": "Precision aluminium venetian blinds for offices and homes. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      }
+    ],
+    "features": [
+      "Adjustable slat tilt",
+      "Corrosion-resistant coating",
+      "Cordless safety option"
+    ],
+    "specifications": [
+      {
+        "label": "Slat width",
+        "value": "25 mm"
+      },
+      {
+        "label": "Colours",
+        "value": "White, grey, wood-effect"
+      }
+    ],
+    "price": 3800,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "roller-blackout-roller-blinds",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ]
+  },
+  {
+    "slug": "roller-blackout-roller-blinds",
+    "name": "Roller Blackout Roller Blinds",
+    "categorySlug": "interior-decor",
+    "subcategorySlug": "blinds",
+    "shortDescription": "Smooth-operating roller blinds with blackout fabric.",
+    "description": "Smooth-operating roller blinds with blackout fabric. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "features": [
+      "UV and heat-blocking fabric",
+      "Chain or spring operation",
+      "Custom cut to size"
+    ],
+    "specifications": [
+      {
+        "label": "Fabric",
+        "value": "PVC-coated polyester"
+      }
+    ],
+    "price": 3200,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "aluminium-venetian-blinds",
+      "estate-3d-textured-wall-panel",
+      "nairobi-slat-wood-effect-wall-panel",
+      "aquaguard-waterproof-pvc-wall-panel"
+    ]
+  },
+  {
+    "slug": "oak-wood-effect-vinyl-plank",
+    "name": "Oak Wood-Effect Vinyl Plank",
+    "categorySlug": "flooring",
+    "subcategorySlug": "vinyl-flooring",
+    "shortDescription": "Realistic oak-effect luxury vinyl planks with a soft underfoot feel.",
+    "description": "Realistic oak-effect luxury vinyl planks with a soft underfoot feel. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Neutral tiled flooring in a bright hallway"
+      }
+    ],
+    "features": [
+      "100% waterproof",
+      "Click-lock installation",
+      "Commercial-grade wear layer"
+    ],
+    "specifications": [
+      {
+        "label": "Plank size",
+        "value": "1220 x 180 mm"
+      },
+      {
+        "label": "Wear layer",
+        "value": "0.3 mm"
+      }
+    ],
+    "price": 1450,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "concrete-effect-vinyl-tile",
+      "rigidcore-spc-flooring-plank",
+      "herringbone-spc-flooring",
+      "classic-oak-laminate-flooring"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "concrete-effect-vinyl-tile",
+    "name": "Concrete-Effect Vinyl Tile",
+    "categorySlug": "flooring",
+    "subcategorySlug": "vinyl-flooring",
+    "shortDescription": "Industrial concrete-look vinyl tiles for modern commercial spaces.",
+    "description": "Industrial concrete-look vinyl tiles for modern commercial spaces. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Neutral tiled flooring in a bright hallway"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      }
+    ],
+    "features": [
+      "Slip-resistant surface",
+      "Easy-clean finish",
+      "Suitable for high-traffic areas"
+    ],
+    "specifications": [
+      {
+        "label": "Tile size",
+        "value": "600 x 600 mm"
+      }
+    ],
+    "price": 1350,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "oak-wood-effect-vinyl-plank",
+      "rigidcore-spc-flooring-plank",
+      "herringbone-spc-flooring",
+      "classic-oak-laminate-flooring"
+    ]
+  },
+  {
+    "slug": "rigidcore-spc-flooring-plank",
+    "name": "RigidCore SPC Flooring Plank",
+    "categorySlug": "flooring",
+    "subcategorySlug": "spc-flooring",
+    "shortDescription": "Dimensionally stable stone-plastic composite flooring.",
+    "description": "Dimensionally stable stone-plastic composite flooring. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      }
+    ],
+    "features": [
+      "100% waterproof rigid core",
+      "Dent and scratch resistant",
+      "Attached acoustic underlay"
+    ],
+    "specifications": [
+      {
+        "label": "Plank size",
+        "value": "1220 x 178 mm"
+      },
+      {
+        "label": "Thickness",
+        "value": "5 mm + 1.5 mm underlay"
+      }
+    ],
+    "price": 2100,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "herringbone-spc-flooring",
+      "oak-wood-effect-vinyl-plank",
+      "concrete-effect-vinyl-tile",
+      "classic-oak-laminate-flooring"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "herringbone-spc-flooring",
+    "name": "Herringbone SPC Flooring",
+    "categorySlug": "flooring",
+    "subcategorySlug": "spc-flooring",
+    "shortDescription": "Herringbone-pattern SPC planks for a designer floor finish.",
+    "description": "Herringbone-pattern SPC planks for a designer floor finish. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      }
+    ],
+    "features": [
+      "Interlocking herringbone profile",
+      "Waterproof core",
+      "Low-maintenance surface"
+    ],
+    "specifications": [
+      {
+        "label": "Plank size",
+        "value": "600 x 120 mm"
+      }
+    ],
+    "price": 2450,
+    "priceUnit": "per m²",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "rigidcore-spc-flooring-plank",
+      "oak-wood-effect-vinyl-plank",
+      "concrete-effect-vinyl-tile",
+      "classic-oak-laminate-flooring"
+    ]
+  },
+  {
+    "slug": "classic-oak-laminate-flooring",
+    "name": "Classic Oak Laminate Flooring",
+    "categorySlug": "flooring",
+    "subcategorySlug": "laminate-flooring",
+    "shortDescription": "Affordable, durable laminate flooring with an authentic wood look.",
+    "description": "Affordable, durable laminate flooring with an authentic wood look. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Neutral tiled flooring in a bright hallway"
+      }
+    ],
+    "features": [
+      "AC4-rated wear resistance",
+      "Click-lock fitting",
+      "Moisture-resistant core"
+    ],
+    "specifications": [
+      {
+        "label": "Plank size",
+        "value": "1285 x 192 mm"
+      },
+      {
+        "label": "Thickness",
+        "value": "8 mm"
+      }
+    ],
+    "price": 1150,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "walnut-high-gloss-laminate-flooring",
+      "oak-wood-effect-vinyl-plank",
+      "concrete-effect-vinyl-tile",
+      "rigidcore-spc-flooring-plank"
+    ]
+  },
+  {
+    "slug": "walnut-high-gloss-laminate-flooring",
+    "name": "Walnut High-Gloss Laminate Flooring",
+    "categorySlug": "flooring",
+    "subcategorySlug": "laminate-flooring",
+    "shortDescription": "High-gloss walnut laminate for a refined, contemporary look.",
+    "description": "High-gloss walnut laminate for a refined, contemporary look. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Neutral tiled flooring in a bright hallway"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      }
+    ],
+    "features": [
+      "High-gloss lacquer finish",
+      "Scratch-resistant top layer",
+      "Easy DIY installation"
+    ],
+    "specifications": [
+      {
+        "label": "Plank size",
+        "value": "1285 x 192 mm"
+      }
+    ],
+    "price": 1350,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "classic-oak-laminate-flooring",
+      "oak-wood-effect-vinyl-plank",
+      "concrete-effect-vinyl-tile",
+      "rigidcore-spc-flooring-plank"
+    ]
+  },
+  {
+    "slug": "modular-loop-pile-carpet-tiles",
+    "name": "Modular Loop-Pile Carpet Tiles",
+    "categorySlug": "flooring",
+    "subcategorySlug": "carpets",
+    "shortDescription": "Commercial-grade carpet tiles for offices and hospitality floors.",
+    "description": "Commercial-grade carpet tiles for offices and hospitality floors. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      }
+    ],
+    "features": [
+      "Stain-resistant fibres",
+      "Easy tile replacement",
+      "Sound-absorbing backing"
+    ],
+    "specifications": [
+      {
+        "label": "Tile size",
+        "value": "500 x 500 mm"
+      },
+      {
+        "label": "Pile",
+        "value": "Loop pile, 100% nylon"
+      }
+    ],
+    "price": 1900,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "plush-wall-to-wall-carpet",
+      "oak-wood-effect-vinyl-plank",
+      "concrete-effect-vinyl-tile",
+      "rigidcore-spc-flooring-plank"
+    ]
+  },
+  {
+    "slug": "plush-wall-to-wall-carpet",
+    "name": "Plush Wall-to-Wall Carpet",
+    "categorySlug": "flooring",
+    "subcategorySlug": "carpets",
+    "shortDescription": "Soft plush carpeting for bedrooms and living rooms.",
+    "description": "Soft plush carpeting for bedrooms and living rooms. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      }
+    ],
+    "features": [
+      "Soft cut-pile texture",
+      "Anti-static treatment",
+      "Custom room-fit cutting"
+    ],
+    "specifications": [
+      {
+        "label": "Pile",
+        "value": "Cut pile, polypropylene"
+      }
+    ],
+    "price": 1600,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "modular-loop-pile-carpet-tiles",
+      "oak-wood-effect-vinyl-plank",
+      "concrete-effect-vinyl-tile",
+      "rigidcore-spc-flooring-plank"
+    ]
+  },
+  {
+    "slug": "calacatta-marble-effect-porcelain-tile",
+    "name": "Calacatta Marble-Effect Porcelain Tile",
+    "categorySlug": "flooring",
+    "subcategorySlug": "tiles",
+    "shortDescription": "Large-format marble-effect porcelain tiles for floors and walls.",
+    "description": "Large-format marble-effect porcelain tiles for floors and walls. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Neutral tiled flooring in a bright hallway"
+      }
+    ],
+    "features": [
+      "Rectified edges",
+      "Low water absorption",
+      "Polished and matte options"
+    ],
+    "specifications": [
+      {
+        "label": "Tile size",
+        "value": "600 x 1200 mm"
+      },
+      {
+        "label": "Finish",
+        "value": "Polished / matte"
+      }
+    ],
+    "price": 2800,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "terrazzo-style-ceramic-floor-tile",
+      "oak-wood-effect-vinyl-plank",
+      "concrete-effect-vinyl-tile",
+      "rigidcore-spc-flooring-plank"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "terrazzo-style-ceramic-floor-tile",
+    "name": "Terrazzo-Style Ceramic Floor Tile",
+    "categorySlug": "flooring",
+    "subcategorySlug": "tiles",
+    "shortDescription": "Speckled terrazzo-effect tiles for a modern, textured floor.",
+    "description": "Speckled terrazzo-effect tiles for a modern, textured floor. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Neutral tiled flooring in a bright hallway"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      }
+    ],
+    "features": [
+      "Anti-slip rating R10",
+      "Fade-resistant glaze",
+      "Suitable for indoor/outdoor"
+    ],
+    "specifications": [
+      {
+        "label": "Tile size",
+        "value": "600 x 600 mm"
+      }
+    ],
+    "price": 1750,
+    "priceUnit": "per m²",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "calacatta-marble-effect-porcelain-tile",
+      "oak-wood-effect-vinyl-plank",
+      "concrete-effect-vinyl-tile",
+      "rigidcore-spc-flooring-plank"
+    ]
+  },
+  {
+    "slug": "wall-hung-water-efficient-toilet",
+    "name": "Wall-Hung Water-Efficient Toilet",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "toilets",
+    "shortDescription": "Space-saving wall-hung toilet with a dual-flush system.",
+    "description": "Space-saving wall-hung toilet with a dual-flush system. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern bathroom with freestanding bathtub"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom vanity with wall-mounted basin"
+      }
+    ],
+    "features": [
+      "Dual-flush 3/6L system",
+      "Soft-close seat included",
+      "Concealed cistern compatible"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Vitreous china"
+      },
+      {
+        "label": "Flush type",
+        "value": "Dual flush"
+      }
+    ],
+    "price": 28000,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin",
+      "wall-mounted-slimline-basin",
+      "freestanding-oval-acrylic-bathtub"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "close-coupled-comfort-height-toilet",
+    "name": "Close-Coupled Comfort-Height Toilet",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "toilets",
+    "shortDescription": "Classic close-coupled toilet suite for everyday reliability.",
+    "description": "Classic close-coupled toilet suite for everyday reliability. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom vanity with wall-mounted basin"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Walk-in shower with rain shower head"
+      }
+    ],
+    "features": [
+      "Comfort-height bowl",
+      "Soft-close seat",
+      "Easy-clean glaze"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Vitreous china"
+      }
+    ],
+    "price": 16500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "wall-hung-water-efficient-toilet",
+      "countertop-round-wash-basin",
+      "wall-mounted-slimline-basin",
+      "freestanding-oval-acrylic-bathtub"
+    ]
+  },
+  {
+    "slug": "countertop-round-wash-basin",
+    "name": "Countertop Round Wash Basin",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "basins",
+    "shortDescription": "Elegant countertop basin for modern vanity units.",
+    "description": "Elegant countertop basin for modern vanity units. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Walk-in shower with rain shower head"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom fittings and fixtures detail"
+      }
+    ],
+    "features": [
+      "Scratch-resistant ceramic",
+      "Easy-clean glaze",
+      "Multiple finish options"
+    ],
+    "specifications": [
+      {
+        "label": "Diameter",
+        "value": "420 mm"
+      }
+    ],
+    "price": 8500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "wall-mounted-slimline-basin",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "freestanding-oval-acrylic-bathtub"
+    ]
+  },
+  {
+    "slug": "wall-mounted-slimline-basin",
+    "name": "Wall-Mounted Slimline Basin",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "basins",
+    "shortDescription": "Space-saving wall-mounted basin for compact bathrooms.",
+    "description": "Space-saving wall-mounted basin for compact bathrooms. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom fittings and fixtures detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern bathroom with freestanding bathtub"
+      }
+    ],
+    "features": [
+      "Slim ceramic profile",
+      "Concealed bracket fixing",
+      "Overflow included"
+    ],
+    "specifications": [
+      {
+        "label": "Width",
+        "value": "500 mm"
+      }
+    ],
+    "price": 7200,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "countertop-round-wash-basin",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "freestanding-oval-acrylic-bathtub"
+    ]
+  },
+  {
+    "slug": "freestanding-oval-acrylic-bathtub",
+    "name": "Freestanding Oval Acrylic Bathtub",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "bathtubs",
+    "shortDescription": "Statement freestanding bathtub for a spa-like bathroom.",
+    "description": "Statement freestanding bathtub for a spa-like bathroom. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern bathroom with freestanding bathtub"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom vanity with wall-mounted basin"
+      }
+    ],
+    "features": [
+      "High-gloss acrylic finish",
+      "Reinforced fibreglass shell",
+      "Includes waste and overflow"
+    ],
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "1700 x 800 mm"
+      }
+    ],
+    "price": 65000,
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "built-in-rectangular-bathtub",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "built-in-rectangular-bathtub",
+    "name": "Built-In Rectangular Bathtub",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "bathtubs",
+    "shortDescription": "Practical built-in bathtub for family bathrooms.",
+    "description": "Practical built-in bathtub for family bathrooms. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom vanity with wall-mounted basin"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Walk-in shower with rain shower head"
+      }
+    ],
+    "features": [
+      "Anti-slip base texture",
+      "Reinforced acrylic construction",
+      "Standard tap-hole drilling"
+    ],
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "1700 x 700 mm"
+      }
+    ],
+    "price": 32000,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "freestanding-oval-acrylic-bathtub",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin"
+    ]
+  },
+  {
+    "slug": "rainfall-overhead-shower-system",
+    "name": "Rainfall Overhead Shower System",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "shower-systems",
+    "shortDescription": "Thermostatic rainfall shower system with hand shower.",
+    "description": "Thermostatic rainfall shower system with hand shower. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Walk-in shower with rain shower head"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom fittings and fixtures detail"
+      }
+    ],
+    "features": [
+      "Thermostatic mixer valve",
+      "300 mm rain shower head",
+      "Adjustable hand shower"
+    ],
+    "specifications": [
+      {
+        "label": "Finish",
+        "value": "Chrome"
+      }
+    ],
+    "price": 24500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "frameless-glass-shower-enclosure",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "frameless-glass-shower-enclosure",
+    "name": "Frameless Glass Shower Enclosure",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "shower-systems",
+    "shortDescription": "Minimalist frameless glass shower enclosure.",
+    "description": "Minimalist frameless glass shower enclosure. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom fittings and fixtures detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern bathroom with freestanding bathtub"
+      }
+    ],
+    "features": [
+      "8 mm tempered safety glass",
+      "Easy-clean glass coating",
+      "Custom sizing available"
+    ],
+    "specifications": [
+      {
+        "label": "Glass thickness",
+        "value": "8 mm"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "rainfall-overhead-shower-system",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin"
+    ]
+  },
+  {
+    "slug": "floating-vanity-cabinet-with-basin",
+    "name": "Floating Vanity Cabinet with Basin",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "bathroom-cabinets",
+    "shortDescription": "Wall-mounted vanity cabinet with integrated basin.",
+    "description": "Wall-mounted vanity cabinet with integrated basin. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern bathroom with freestanding bathtub"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom vanity with wall-mounted basin"
+      }
+    ],
+    "features": [
+      "Soft-close drawers",
+      "Moisture-resistant carcass",
+      "Integrated ceramic basin"
+    ],
+    "specifications": [
+      {
+        "label": "Width",
+        "value": "800 mm"
+      }
+    ],
+    "price": 34000,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "mirrored-bathroom-storage-cabinet",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin"
+    ]
+  },
+  {
+    "slug": "mirrored-bathroom-storage-cabinet",
+    "name": "Mirrored Bathroom Storage Cabinet",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "bathroom-cabinets",
+    "shortDescription": "Mirrored wall cabinet with internal shelving.",
+    "description": "Mirrored wall cabinet with internal shelving. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom vanity with wall-mounted basin"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Walk-in shower with rain shower head"
+      }
+    ],
+    "features": [
+      "LED-ready mirror option",
+      "Adjustable internal shelves",
+      "Soft-close door"
+    ],
+    "specifications": [
+      {
+        "label": "Width",
+        "value": "600 mm"
+      }
+    ],
+    "price": 12500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "floating-vanity-cabinet-with-basin",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin"
+    ]
+  },
+  {
+    "slug": "matte-black-bathroom-accessory-set",
+    "name": "Matte Black Bathroom Accessory Set",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "bathroom-accessories",
+    "shortDescription": "5-piece matte black accessory set for a cohesive finish.",
+    "description": "5-piece matte black accessory set for a cohesive finish. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Walk-in shower with rain shower head"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom fittings and fixtures detail"
+      }
+    ],
+    "features": [
+      "Towel rail, ring, robe hook, soap dish, holder",
+      "Rust-resistant coating",
+      "Concealed fixing"
+    ],
+    "specifications": [
+      {
+        "label": "Finish",
+        "value": "Matte black"
+      }
+    ],
+    "price": 9800,
+    "priceUnit": "per set",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "brushed-brass-towel-rail",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin"
+    ]
+  },
+  {
+    "slug": "brushed-brass-towel-rail",
+    "name": "Brushed Brass Towel Rail",
+    "categorySlug": "bathroom",
+    "subcategorySlug": "bathroom-accessories",
+    "shortDescription": "Heated brushed brass towel rail for a warm, premium finish.",
+    "description": "Heated brushed brass towel rail for a warm, premium finish. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom fittings and fixtures detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern bathroom with freestanding bathtub"
+      }
+    ],
+    "features": [
+      "Dual-fuel compatible",
+      "Brushed brass PVD coating",
+      "5-year finish warranty"
+    ],
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "800 x 500 mm"
+      }
+    ],
+    "price": 18500,
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "matte-black-bathroom-accessory-set",
+      "wall-hung-water-efficient-toilet",
+      "close-coupled-comfort-height-toilet",
+      "countertop-round-wash-basin"
+    ]
+  },
+  {
+    "slug": "double-bowl-stainless-steel-sink",
+    "name": "Double Bowl Stainless Steel Sink",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "kitchen-sinks",
+    "shortDescription": "Durable double-bowl sink for busy family kitchens.",
+    "description": "Durable double-bowl sink for busy family kitchens. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern kitchen with green cabinetry and stone countertop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Kitchen sink and mixer tap detail"
+      }
+    ],
+    "features": [
+      "1.2 mm brushed stainless steel",
+      "Sound-deadening pads",
+      "Includes waste kit"
+    ],
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "860 x 500 mm"
+      }
+    ],
+    "price": 14500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "granite-composite-single-bowl-sink",
+      "pull-down-spray-kitchen-mixer",
+      "single-lever-kitchen-mixer-tap",
+      "modern-handleless-kitchen-cabinet-set"
+    ]
+  },
+  {
+    "slug": "granite-composite-single-bowl-sink",
+    "name": "Granite Composite Single Bowl Sink",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "kitchen-sinks",
+    "shortDescription": "Scratch-resistant granite composite sink in matte finish.",
+    "description": "Scratch-resistant granite composite sink in matte finish. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Kitchen sink and mixer tap detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Fitted kitchen cabinets and countertop"
+      }
+    ],
+    "features": [
+      "Heat-resistant up to 280°C",
+      "Non-porous, hygienic surface",
+      "Undermount installation"
+    ],
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "760 x 440 mm"
+      }
+    ],
+    "price": 19500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "double-bowl-stainless-steel-sink",
+      "pull-down-spray-kitchen-mixer",
+      "single-lever-kitchen-mixer-tap",
+      "modern-handleless-kitchen-cabinet-set"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "pull-down-spray-kitchen-mixer",
+    "name": "Pull-Down Spray Kitchen Mixer",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "kitchen-mixers",
+    "shortDescription": "Flexible pull-down mixer with dual spray function.",
+    "description": "Flexible pull-down mixer with dual spray function. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Fitted kitchen cabinets and countertop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1567016432779-094069958ea5?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright modern kitchen interior"
+      }
+    ],
+    "features": [
+      "360° swivel spout",
+      "Dual-mode spray head",
+      "Ceramic disc cartridge"
+    ],
+    "specifications": [
+      {
+        "label": "Finish",
+        "value": "Chrome / matte black"
+      }
+    ],
+    "price": 13500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "single-lever-kitchen-mixer-tap",
+      "double-bowl-stainless-steel-sink",
+      "granite-composite-single-bowl-sink",
+      "modern-handleless-kitchen-cabinet-set"
+    ]
+  },
+  {
+    "slug": "single-lever-kitchen-mixer-tap",
+    "name": "Single-Lever Kitchen Mixer Tap",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "kitchen-mixers",
+    "shortDescription": "Classic single-lever mixer tap for everyday kitchens.",
+    "description": "Classic single-lever mixer tap for everyday kitchens. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1567016432779-094069958ea5?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright modern kitchen interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern kitchen with green cabinetry and stone countertop"
+      }
+    ],
+    "features": [
+      "Single-lever temperature control",
+      "Anti-scale ceramic cartridge",
+      "Standard deck mounting"
+    ],
+    "specifications": [
+      {
+        "label": "Finish",
+        "value": "Chrome"
+      }
+    ],
+    "price": 7800,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "pull-down-spray-kitchen-mixer",
+      "double-bowl-stainless-steel-sink",
+      "granite-composite-single-bowl-sink",
+      "modern-handleless-kitchen-cabinet-set"
+    ]
+  },
+  {
+    "slug": "modern-handleless-kitchen-cabinet-set",
+    "name": "Modern Handleless Kitchen Cabinet Set",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "cabinets",
+    "shortDescription": "Sleek handleless cabinetry built to your kitchen layout.",
+    "description": "Sleek handleless cabinetry built to your kitchen layout. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern kitchen with green cabinetry and stone countertop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Kitchen sink and mixer tap detail"
+      }
+    ],
+    "features": [
+      "Soft-close hinges and runners",
+      "Moisture-resistant board",
+      "Custom colour and layout"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Melamine-faced board"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "classic-shaker-kitchen-cabinets",
+      "double-bowl-stainless-steel-sink",
+      "granite-composite-single-bowl-sink",
+      "pull-down-spray-kitchen-mixer"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "classic-shaker-kitchen-cabinets",
+    "name": "Classic Shaker Kitchen Cabinets",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "cabinets",
+    "shortDescription": "Timeless shaker-style kitchen cabinetry.",
+    "description": "Timeless shaker-style kitchen cabinetry. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Kitchen sink and mixer tap detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Fitted kitchen cabinets and countertop"
+      }
+    ],
+    "features": [
+      "Solid shaker door fronts",
+      "Soft-close drawers",
+      "Custom sizing"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "MDF, painted finish"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "modern-handleless-kitchen-cabinet-set",
+      "double-bowl-stainless-steel-sink",
+      "granite-composite-single-bowl-sink",
+      "pull-down-spray-kitchen-mixer"
+    ]
+  },
+  {
+    "slug": "quartz-composite-countertop",
+    "name": "Quartz Composite Countertop",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "countertops",
+    "shortDescription": "Non-porous engineered quartz countertop in a range of finishes.",
+    "description": "Non-porous engineered quartz countertop in a range of finishes. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Fitted kitchen cabinets and countertop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1567016432779-094069958ea5?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright modern kitchen interior"
+      }
+    ],
+    "features": [
+      "Scratch and stain resistant",
+      "Non-porous, hygienic surface",
+      "Wide colour selection"
+    ],
+    "specifications": [
+      {
+        "label": "Thickness",
+        "value": "20 / 30 mm"
+      }
+    ],
+    "price": 9500,
+    "priceUnit": "per m²",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "polished-granite-countertop",
+      "double-bowl-stainless-steel-sink",
+      "granite-composite-single-bowl-sink",
+      "pull-down-spray-kitchen-mixer"
+    ]
+  },
+  {
+    "slug": "polished-granite-countertop",
+    "name": "Polished Granite Countertop",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "countertops",
+    "shortDescription": "Natural polished granite for a durable, premium worktop.",
+    "description": "Natural polished granite for a durable, premium worktop. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1567016432779-094069958ea5?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright modern kitchen interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern kitchen with green cabinetry and stone countertop"
+      }
+    ],
+    "features": [
+      "Natural stone durability",
+      "Heat-resistant surface",
+      "Unique veining per slab"
+    ],
+    "specifications": [
+      {
+        "label": "Thickness",
+        "value": "30 mm"
+      }
+    ],
+    "price": 8200,
+    "priceUnit": "per m²",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "quartz-composite-countertop",
+      "double-bowl-stainless-steel-sink",
+      "granite-composite-single-bowl-sink",
+      "pull-down-spray-kitchen-mixer"
+    ]
+  },
+  {
+    "slug": "sliding-door-fitted-wardrobe",
+    "name": "Sliding Door Fitted Wardrobe",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "wardrobes",
+    "shortDescription": "Space-efficient sliding wardrobe built to fit any room.",
+    "description": "Space-efficient sliding wardrobe built to fit any room. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern kitchen with green cabinetry and stone countertop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Kitchen sink and mixer tap detail"
+      }
+    ],
+    "features": [
+      "Soft-close sliding gear",
+      "Internal shelving and hanging rails",
+      "Mirror door option"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "Melamine-faced board"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "walk-in-wardrobe-system",
+      "double-bowl-stainless-steel-sink",
+      "granite-composite-single-bowl-sink",
+      "pull-down-spray-kitchen-mixer"
+    ]
+  },
+  {
+    "slug": "walk-in-wardrobe-system",
+    "name": "Walk-In Wardrobe System",
+    "categorySlug": "kitchen",
+    "subcategorySlug": "wardrobes",
+    "shortDescription": "Custom walk-in wardrobe with modular storage.",
+    "description": "Custom walk-in wardrobe with modular storage. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Kitchen sink and mixer tap detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Fitted kitchen cabinets and countertop"
+      }
+    ],
+    "features": [
+      "Modular shelving and drawers",
+      "Integrated lighting option",
+      "Bespoke layout design"
+    ],
+    "specifications": [
+      {
+        "label": "Material",
+        "value": "MDF, painted or veneered"
+      }
+    ],
+    "priceUnit": "quote on request",
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "sliding-door-fitted-wardrobe",
+      "double-bowl-stainless-steel-sink",
+      "granite-composite-single-bowl-sink",
+      "pull-down-spray-kitchen-mixer"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "rattan-dome-pendant-light",
+    "name": "Rattan Dome Pendant Light",
+    "categorySlug": "lighting",
+    "subcategorySlug": "pendant-lights",
+    "shortDescription": "Natural rattan pendant for a warm, organic dining space.",
+    "description": "Natural rattan pendant for a warm, organic dining space. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wall light fixture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm ambient LED lighting in a living space"
+      }
+    ],
+    "features": [
+      "Handwoven natural rattan",
+      "Adjustable drop length",
+      "E27 bulb compatible"
+    ],
+    "specifications": [
+      {
+        "label": "Diameter",
+        "value": "400 mm"
+      }
+    ],
+    "price": 6800,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "black-metal-cluster-pendant",
+      "crystal-tiered-chandelier",
+      "modern-ring-led-chandelier",
+      "brass-cylinder-wall-sconce"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "black-metal-cluster-pendant",
+    "name": "Black Metal Cluster Pendant",
+    "categorySlug": "lighting",
+    "subcategorySlug": "pendant-lights",
+    "shortDescription": "Multi-drop cluster pendant for kitchen islands and dining tables.",
+    "description": "Multi-drop cluster pendant for kitchen islands and dining tables. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm ambient LED lighting in a living space"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Pendant lighting fixtures above a dining table"
+      }
+    ],
+    "features": [
+      "3-light cluster design",
+      "Matte black finish",
+      "Adjustable cable length"
+    ],
+    "specifications": [
+      {
+        "label": "Bulbs",
+        "value": "3 x E27"
+      }
+    ],
+    "price": 9500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "rattan-dome-pendant-light",
+      "crystal-tiered-chandelier",
+      "modern-ring-led-chandelier",
+      "brass-cylinder-wall-sconce"
+    ]
+  },
+  {
+    "slug": "crystal-tiered-chandelier",
+    "name": "Crystal Tiered Chandelier",
+    "categorySlug": "lighting",
+    "subcategorySlug": "chandeliers",
+    "shortDescription": "Multi-tier crystal chandelier for grand living and dining rooms.",
+    "description": "Multi-tier crystal chandelier for grand living and dining rooms. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Pendant lighting fixtures above a dining table"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Crystal chandelier in an elegant room"
+      }
+    ],
+    "features": [
+      "K9 crystal droplets",
+      "Dimmable-compatible",
+      "Statement centrepiece design"
+    ],
+    "specifications": [
+      {
+        "label": "Diameter",
+        "value": "800 mm"
+      }
+    ],
+    "price": 45000,
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "modern-ring-led-chandelier",
+      "rattan-dome-pendant-light",
+      "black-metal-cluster-pendant",
+      "brass-cylinder-wall-sconce"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "modern-ring-led-chandelier",
+    "name": "Modern Ring LED Chandelier",
+    "categorySlug": "lighting",
+    "subcategorySlug": "chandeliers",
+    "shortDescription": "Minimalist ring chandelier with integrated LED.",
+    "description": "Minimalist ring chandelier with integrated LED. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Crystal chandelier in an elegant room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wall light fixture"
+      }
+    ],
+    "features": [
+      "Integrated dimmable LED",
+      "Brushed gold finish",
+      "Remote control included"
+    ],
+    "specifications": [
+      {
+        "label": "Diameter",
+        "value": "600 mm"
+      }
+    ],
+    "price": 27500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "crystal-tiered-chandelier",
+      "rattan-dome-pendant-light",
+      "black-metal-cluster-pendant",
+      "brass-cylinder-wall-sconce"
+    ]
+  },
+  {
+    "slug": "brass-cylinder-wall-sconce",
+    "name": "Brass Cylinder Wall Sconce",
+    "categorySlug": "lighting",
+    "subcategorySlug": "wall-lights",
+    "shortDescription": "Elegant brass wall sconce for hallways and bedrooms.",
+    "description": "Elegant brass wall sconce for hallways and bedrooms. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wall light fixture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm ambient LED lighting in a living space"
+      }
+    ],
+    "features": [
+      "Up/down light effect",
+      "Solid brass housing",
+      "E27 bulb compatible"
+    ],
+    "specifications": [
+      {
+        "label": "Finish",
+        "value": "Brushed brass"
+      }
+    ],
+    "price": 5200,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "minimalist-cube-wall-light",
+      "rattan-dome-pendant-light",
+      "black-metal-cluster-pendant",
+      "crystal-tiered-chandelier"
+    ]
+  },
+  {
+    "slug": "minimalist-cube-wall-light",
+    "name": "Minimalist Cube Wall Light",
+    "categorySlug": "lighting",
+    "subcategorySlug": "wall-lights",
+    "shortDescription": "Clean-lined cube wall light for modern interiors.",
+    "description": "Clean-lined cube wall light for modern interiors. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm ambient LED lighting in a living space"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Pendant lighting fixtures above a dining table"
+      }
+    ],
+    "features": [
+      "Frosted glass diffuser",
+      "Compact wall profile",
+      "Integrated LED module"
+    ],
+    "specifications": [
+      {
+        "label": "Finish",
+        "value": "Matte white"
+      }
+    ],
+    "price": 3800,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "brass-cylinder-wall-sconce",
+      "rattan-dome-pendant-light",
+      "black-metal-cluster-pendant",
+      "crystal-tiered-chandelier"
+    ]
+  },
+  {
+    "slug": "weatherproof-garden-bollard-light",
+    "name": "Weatherproof Garden Bollard Light",
+    "categorySlug": "lighting",
+    "subcategorySlug": "outdoor-lights",
+    "shortDescription": "IP65-rated bollard lighting for garden paths and driveways.",
+    "description": "IP65-rated bollard lighting for garden paths and driveways. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Pendant lighting fixtures above a dining table"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Crystal chandelier in an elegant room"
+      }
+    ],
+    "features": [
+      "IP65 weatherproof rating",
+      "Corrosion-resistant aluminium",
+      "Warm white LED"
+    ],
+    "specifications": [
+      {
+        "label": "Height",
+        "value": "600 mm"
+      }
+    ],
+    "price": 7200,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "solar-facade-wall-washer",
+      "rattan-dome-pendant-light",
+      "black-metal-cluster-pendant",
+      "crystal-tiered-chandelier"
+    ]
+  },
+  {
+    "slug": "solar-facade-wall-washer",
+    "name": "Solar Facade Wall Washer",
+    "categorySlug": "lighting",
+    "subcategorySlug": "outdoor-lights",
+    "shortDescription": "Solar-powered facade lighting for building exteriors.",
+    "description": "Solar-powered facade lighting for building exteriors. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Crystal chandelier in an elegant room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wall light fixture"
+      }
+    ],
+    "features": [
+      "Solar-charged, no wiring needed",
+      "Dusk-to-dawn sensor",
+      "Weatherproof housing"
+    ],
+    "specifications": [
+      {
+        "label": "Power",
+        "value": "Solar / 6W LED"
+      }
+    ],
+    "price": 4600,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "weatherproof-garden-bollard-light",
+      "rattan-dome-pendant-light",
+      "black-metal-cluster-pendant",
+      "crystal-tiered-chandelier"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "recessed-led-downlight-warm-white",
+    "name": "Recessed LED Downlight (Warm White)",
+    "categorySlug": "lighting",
+    "subcategorySlug": "led-lighting",
+    "shortDescription": "Energy-efficient recessed downlights for any ceiling.",
+    "description": "Energy-efficient recessed downlights for any ceiling. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wall light fixture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm ambient LED lighting in a living space"
+      }
+    ],
+    "features": [
+      "7W energy efficient",
+      "Warm white 3000K",
+      "Slim recessed profile"
+    ],
+    "specifications": [
+      {
+        "label": "Cut-out",
+        "value": "75 mm"
+      }
+    ],
+    "price": 950,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "rgb-led-strip-lighting-kit",
+      "rattan-dome-pendant-light",
+      "black-metal-cluster-pendant",
+      "crystal-tiered-chandelier"
+    ]
+  },
+  {
+    "slug": "rgb-led-strip-lighting-kit",
+    "name": "RGB LED Strip Lighting Kit",
+    "categorySlug": "lighting",
+    "subcategorySlug": "led-lighting",
+    "shortDescription": "Colour-changing LED strip kit with remote control.",
+    "description": "Colour-changing LED strip kit with remote control. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm ambient LED lighting in a living space"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Pendant lighting fixtures above a dining table"
+      }
+    ],
+    "features": [
+      "16 million colours",
+      "Remote and app control",
+      "Self-adhesive backing"
+    ],
+    "specifications": [
+      {
+        "label": "Length",
+        "value": "5 m kit"
+      }
+    ],
+    "price": 3200,
+    "priceUnit": "per kit",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "recessed-led-downlight-warm-white",
+      "rattan-dome-pendant-light",
+      "black-metal-cluster-pendant",
+      "crystal-tiered-chandelier"
+    ]
+  },
+  {
+    "slug": "brushed-brass-bar-door-handle",
+    "name": "Brushed Brass Bar Door Handle",
+    "categorySlug": "doors-hardware",
+    "subcategorySlug": "handles",
+    "shortDescription": "Sleek bar-style handle in brushed brass finish.",
+    "description": "Sleek bar-style handle in brushed brass finish. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wooden door with brass handle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of a modern door lock and handle"
+      }
+    ],
+    "features": [
+      "Solid brass construction",
+      "Concealed fixing",
+      "Matching cabinet handles available"
+    ],
+    "specifications": [
+      {
+        "label": "Length",
+        "value": "300 mm"
+      }
+    ],
+    "price": 2200,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "matte-black-lever-door-handle-set",
+      "smart-fingerprint-door-lock",
+      "heavy-duty-mortice-lock-set",
+      "solid-engineered-wood-interior-door"
+    ]
+  },
+  {
+    "slug": "matte-black-lever-door-handle-set",
+    "name": "Matte Black Lever Door Handle Set",
+    "categorySlug": "doors-hardware",
+    "subcategorySlug": "handles",
+    "shortDescription": "Contemporary lever handle set in matte black.",
+    "description": "Contemporary lever handle set in matte black. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of a modern door lock and handle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Interior glass panel door"
+      }
+    ],
+    "features": [
+      "Powder-coated finish",
+      "Includes matching escutcheons",
+      "Suitable for internal doors"
+    ],
+    "specifications": [
+      {
+        "label": "Finish",
+        "value": "Matte black"
+      }
+    ],
+    "price": 3400,
+    "priceUnit": "per set",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "brushed-brass-bar-door-handle",
+      "smart-fingerprint-door-lock",
+      "heavy-duty-mortice-lock-set",
+      "solid-engineered-wood-interior-door"
+    ]
+  },
+  {
+    "slug": "smart-fingerprint-door-lock",
+    "name": "Smart Fingerprint Door Lock",
+    "categorySlug": "doors-hardware",
+    "subcategorySlug": "locks",
+    "shortDescription": "Keyless smart lock with fingerprint and PIN access.",
+    "description": "Keyless smart lock with fingerprint and PIN access. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Interior glass panel door"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Door hardware and hinge detail"
+      }
+    ],
+    "features": [
+      "Fingerprint, PIN and app access",
+      "Auto-lock function",
+      "Battery backup"
+    ],
+    "specifications": [
+      {
+        "label": "Access methods",
+        "value": "Fingerprint / PIN / App"
+      }
+    ],
+    "price": 24500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "heavy-duty-mortice-lock-set",
+      "brushed-brass-bar-door-handle",
+      "matte-black-lever-door-handle-set",
+      "solid-engineered-wood-interior-door"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "heavy-duty-mortice-lock-set",
+    "name": "Heavy-Duty Mortice Lock Set",
+    "categorySlug": "doors-hardware",
+    "subcategorySlug": "locks",
+    "shortDescription": "Robust mortice lock set for main entrance doors.",
+    "description": "Robust mortice lock set for main entrance doors. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Door hardware and hinge detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wooden door with brass handle"
+      }
+    ],
+    "features": [
+      "5-lever security rating",
+      "Includes strike plate",
+      "Weatherproof finish"
+    ],
+    "specifications": [
+      {
+        "label": "Lever rating",
+        "value": "5-lever"
+      }
+    ],
+    "price": 6800,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "smart-fingerprint-door-lock",
+      "brushed-brass-bar-door-handle",
+      "matte-black-lever-door-handle-set",
+      "solid-engineered-wood-interior-door"
+    ]
+  },
+  {
+    "slug": "solid-engineered-wood-interior-door",
+    "name": "Solid Engineered Wood Interior Door",
+    "categorySlug": "doors-hardware",
+    "subcategorySlug": "doors",
+    "shortDescription": "Solid-core engineered wood door for interior spaces.",
+    "description": "Solid-core engineered wood door for interior spaces. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wooden door with brass handle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of a modern door lock and handle"
+      }
+    ],
+    "features": [
+      "Solid-core construction",
+      "Pre-hung frame option",
+      "Multiple veneer finishes"
+    ],
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "900 x 2100 mm"
+      }
+    ],
+    "price": 18500,
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "frosted-glass-panel-door",
+      "brushed-brass-bar-door-handle",
+      "matte-black-lever-door-handle-set",
+      "smart-fingerprint-door-lock"
+    ]
+  },
+  {
+    "slug": "frosted-glass-panel-door",
+    "name": "Frosted Glass Panel Door",
+    "categorySlug": "doors-hardware",
+    "subcategorySlug": "doors",
+    "shortDescription": "Frosted glass panel door for offices and modern interiors.",
+    "description": "Frosted glass panel door for offices and modern interiors. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of a modern door lock and handle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Interior glass panel door"
+      }
+    ],
+    "features": [
+      "Tempered frosted glass",
+      "Aluminium frame",
+      "Sliding or hinged options"
+    ],
+    "specifications": [
+      {
+        "label": "Glass thickness",
+        "value": "10 mm"
+      }
+    ],
+    "price": 32000,
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "solid-engineered-wood-interior-door",
+      "brushed-brass-bar-door-handle",
+      "matte-black-lever-door-handle-set",
+      "smart-fingerprint-door-lock"
+    ]
+  },
+  {
+    "slug": "soft-close-door-hinge-set",
+    "name": "Soft-Close Door Hinge Set",
+    "categorySlug": "doors-hardware",
+    "subcategorySlug": "accessories",
+    "shortDescription": "Quiet soft-close hinges for interior doors.",
+    "description": "Quiet soft-close hinges for interior doors. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Interior glass panel door"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Door hardware and hinge detail"
+      }
+    ],
+    "features": [
+      "Hydraulic soft-close action",
+      "Corrosion-resistant plating",
+      "Standard 3-hinge set"
+    ],
+    "specifications": [
+      {
+        "label": "Set",
+        "value": "3 hinges"
+      }
+    ],
+    "price": 2100,
+    "priceUnit": "per set",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "overhead-door-closer",
+      "brushed-brass-bar-door-handle",
+      "matte-black-lever-door-handle-set",
+      "smart-fingerprint-door-lock"
+    ]
+  },
+  {
+    "slug": "overhead-door-closer",
+    "name": "Overhead Door Closer",
+    "categorySlug": "doors-hardware",
+    "subcategorySlug": "accessories",
+    "shortDescription": "Adjustable overhead door closer for commercial doors.",
+    "description": "Adjustable overhead door closer for commercial doors. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Door hardware and hinge detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wooden door with brass handle"
+      }
+    ],
+    "features": [
+      "Adjustable closing speed",
+      "Suitable for fire doors",
+      "Surface-mounted fitting"
+    ],
+    "specifications": [
+      {
+        "label": "Door weight",
+        "value": "Up to 80 kg"
+      }
+    ],
+    "price": 5600,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "soft-close-door-hinge-set",
+      "brushed-brass-bar-door-handle",
+      "matte-black-lever-door-handle-set",
+      "smart-fingerprint-door-lock"
+    ]
+  },
+  {
+    "slug": "ppr-hot-cold-water-pipe",
+    "name": "PPR Hot & Cold Water Pipe",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "pipes",
+    "shortDescription": "PN20-rated PPR piping for hot and cold water systems.",
+    "description": "PN20-rated PPR piping for hot and cold water systems. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing pipes and fittings installation"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water tank installation on a rooftop"
+      }
+    ],
+    "features": [
+      "Heat-fusion welded joints",
+      "Rated to 20 bar / 95°C",
+      "Corrosion-free"
+    ],
+    "specifications": [
+      {
+        "label": "Diameter range",
+        "value": "20–110 mm"
+      }
+    ],
+    "priceUnit": "per length",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "upvc-drainage-pipe",
+      "5-000l-overhead-water-storage-tank",
+      "10-000l-underground-water-tank",
+      "solar-water-heating-system-200l"
+    ]
+  },
+  {
+    "slug": "upvc-drainage-pipe",
+    "name": "uPVC Drainage Pipe",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "pipes",
+    "shortDescription": "Heavy-duty uPVC piping for drainage and waste systems.",
+    "description": "Heavy-duty uPVC piping for drainage and waste systems. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water tank installation on a rooftop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water heater mounted on a bathroom wall"
+      }
+    ],
+    "features": [
+      "High impact resistance",
+      "Solvent-weld joints",
+      "UV-stabilised"
+    ],
+    "specifications": [
+      {
+        "label": "Diameter range",
+        "value": "50–160 mm"
+      }
+    ],
+    "priceUnit": "per length",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "ppr-hot-cold-water-pipe",
+      "5-000l-overhead-water-storage-tank",
+      "10-000l-underground-water-tank",
+      "solar-water-heating-system-200l"
+    ]
+  },
+  {
+    "slug": "5-000l-overhead-water-storage-tank",
+    "name": "5,000L Overhead Water Storage Tank",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "water-tanks",
+    "shortDescription": "UV-stabilised polyethylene tank for reliable water storage.",
+    "description": "UV-stabilised polyethylene tank for reliable water storage. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water heater mounted on a bathroom wall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing valves and fittings close-up"
+      }
+    ],
+    "features": [
+      "Food-grade polyethylene",
+      "UV-resistant outer layer",
+      "Insect-proof lid"
+    ],
+    "specifications": [
+      {
+        "label": "Capacity",
+        "value": "5,000 litres"
+      }
+    ],
+    "price": 58000,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "10-000l-underground-water-tank",
+      "ppr-hot-cold-water-pipe",
+      "upvc-drainage-pipe",
+      "solar-water-heating-system-200l"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "10-000l-underground-water-tank",
+    "name": "10,000L Underground Water Tank",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "water-tanks",
+    "shortDescription": "Reinforced underground tank for large-scale water storage.",
+    "description": "Reinforced underground tank for large-scale water storage. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing valves and fittings close-up"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing pipes and fittings installation"
+      }
+    ],
+    "features": [
+      "Reinforced structural walls",
+      "Corrosion-free construction",
+      "Manhole access cover"
+    ],
+    "specifications": [
+      {
+        "label": "Capacity",
+        "value": "10,000 litres"
+      }
+    ],
+    "price": 145000,
+    "stockStatus": "made_to_order",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "5-000l-overhead-water-storage-tank",
+      "ppr-hot-cold-water-pipe",
+      "upvc-drainage-pipe",
+      "solar-water-heating-system-200l"
+    ]
+  },
+  {
+    "slug": "solar-water-heating-system-200l",
+    "name": "Solar Water Heating System (200L)",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "water-heaters",
+    "shortDescription": "Flat-plate solar water heater for sustainable hot water supply.",
+    "description": "Flat-plate solar water heater for sustainable hot water supply. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing pipes and fittings installation"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water tank installation on a rooftop"
+      }
+    ],
+    "features": [
+      "High-efficiency flat-plate collector",
+      "Insulated storage tank",
+      "Electric backup element"
+    ],
+    "specifications": [
+      {
+        "label": "Capacity",
+        "value": "200 litres"
+      }
+    ],
+    "price": 98000,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "instant-electric-water-heater",
+      "ppr-hot-cold-water-pipe",
+      "upvc-drainage-pipe",
+      "5-000l-overhead-water-storage-tank"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "instant-electric-water-heater",
+    "name": "Instant Electric Water Heater",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "water-heaters",
+    "shortDescription": "Compact instant water heater for showers and basins.",
+    "description": "Compact instant water heater for showers and basins. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water tank installation on a rooftop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water heater mounted on a bathroom wall"
+      }
+    ],
+    "features": [
+      "Compact wall-mounted unit",
+      "Adjustable temperature control",
+      "Overheat protection"
+    ],
+    "specifications": [
+      {
+        "label": "Power",
+        "value": "4.5 kW"
+      }
+    ],
+    "price": 8500,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "solar-water-heating-system-200l",
+      "ppr-hot-cold-water-pipe",
+      "upvc-drainage-pipe",
+      "5-000l-overhead-water-storage-tank"
+    ]
+  },
+  {
+    "slug": "brass-gate-valve",
+    "name": "Brass Gate Valve",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "valves",
+    "shortDescription": "Durable brass gate valve for water flow control.",
+    "description": "Durable brass gate valve for water flow control. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water heater mounted on a bathroom wall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing valves and fittings close-up"
+      }
+    ],
+    "features": [
+      "Solid brass body",
+      "Rising stem design",
+      "Threaded BSP connections"
+    ],
+    "specifications": [
+      {
+        "label": "Sizes",
+        "value": "1/2\" – 2\""
+      }
+    ],
+    "price": 1200,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "ppr-ball-valve",
+      "ppr-hot-cold-water-pipe",
+      "upvc-drainage-pipe",
+      "5-000l-overhead-water-storage-tank"
+    ]
+  },
+  {
+    "slug": "ppr-ball-valve",
+    "name": "PPR Ball Valve",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "valves",
+    "shortDescription": "Quarter-turn PPR ball valve for quick shut-off control.",
+    "description": "Quarter-turn PPR ball valve for quick shut-off control. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing valves and fittings close-up"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing pipes and fittings installation"
+      }
+    ],
+    "features": [
+      "Quarter-turn operation",
+      "Fusion-weld connections",
+      "Rated to 20 bar"
+    ],
+    "specifications": [
+      {
+        "label": "Sizes",
+        "value": "20–63 mm"
+      }
+    ],
+    "price": 950,
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "brass-gate-valve",
+      "ppr-hot-cold-water-pipe",
+      "upvc-drainage-pipe",
+      "5-000l-overhead-water-storage-tank"
+    ]
+  },
+  {
+    "slug": "ppr-elbow-tee-fittings-set",
+    "name": "PPR Elbow & Tee Fittings Set",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "fittings",
+    "shortDescription": "Assorted PPR fittings for standard plumbing installations.",
+    "description": "Assorted PPR fittings for standard plumbing installations. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing pipes and fittings installation"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water tank installation on a rooftop"
+      }
+    ],
+    "features": [
+      "Heat-fusion compatible",
+      "Wide size range",
+      "Leak-free sealed joints"
+    ],
+    "specifications": [
+      {
+        "label": "Sizes",
+        "value": "20–110 mm"
+      }
+    ],
+    "priceUnit": "per piece",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "copper-compression-coupling",
+      "ppr-hot-cold-water-pipe",
+      "upvc-drainage-pipe",
+      "5-000l-overhead-water-storage-tank"
+    ]
+  },
+  {
+    "slug": "copper-compression-coupling",
+    "name": "Copper Compression Coupling",
+    "categorySlug": "plumbing",
+    "subcategorySlug": "fittings",
+    "shortDescription": "Compression couplings for copper pipe connections.",
+    "description": "Compression couplings for copper pipe connections. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water tank installation on a rooftop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water heater mounted on a bathroom wall"
+      }
+    ],
+    "features": [
+      "No-solder compression joint",
+      "Reusable fitting",
+      "Corrosion-resistant brass"
+    ],
+    "specifications": [
+      {
+        "label": "Sizes",
+        "value": "15–28 mm"
+      }
+    ],
+    "priceUnit": "per piece",
+    "stockStatus": "in_stock",
+    "installationAvailable": true,
+    "relatedSlugs": [
+      "ppr-elbow-tee-fittings-set",
+      "ppr-hot-cold-water-pipe",
+      "upvc-drainage-pipe",
+      "5-000l-overhead-water-storage-tank"
+    ]
+  },
+  {
+    "slug": "high-bond-tile-adhesive-25kg",
+    "name": "High-Bond Tile Adhesive (25kg)",
+    "categorySlug": "general-supplies",
+    "subcategorySlug": "adhesives-sealants",
+    "shortDescription": "Polymer-modified tile adhesive for floor and wall tiling.",
+    "description": "Polymer-modified tile adhesive for floor and wall tiling. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Assorted fixings and hardware supplies"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Installation tools laid out for a finishing project"
+      }
+    ],
+    "features": [
+      "High bond strength",
+      "Flexible, crack-resistant",
+      "Suitable for large-format tiles"
+    ],
+    "specifications": [
+      {
+        "label": "Coverage",
+        "value": "~5 m² per bag"
+      }
+    ],
+    "price": 1450,
+    "priceUnit": "per 25kg bag",
+    "stockStatus": "in_stock",
+    "installationAvailable": false,
+    "relatedSlugs": [
+      "premium-silicone-sealant",
+      "heavy-duty-wall-anchor-set",
+      "professional-installation-tool-kit"
+    ]
+  },
+  {
+    "slug": "premium-silicone-sealant",
+    "name": "Premium Silicone Sealant",
+    "categorySlug": "general-supplies",
+    "subcategorySlug": "adhesives-sealants",
+    "shortDescription": "Mould-resistant silicone sealant for kitchens and bathrooms.",
+    "description": "Mould-resistant silicone sealant for kitchens and bathrooms. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Installation tools laid out for a finishing project"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Interior finishing supplies and tools"
+      }
+    ],
+    "features": [
+      "Mould-resistant formula",
+      "Flexible, waterproof seal",
+      "Paintable and non-paintable options"
+    ],
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "300 ml cartridge"
+      }
+    ],
+    "price": 650,
+    "stockStatus": "in_stock",
+    "installationAvailable": false,
+    "relatedSlugs": [
+      "high-bond-tile-adhesive-25kg",
+      "heavy-duty-wall-anchor-set",
+      "professional-installation-tool-kit"
+    ]
+  },
+  {
+    "slug": "heavy-duty-wall-anchor-set",
+    "name": "Heavy-Duty Wall Anchor Set",
+    "categorySlug": "general-supplies",
+    "subcategorySlug": "fixings",
+    "shortDescription": "Assorted wall anchors and screws for finishing installations.",
+    "description": "Assorted wall anchors and screws for finishing installations. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Interior finishing supplies and tools"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Adhesives and sealants on a workbench"
+      }
+    ],
+    "features": [
+      "Suitable for masonry and drywall",
+      "Corrosion-resistant coating",
+      "Mixed size assortment"
+    ],
+    "specifications": [
+      {
+        "label": "Set size",
+        "value": "100 pieces"
+      }
+    ],
+    "price": 1200,
+    "priceUnit": "per set",
+    "stockStatus": "in_stock",
+    "installationAvailable": false,
+    "relatedSlugs": [
+      "high-bond-tile-adhesive-25kg",
+      "premium-silicone-sealant",
+      "professional-installation-tool-kit"
+    ]
+  },
+  {
+    "slug": "professional-installation-tool-kit",
+    "name": "Professional Installation Tool Kit",
+    "categorySlug": "general-supplies",
+    "subcategorySlug": "tools",
+    "shortDescription": "Essential hand tool kit for interior finishing installation work.",
+    "description": "Essential hand tool kit for interior finishing installation work. Supplied and professionally installed by Maven Enterprise Ltd, trusted across Nairobi and the wider Kenyan market by homeowners, architects, contractors and developers. Ask our team for site-specific guidance on quantities, lead times and installation scheduling.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Adhesives and sealants on a workbench"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Assorted fixings and hardware supplies"
+      }
+    ],
+    "features": [
+      "Includes trowels, levels and cutters",
+      "Durable carry case",
+      "Trade-grade quality"
+    ],
+    "specifications": [
+      {
+        "label": "Pieces",
+        "value": "24-piece kit"
+      }
+    ],
+    "price": 8900,
+    "priceUnit": "per kit",
+    "stockStatus": "in_stock",
+    "installationAvailable": false,
+    "relatedSlugs": [
+      "high-bond-tile-adhesive-25kg",
+      "premium-silicone-sealant",
+      "heavy-duty-wall-anchor-set"
+    ]
+  }
+]

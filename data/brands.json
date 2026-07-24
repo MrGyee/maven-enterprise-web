@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "aquatech",
+    "name": "AquaTech"
+  },
+  {
+    "slug": "elegantfloors",
+    "name": "ElegantFloors"
+  },
+  {
+    "slug": "royalceramics",
+    "name": "RoyalCeramics"
+  },
+  {
+    "slug": "brightline-lighting",
+    "name": "Brightline Lighting"
+  },
+  {
+    "slug": "solidcraft",
+    "name": "SolidCraft Hardware"
+  },
+  {
+    "slug": "purewater-systems",
+    "name": "PureWater Systems"
+  },
+  {
+    "slug": "prestige-panels",
+    "name": "Prestige Panels"
+  },
+  {
+    "slug": "harborough-kitchens",
+    "name": "Harborough Kitchens"
+  },
+  {
+    "slug": "novastone",
+    "name": "NovaStone Surfaces"
+  },
+  {
+    "slug": "greenline-plumbing",
+    "name": "GreenLine Plumbing"
+  }
+]

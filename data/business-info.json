@@ -1,0 +1,59 @@
+{
+  "legalName": "Maven Enterprise Ltd",
+  "tagline": "Trusted Interior Solutions Partner in Kenya",
+  "phones": [
+    "+254 700 123 456",
+    "+254 733 987 654"
+  ],
+  "whatsappNumber": "254700123456",
+  "email": "info@mavenenterprise.co.ke",
+  "address": {
+    "street": "Mombasa Road, Sameer Business Park, Block C, 2nd Floor",
+    "area": "South B",
+    "city": "Nairobi",
+    "country": "Kenya"
+  },
+  "hours": [
+    {
+      "days": "Monday – Friday",
+      "time": "8:00 AM – 6:00 PM"
+    },
+    {
+      "days": "Saturday",
+      "time": "9:00 AM – 4:00 PM"
+    },
+    {
+      "days": "Sunday",
+      "time": "Closed"
+    }
+  ],
+  "socials": {
+    "facebook": "https://facebook.com/mavenenterpriseltd",
+    "instagram": "https://instagram.com/mavenenterpriseltd",
+    "twitter": "https://x.com/mavenenterprise",
+    "linkedin": "https://linkedin.com/company/maven-enterprise-ltd",
+    "tiktok": "https://tiktok.com/@mavenenterpriseltd"
+  },
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20428.0!2d36.8422!3d-1.3236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d3b1234567%3A0xabcdef1234567890!2sMombasa%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000",
+  "coordinates": {
+    "lat": -1.3236,
+    "lng": 36.8422
+  },
+  "serviceAreas": [
+    "Nairobi",
+    "Mombasa",
+    "Kisumu",
+    "Nakuru",
+    "Eldoret",
+    "Thika",
+    "Kiambu",
+    "Machakos",
+    "Kitengela",
+    "Ruiru",
+    "Karen",
+    "Westlands",
+    "Syokimau",
+    "Rongai",
+    "Ngong"
+  ]
+}

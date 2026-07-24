@@ -1,0 +1,42 @@
+[
+  {
+    "id": "team-1",
+    "name": "James Mwangi",
+    "role": "Managing Director",
+    "bio": "James founded Maven Enterprise Ltd with a vision to make premium interior finishing accessible across Kenya, bringing over 15 years of experience in building materials distribution.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop",
+      "alt": "Portrait of James Mwangi, Managing Director"
+    }
+  },
+  {
+    "id": "team-2",
+    "name": "Faith Achieng",
+    "role": "Head of Interior Design",
+    "bio": "Faith leads our design consultation team, helping clients translate their vision into practical, beautiful material selections.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format&fit=crop",
+      "alt": "Portrait of Faith Achieng, Head of Interior Design"
+    }
+  },
+  {
+    "id": "team-3",
+    "name": "Brian Kiplagat",
+    "role": "Operations & Installation Manager",
+    "bio": "Brian oversees all installation crews, ensuring every project is delivered on schedule and to Maven's quality standards.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?q=80&w=400&auto=format&fit=crop",
+      "alt": "Portrait of Brian Kiplagat, Operations Manager"
+    }
+  },
+  {
+    "id": "team-4",
+    "name": "Linda Wafula",
+    "role": "Procurement & Supply Chain Lead",
+    "bio": "Linda manages relationships with our brand partners and ensures consistent stock availability across all product categories.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=400&auto=format&fit=crop",
+      "alt": "Portrait of Linda Wafula, Procurement Lead"
+    }
+  }
+]

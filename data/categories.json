@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "interior-decor",
+    "name": "Interior Décor",
+    "description": "Wall panels, ceiling designs, gypsum products, wallpaper, curtains and blinds to transform any interior space.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Modern living room with decorative wall panels and elegant curtains"
+    },
+    "subcategories": [
+      {
+        "slug": "wall-panels",
+        "name": "Wall Panels",
+        "description": "Decorative 3D and textured wall panels for feature walls."
+      },
+      {
+        "slug": "pvc-panels",
+        "name": "PVC Panels",
+        "description": "Waterproof, low-maintenance PVC wall and ceiling panels."
+      },
+      {
+        "slug": "ceiling-designs",
+        "name": "Ceiling Designs",
+        "description": "Suspended and decorative ceiling systems for any room."
+      },
+      {
+        "slug": "gypsum-products",
+        "name": "Gypsum Products",
+        "description": "Gypsum boards, cornices and ceiling tiles."
+      },
+      {
+        "slug": "wallpaper",
+        "name": "Wallpaper",
+        "description": "Premium imported and locally sourced wallpaper collections."
+      },
+      {
+        "slug": "curtains",
+        "name": "Curtains",
+        "description": "Made-to-measure curtains in a range of fabrics and styles."
+      },
+      {
+        "slug": "blinds",
+        "name": "Blinds",
+        "description": "Roller, venetian and vertical blinds for home and office."
+      }
+    ]
+  },
+  {
+    "slug": "flooring",
+    "name": "Flooring",
+    "description": "Vinyl, SPC, laminate, carpet and tile flooring solutions engineered for Kenyan homes and commercial spaces.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Warm wooden vinyl flooring in a bright modern living room"
+    },
+    "subcategories": [
+      {
+        "slug": "vinyl-flooring",
+        "name": "Vinyl Flooring",
+        "description": "Durable, water-resistant vinyl planks and tiles."
+      },
+      {
+        "slug": "spc-flooring",
+        "name": "SPC Flooring",
+        "description": "Rigid-core stone-plastic composite flooring."
+      },
+      {
+        "slug": "laminate-flooring",
+        "name": "Laminate Flooring",
+        "description": "Affordable wood-look laminate flooring."
+      },
+      {
+        "slug": "carpets",
+        "name": "Carpets",
+        "description": "Wall-to-wall and modular carpet tiles."
+      },
+      {
+        "slug": "tiles",
+        "name": "Tiles",
+        "description": "Porcelain, ceramic and natural stone floor tiles."
+      }
+    ]
+  },
+  {
+    "slug": "bathroom",
+    "name": "Bathroom",
+    "description": "Complete bathroom fittings — toilets, basins, bathtubs, shower systems, cabinets and accessories.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Elegant modern bathroom with freestanding bathtub and gold fixtures"
+    },
+    "subcategories": [
+      {
+        "slug": "toilets",
+        "name": "Toilets",
+        "description": "Wall-hung and close-coupled water-efficient toilets."
+      },
+      {
+        "slug": "basins",
+        "name": "Basins",
+        "description": "Countertop, pedestal and wall-mounted wash basins."
+      },
+      {
+        "slug": "bathtubs",
+        "name": "Bathtubs",
+        "description": "Freestanding and built-in acrylic bathtubs."
+      },
+      {
+        "slug": "shower-systems",
+        "name": "Shower Systems",
+        "description": "Rain showers, mixers and enclosed cubicles."
+      },
+      {
+        "slug": "bathroom-cabinets",
+        "name": "Bathroom Cabinets",
+        "description": "Vanity units and mirrored storage cabinets."
+      },
+      {
+        "slug": "bathroom-accessories",
+        "name": "Bathroom Accessories",
+        "description": "Towel rails, soap dishes and fittings."
+      }
+    ]
+  },
+  {
+    "slug": "kitchen",
+    "name": "Kitchen",
+    "description": "Kitchen sinks, mixers, cabinetry, countertops and wardrobes crafted for modern Kenyan kitchens.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Modern kitchen with emerald green cabinetry and stone countertops"
+    },
+    "subcategories": [
+      {
+        "slug": "kitchen-sinks",
+        "name": "Kitchen Sinks",
+        "description": "Stainless steel and granite composite sinks."
+      },
+      {
+        "slug": "kitchen-mixers",
+        "name": "Kitchen Mixers",
+        "description": "Pull-down and pull-out kitchen mixer taps."
+      },
+      {
+        "slug": "cabinets",
+        "name": "Cabinets",
+        "description": "Custom-built modern and classic kitchen cabinetry."
+      },
+      {
+        "slug": "countertops",
+        "name": "Countertops",
+        "description": "Quartz, granite and laminate countertops."
+      },
+      {
+        "slug": "wardrobes",
+        "name": "Wardrobes",
+        "description": "Fitted and freestanding wardrobe solutions."
+      }
+    ]
+  },
+  {
+    "slug": "lighting",
+    "name": "Lighting",
+    "description": "Pendant lights, chandeliers, wall lights, outdoor lighting and energy-efficient LED solutions.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Elegant pendant lighting fixtures over a dining table"
+    },
+    "subcategories": [
+      {
+        "slug": "pendant-lights",
+        "name": "Pendant Lights",
+        "description": "Statement pendant fixtures for dining and living areas."
+      },
+      {
+        "slug": "chandeliers",
+        "name": "Chandeliers",
+        "description": "Crystal and modern chandeliers for grand spaces."
+      },
+      {
+        "slug": "wall-lights",
+        "name": "Wall Lights",
+        "description": "Sconces and wall-mounted fixtures."
+      },
+      {
+        "slug": "outdoor-lights",
+        "name": "Outdoor Lights",
+        "description": "Weatherproof lighting for gardens and facades."
+      },
+      {
+        "slug": "led-lighting",
+        "name": "LED Lighting",
+        "description": "Energy-efficient LED strips, panels and downlights."
+      }
+    ]
+  },
+  {
+    "slug": "doors-hardware",
+    "name": "Doors & Hardware",
+    "description": "Interior and exterior doors, handles, locks and hardware accessories from trusted brands.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Modern wooden door with brushed brass handle hardware"
+    },
+    "subcategories": [
+      {
+        "slug": "handles",
+        "name": "Handles",
+        "description": "Door and cabinet handles in brass, chrome and matte finishes."
+      },
+      {
+        "slug": "locks",
+        "name": "Locks",
+        "description": "Mortice, cylinder and smart door locks."
+      },
+      {
+        "slug": "doors",
+        "name": "Doors",
+        "description": "Solid, flush and glass panel doors."
+      },
+      {
+        "slug": "accessories",
+        "name": "Accessories",
+        "description": "Hinges, closers and door hardware accessories."
+      }
+    ]
+  },
+  {
+    "slug": "plumbing",
+    "name": "Plumbing",
+    "description": "Pipes, water tanks, water heaters, valves and fittings for reliable plumbing installations.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Plumbing pipes and fittings neatly installed"
+    },
+    "subcategories": [
+      {
+        "slug": "pipes",
+        "name": "Pipes",
+        "description": "PPR, PVC and copper piping systems."
+      },
+      {
+        "slug": "water-tanks",
+        "name": "Water Tanks",
+        "description": "Overhead and underground storage tanks."
+      },
+      {
+        "slug": "water-heaters",
+        "name": "Water Heaters",
+        "description": "Electric and solar water heating systems."
+      },
+      {
+        "slug": "valves",
+        "name": "Valves",
+        "description": "Gate, ball and check valves for every application."
+      },
+      {
+        "slug": "fittings",
+        "name": "Fittings",
+        "description": "Elbows, couplings, tees and reducers."
+      }
+    ]
+  },
+  {
+    "slug": "general-supplies",
+    "name": "General Interior Supplies",
+    "description": "Adhesives, sealants, fixings and other general interior finishing supplies for every project.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Interior finishing supplies and tools laid out on a workbench"
+    },
+    "subcategories": [
+      {
+        "slug": "adhesives-sealants",
+        "name": "Adhesives & Sealants",
+        "description": "Tile adhesives, silicone and construction sealants."
+      },
+      {
+        "slug": "fixings",
+        "name": "Fixings",
+        "description": "Screws, anchors and general fixing supplies."
+      },
+      {
+        "slug": "tools",
+        "name": "Installation Tools",
+        "description": "Hand and power tools for finishing works."
+      }
+    ]
+  }
+]

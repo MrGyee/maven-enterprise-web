@@ -1,0 +1,727 @@
+[
+  {
+    "slug": "interior-design-consultation",
+    "name": "Interior Design Consultation",
+    "shortDescription": "Expert design guidance to plan finishes, layouts and material palettes for your space.",
+    "description": "Our interior design consultants work with homeowners, architects and developers to define a cohesive material and finishing palette before a single item is ordered. We help you make confident decisions on colour, texture and layout, backed by our knowledge of what performs well in Kenyan homes and commercial buildings.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Interior designer reviewing finishes with a client"
+    },
+    "benefits": [
+      "Personalised design direction from experienced consultants",
+      "Material and budget planning before purchase",
+      "Access to our full supplier and brand network",
+      "Avoid costly finishing mistakes"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "supply-of-interior-materials",
+    "name": "Supply of Interior Materials",
+    "shortDescription": "Reliable, bulk and retail supply of interior finishing materials across Kenya.",
+    "description": "From a single bathroom refit to a multi-unit development, Maven Enterprise Ltd supplies quality interior materials at competitive prices with dependable lead times, backed by relationships with trusted local and international brands.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Warehouse stock of interior finishing materials"
+    },
+    "benefits": [
+      "Bulk pricing for contractors and developers",
+      "Consistent stock availability",
+      "Nationwide delivery coordination",
+      "Genuine, quality-assured products"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "gypsum-installation",
+    "name": "Gypsum Installation",
+    "shortDescription": "Professional gypsum ceiling, cornice and partition installation.",
+    "description": "Our gypsum installation teams deliver smooth, precise ceiling and partition finishes for residential and commercial projects, using fire-rated boards and proper suspension systems for a long-lasting result.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Gypsum ceiling installation in progress"
+    },
+    "benefits": [
+      "Smooth, crack-resistant ceiling finish",
+      "Fire-rated and acoustic board options",
+      "Experienced, insured installation crews",
+      "Clean site management during works"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "pvc-ceiling-installation",
+    "name": "PVC Ceiling Installation",
+    "shortDescription": "Waterproof PVC ceiling installation for kitchens, bathrooms and commercial spaces.",
+    "description": "PVC ceilings are a low-maintenance, moisture-resistant alternative to traditional finishes. We supply and install PVC ceiling systems that hold up to Kenya's climate while looking sharp for years.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Modern PVC ceiling installation"
+    },
+    "benefits": [
+      "Fully waterproof, mould-resistant",
+      "Fast installation with minimal mess",
+      "Wide range of finishes and colours",
+      "Low ongoing maintenance"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "wall-panel-installation",
+    "name": "Wall Panel Installation",
+    "shortDescription": "Precision installation of decorative and functional wall panelling.",
+    "description": "We supply and fit 3D, PVC and wood-effect wall panels to create feature walls that elevate any interior, with careful attention to alignment, joinery and finish quality.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Decorative wall panel installation"
+    },
+    "benefits": [
+      "Seamless, precision-fitted panelling",
+      "Suitable for feature walls and full rooms",
+      "Waterproof options for wet areas",
+      "Fast turnaround on most projects"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "flooring-installation",
+    "name": "Flooring Installation",
+    "shortDescription": "Expert installation of vinyl, SPC, laminate, tile and carpet flooring.",
+    "description": "Our flooring teams handle subfloor preparation, levelling and precise installation across all flooring types we supply, ensuring a durable, even finish suited to the room's traffic and moisture conditions.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Flooring installer fitting vinyl planks"
+    },
+    "benefits": [
+      "Subfloor preparation and levelling included",
+      "All major flooring types supported",
+      "Precision-cut finishing at edges and thresholds",
+      "Workmanship warranty on installation"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "wallpaper-installation",
+    "name": "Wallpaper Installation",
+    "shortDescription": "Clean, precise wallpaper hanging for feature walls and full rooms.",
+    "description": "Our decorators prepare walls correctly and hang wallpaper with accurate pattern matching and seam alignment, avoiding the bubbling and peeling common with inexperienced installation.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Wallpaper being carefully installed on a feature wall"
+    },
+    "benefits": [
+      "Accurate pattern and seam matching",
+      "Proper wall surface preparation",
+      "Wide wallpaper range to choose from",
+      "Neat, bubble-free finish"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "kitchen-installation",
+    "name": "Kitchen Installation",
+    "shortDescription": "Full kitchen installation from cabinetry to countertops and fittings.",
+    "description": "We design, supply and install complete kitchens — cabinets, countertops, sinks and mixers — coordinated as a single project so everything fits and functions perfectly together.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Newly installed modern kitchen"
+    },
+    "benefits": [
+      "Single point of contact for the full kitchen",
+      "Cabinetry, countertops and fittings coordinated",
+      "Precise measurement and fitting",
+      "Site protection during installation"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern kitchen with green cabinetry and stone countertop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Kitchen sink and mixer tap detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Fitted kitchen cabinets and countertop"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "bathroom-renovation",
+    "name": "Bathroom Renovation",
+    "shortDescription": "Complete bathroom renovation from demolition to final fittings.",
+    "description": "From a simple refresh to a full strip-out renovation, our teams manage plumbing, tiling, waterproofing and fittings installation to deliver a bathroom that looks premium and performs reliably.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Newly renovated modern bathroom"
+    },
+    "benefits": [
+      "Full project management, start to finish",
+      "Waterproofing done to specification",
+      "Quality sanitary ware and fittings",
+      "Minimal disruption scheduling"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern bathroom with freestanding bathtub"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom vanity with wall-mounted basin"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Walk-in shower with rain shower head"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "office-fit-out",
+    "name": "Office Fit-Out",
+    "shortDescription": "Complete interior fit-out services for modern office environments.",
+    "description": "We deliver office fit-outs covering partitioning, flooring, lighting and finishes, designed to reflect your brand while supporting staff comfort and productivity.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Modern office interior fit-out"
+    },
+    "benefits": [
+      "End-to-end fit-out project management",
+      "Minimal disruption to business operations",
+      "Acoustic and lighting design considered",
+      "Brand-aligned finish selection"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "hotel-fit-out",
+    "name": "Hotel Fit-Out",
+    "shortDescription": "Hospitality-grade interior fit-out for hotels and guest accommodation.",
+    "description": "We understand the durability and guest-experience demands of hospitality projects, delivering room and common-area fit-outs using commercial-grade materials that stand up to daily use.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Elegant hotel room interior finishing"
+    },
+    "benefits": [
+      "Commercial-grade, durable materials",
+      "Phased rollout across multiple rooms",
+      "Consistent finish quality at scale",
+      "Experience with hospitality specifications"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "commercial-interior-works",
+    "name": "Commercial Interior Works",
+    "shortDescription": "Interior finishing for retail, schools and commercial buildings.",
+    "description": "We supply and install finishing materials for commercial premises of all kinds — retail stores, schools, showrooms and mixed-use buildings — with project timelines built around your operating schedule.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1567016432779-094069958ea5?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Commercial interior finishing project"
+    },
+    "benefits": [
+      "Experience across retail, education and commercial sectors",
+      "Scalable for large floor areas",
+      "Durable, low-maintenance material selection",
+      "Flexible scheduling around operations"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Interior finishing supplies and tools"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Adhesives and sealants on a workbench"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Assorted fixings and hardware supplies"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "plumbing-installation",
+    "name": "Plumbing Installation",
+    "shortDescription": "Certified plumbing installation for new builds and renovations.",
+    "description": "Our plumbing teams install piping, water heaters, tanks and fittings to code, ensuring reliable water supply and drainage for residential and commercial buildings.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Plumber installing pipework"
+    },
+    "benefits": [
+      "Certified, experienced plumbing technicians",
+      "Quality pipes, tanks and fittings",
+      "Pressure-tested installations",
+      "Support for solar and electric heating systems"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Plumbing pipes and fittings installation"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water tank installation on a rooftop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Water heater mounted on a bathroom wall"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "project-management",
+    "name": "Project Management",
+    "shortDescription": "End-to-end project management for interior finishing works.",
+    "description": "For larger or multi-trade projects, our project managers coordinate suppliers, installers and timelines so you have a single point of accountability from start to finish.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Project manager reviewing plans on site"
+    },
+    "benefits": [
+      "Single point of contact and accountability",
+      "Coordinated multi-trade scheduling",
+      "Transparent progress reporting",
+      "Budget and timeline management"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern kitchen with green cabinetry and stone countertop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Kitchen sink and mixer tap detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Fitted kitchen cabinets and countertop"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  },
+  {
+    "slug": "custom-interior-solutions",
+    "name": "Custom Interior Solutions",
+    "shortDescription": "Bespoke interior finishing solutions tailored to unique project needs.",
+    "description": "Every space is different. Where standard products don't fit the brief, our team designs and sources custom interior solutions — from bespoke joinery to made-to-measure finishes — to match your exact requirements.",
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1600&auto=format&fit=crop",
+      "alt": "Custom bespoke interior detailing"
+    },
+    "benefits": [
+      "Bespoke design and sourcing",
+      "Solutions for non-standard spaces",
+      "Collaborative design process",
+      "One-off and small-batch production"
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "process": [
+      {
+        "title": "Site Visit & Consultation",
+        "description": "Our team visits your site to assess requirements, take measurements and understand your vision."
+      },
+      {
+        "title": "Design & Quotation",
+        "description": "We prepare a tailored proposal with material recommendations and a transparent quotation."
+      },
+      {
+        "title": "Supply & Installation",
+        "description": "Our trained installers deliver and fit your materials with minimal disruption to your space."
+      },
+      {
+        "title": "Handover & Aftercare",
+        "description": "We conduct a final walkthrough and remain on hand for any aftercare or maintenance needs."
+      }
+    ]
+  }
+]

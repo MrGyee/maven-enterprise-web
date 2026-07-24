@@ -1,0 +1,329 @@
+[
+  {
+    "slug": "karen-family-home-renovation",
+    "title": "Karen Family Home Full Interior Renovation",
+    "category": "residential",
+    "location": "Karen, Nairobi",
+    "description": "A full interior renovation for a 5-bedroom family home in Karen, covering flooring, wall panelling, kitchen and three bathrooms, completed in phases to keep the home liveable throughout.",
+    "servicesProvided": [
+      "Flooring Installation",
+      "Bathroom Renovation",
+      "Kitchen Installation"
+    ],
+    "materialsUsed": [
+      "Oak wood-effect vinyl planks",
+      "Quartz countertops",
+      "Rainfall shower systems"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Warm wooden vinyl flooring in a living room"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern kitchen with green cabinetry and stone countertop"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern bathroom with freestanding bathtub"
+      }
+    ],
+    "completedDate": "2026-03-15",
+    "featured": true
+  },
+  {
+    "slug": "westlands-apartment-refresh",
+    "title": "Westlands Apartment Interior Refresh",
+    "category": "residential",
+    "location": "Westlands, Nairobi",
+    "description": "A modern refresh for a 3-bedroom apartment, replacing dated finishes with contemporary wall panelling, LED lighting and new flooring throughout.",
+    "servicesProvided": [
+      "Wall Panel Installation",
+      "Flooring Installation",
+      "Interior Design Consultation"
+    ],
+    "materialsUsed": [
+      "3D textured wall panels",
+      "SPC flooring",
+      "Recessed LED downlights"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Decorative wall panelling in a modern living room"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Textured accent wall in a contemporary interior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Pendant lighting fixtures above a dining table"
+      }
+    ],
+    "completedDate": "2025-11-20"
+  },
+  {
+    "slug": "sameer-business-park-office-fitout",
+    "title": "Sameer Business Park Office Fit-Out",
+    "category": "office",
+    "location": "Mombasa Road, Nairobi",
+    "description": "A full office fit-out for a 400 m² floor at Sameer Business Park, including partitioning, ceiling works, flooring and lighting for a modern, brand-aligned workspace.",
+    "servicesProvided": [
+      "Office Fit-Out",
+      "Gypsum Installation",
+      "Project Management"
+    ],
+    "materialsUsed": [
+      "Suspended gypsum ceiling",
+      "Carpet tiles",
+      "LED panel lighting"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Interior finishing supplies and tools"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern living space with light laminate flooring"
+      }
+    ],
+    "completedDate": "2025-09-10",
+    "featured": true
+  },
+  {
+    "slug": "upperhill-corporate-hq-refurbishment",
+    "title": "Upper Hill Corporate HQ Refurbishment",
+    "category": "office",
+    "location": "Upper Hill, Nairobi",
+    "description": "Refurbishment of reception, boardrooms and open-plan work areas for a corporate headquarters, balancing acoustic comfort with a premium aesthetic.",
+    "servicesProvided": [
+      "Commercial Interior Works",
+      "Wall Panel Installation",
+      "PVC Ceiling Installation"
+    ],
+    "materialsUsed": [
+      "Wood-effect slat wall panels",
+      "Acoustic ceiling tiles",
+      "Porcelain floor tiles"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Textured accent wall in a contemporary interior"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bright interior with patterned wallpaper feature wall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      }
+    ],
+    "completedDate": "2025-06-05"
+  },
+  {
+    "slug": "diani-boutique-hotel-fitout",
+    "title": "Diani Boutique Hotel Room Fit-Out",
+    "category": "hospitality",
+    "location": "Diani, Kwale County",
+    "description": "Fit-out of 24 guest rooms and common areas for a boutique beach hotel, using durable, moisture-resistant materials suited to the coastal climate.",
+    "servicesProvided": [
+      "Hotel Fit-Out",
+      "Bathroom Renovation",
+      "Flooring Installation"
+    ],
+    "materialsUsed": [
+      "Vinyl flooring",
+      "Waterproof PVC wall panels",
+      "Rain shower systems"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Bathroom vanity with wall-mounted basin"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Walk-in shower with rain shower head"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Close-up of engineered wood flooring planks"
+      }
+    ],
+    "completedDate": "2025-08-22",
+    "featured": true
+  },
+  {
+    "slug": "nakuru-hotel-lobby-upgrade",
+    "title": "Nakuru Hotel Lobby & Restaurant Upgrade",
+    "category": "hospitality",
+    "location": "Nakuru Town",
+    "description": "An upgrade of the lobby, restaurant and lounge areas of a mid-size hotel, introducing a warmer material palette and improved lighting design.",
+    "servicesProvided": [
+      "Hotel Fit-Out",
+      "Interior Design Consultation",
+      "Lighting Installation"
+    ],
+    "materialsUsed": [
+      "Marble-effect porcelain tiles",
+      "Pendant and chandelier lighting",
+      "Decorative wall panels"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Crystal chandelier in an elegant room"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Modern wall light fixture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Decorative wall panelling in a modern living room"
+      }
+    ],
+    "completedDate": "2025-04-18"
+  },
+  {
+    "slug": "two-rivers-retail-store-fitout",
+    "title": "Two Rivers Mall Retail Store Fit-Out",
+    "category": "retail",
+    "location": "Two Rivers Mall, Nairobi",
+    "description": "A full retail fit-out for a fashion store, including flooring, feature ceiling design and branded lighting to create an inviting shopping experience.",
+    "servicesProvided": [
+      "Commercial Interior Works",
+      "Ceiling Design Installation",
+      "LED Lighting Supply"
+    ],
+    "materialsUsed": [
+      "Polished porcelain tiles",
+      "Suspended ceiling islands",
+      "LED track lighting"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Adhesives and sealants on a workbench"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Neutral tiled flooring in a bright hallway"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm ambient LED lighting in a living space"
+      }
+    ],
+    "completedDate": "2025-10-02"
+  },
+  {
+    "slug": "thika-road-showroom-fitout",
+    "title": "Thika Road Furniture Showroom Fit-Out",
+    "category": "retail",
+    "location": "Thika Road, Nairobi",
+    "description": "Interior finishing for a large furniture showroom, focused on durable, high-traffic flooring and flexible lighting to showcase products effectively.",
+    "servicesProvided": [
+      "Flooring Installation",
+      "LED Lighting Supply",
+      "Project Management"
+    ],
+    "materialsUsed": [
+      "SPC flooring",
+      "Track and pendant lighting",
+      "Gypsum ceiling with cove lighting"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Modern living space with light laminate flooring"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Neutral tiled flooring in a bright hallway"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Pendant lighting fixtures above a dining table"
+      }
+    ],
+    "completedDate": "2025-07-14"
+  },
+  {
+    "slug": "kitengela-school-block-refurbishment",
+    "title": "Kitengela School Administration Block Refurbishment",
+    "category": "commercial",
+    "location": "Kitengela, Kajiado County",
+    "description": "Refurbishment of an administration block for a private school, including durable flooring, painting-ready wall finishes and updated plumbing fixtures.",
+    "servicesProvided": [
+      "Flooring Installation",
+      "Plumbing Installation",
+      "Commercial Interior Works"
+    ],
+    "materialsUsed": [
+      "Ceramic floor tiles",
+      "PPR piping",
+      "Water-efficient sanitary ware"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Plumbing pipes and fittings installation"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Warm wooden vinyl flooring in a living room"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom fittings and fixtures detail"
+      }
+    ],
+    "completedDate": "2025-01-28"
+  },
+  {
+    "slug": "ruiru-commercial-plaza-common-areas",
+    "title": "Ruiru Commercial Plaza Common Area Renovation",
+    "category": "commercial",
+    "location": "Ruiru, Kiambu County",
+    "description": "Renovation of lobby, corridors and shared washrooms for a busy commercial plaza, prioritising durable, easy-maintenance finishes for high foot traffic.",
+    "servicesProvided": [
+      "Commercial Interior Works",
+      "Bathroom Renovation",
+      "Wall Panel Installation"
+    ],
+    "materialsUsed": [
+      "Anti-slip porcelain tiles",
+      "PVC wall panels",
+      "Wall-hung toilets and basins"
+    ],
+    "beforeImage": {
+      "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop",
+      "alt": "Modern bathroom with freestanding bathtub"
+    },
+    "afterImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bathroom vanity with wall-mounted basin"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Elegant living room with decorative ceiling design"
+      }
+    ],
+    "completedDate": "2024-12-05"
+  }
+]

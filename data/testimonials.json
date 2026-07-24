@@ -1,0 +1,74 @@
+[
+  {
+    "id": "t1",
+    "name": "Wanjiru Kamau",
+    "role": "Homeowner",
+    "company": "Karen, Nairobi",
+    "quote": "Maven Enterprise transformed our tired-looking home in three weeks. The team was punctual, tidy and the finish quality on our floors and bathroom is outstanding.",
+    "rating": 5,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop",
+      "alt": "Portrait of Wanjiru Kamau, homeowner"
+    }
+  },
+  {
+    "id": "t2",
+    "name": "Arch. David Otieno",
+    "role": "Principal Architect",
+    "company": "Otieno & Partners Architects",
+    "quote": "As architects we need suppliers who understand specification and deadlines. Maven consistently delivers exactly what's on the drawings, on schedule.",
+    "rating": 5,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop",
+      "alt": "Portrait of Arch. David Otieno"
+    }
+  },
+  {
+    "id": "t3",
+    "name": "Grace Mutua",
+    "role": "Interior Designer",
+    "company": "Mutua Interiors",
+    "quote": "Their showroom and product range make it easy to source everything from wall panels to lighting in one place. Installation teams are reliable and skilled.",
+    "rating": 5,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=300&auto=format&fit=crop",
+      "alt": "Portrait of Grace Mutua, interior designer"
+    }
+  },
+  {
+    "id": "t4",
+    "name": "Samuel Kiprono",
+    "role": "General Contractor",
+    "company": "Kiprono Construction Ltd",
+    "quote": "We've used Maven Enterprise on four commercial projects now. Bulk pricing is fair and their project managers keep our sites moving without delays.",
+    "rating": 4,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?q=80&w=300&auto=format&fit=crop",
+      "alt": "Portrait of Samuel Kiprono, general contractor"
+    }
+  },
+  {
+    "id": "t5",
+    "name": "Amina Hassan",
+    "role": "Operations Manager",
+    "company": "Coastal Breeze Hotel, Diani",
+    "quote": "The fit-out team understood the coastal climate demands and recommended materials that have held up beautifully a year on. Highly recommended for hospitality projects.",
+    "rating": 5,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=300&auto=format&fit=crop",
+      "alt": "Portrait of Amina Hassan, hotel operations manager"
+    }
+  },
+  {
+    "id": "t6",
+    "name": "Peter Ndungu",
+    "role": "Property Developer",
+    "company": "Ndungu Developments",
+    "quote": "For our apartment developments, having one supplier for décor, plumbing and kitchen fittings has simplified procurement enormously.",
+    "rating": 4,
+    "image": {
+      "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=300&auto=format&fit=crop",
+      "alt": "Portrait of Peter Ndungu, property developer"
+    }
+  }
+]
