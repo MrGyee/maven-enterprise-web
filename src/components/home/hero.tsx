@@ -57,7 +57,7 @@ export function Hero({
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-gold backdrop-blur-md"
+          className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-black/50 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-gold backdrop-blur-md"
         >
           Trusted Interior Solutions Partner in Kenya
         </motion.span>
