@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/auth/require-admin";
 import { heroBannersAdminSchema, type HeroBannerAdminValues } from "@/lib/validation/admin";
-import { writeJsonFile } from "@/lib/store/json-file";
+import { heroBannersStore } from "@/lib/store/hero-banners.store";
 
 export interface ActionResult {
   success: boolean;
@@ -16,7 +16,7 @@ export async function updateHeroBanners(banners: HeroBannerAdminValues[]): Promi
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  writeJsonFile("hero-banners.json", parsed.data);
+  await heroBannersStore.replaceAll(parsed.data);
   revalidatePath("/");
   revalidatePath("/admin/hero-banners");
   return { success: true };

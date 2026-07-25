@@ -25,9 +25,10 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-export default function Home() {
-  const businessInfo = getBusinessInfo();
-  const heroBanners = [...heroBannersStore.getAll()].sort((a, b) => a.sortOrder - b.sortOrder);
+export default async function Home() {
+  const businessInfo = await getBusinessInfo();
+  const heroBanners = [...(await heroBannersStore.getAll())].sort((a, b) => a.sortOrder - b.sortOrder);
+  const testimonials = await getTestimonials();
 
   return (
     <>
@@ -38,7 +39,7 @@ export default function Home() {
       <InstallationServices />
       <ProjectsGallerySection />
       <BrandsStrip />
-      <TestimonialsSection testimonials={getTestimonials()} />
+      <TestimonialsSection testimonials={testimonials} />
       <OurProcess />
       <FaqSection />
       <LatestBlogPosts />

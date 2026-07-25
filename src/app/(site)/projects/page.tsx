@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/projects" },
 };
 
-export default function ProjectsPage() {
-  const projects = getProjects();
+export default async function ProjectsPage() {
+  const projects = await getProjects();
   return (
     <div className="pb-20">
       <Breadcrumbs items={[{ label: "Projects", href: "/projects" }]} />

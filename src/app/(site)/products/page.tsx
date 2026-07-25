@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/products" },
 };
 
-export default function ProductsPage() {
-  const categories = getCategories();
+export default async function ProductsPage() {
+  const categories = await getCategories();
   return (
     <div className="pb-20">
       <Breadcrumbs items={[{ label: "Products", href: "/products" }]} />

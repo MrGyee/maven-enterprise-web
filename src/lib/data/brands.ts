@@ -1,9 +1,9 @@
 import { brandsStore } from "@/lib/store/brands.store";
 
-export function getBrands() {
+export async function getBrands() {
   return brandsStore.getAll();
 }
 
-export function getBrandBySlug(slug: string) {
+export async function getBrandBySlug(slug: string) {
   return brandsStore.getByKey(slug);
 }

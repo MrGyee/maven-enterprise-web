@@ -1,18 +1,19 @@
 import { projectsStore } from "@/lib/store/projects.store";
 
-export function getProjects() {
+export async function getProjects() {
   return projectsStore.getAll();
 }
 
-export function getFeaturedProjects() {
-  return getProjects().filter((p) => p.featured);
+export async function getFeaturedProjects() {
+  return (await getProjects()).filter((p) => p.featured);
 }
 
-export function getProjectsByCategory(category: string) {
-  if (category === "all") return getProjects();
-  return getProjects().filter((p) => p.category === category);
+export async function getProjectsByCategory(category: string) {
+  const all = await getProjects();
+  if (category === "all") return all;
+  return all.filter((p) => p.category === category);
 }
 
-export function getProjectBySlug(slug: string) {
+export async function getProjectBySlug(slug: string) {
   return projectsStore.getByKey(slug);
 }

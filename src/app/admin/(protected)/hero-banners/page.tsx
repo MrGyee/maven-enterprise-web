@@ -4,8 +4,8 @@ import { HeroBannersForm } from "@/components/admin/hero-banners/hero-banners-fo
 
 export const dynamic = "force-dynamic";
 
-export default function AdminHeroBannersPage() {
-  const banners = [...heroBannersStore.getAll()].sort((a, b) => a.sortOrder - b.sortOrder);
+export default async function AdminHeroBannersPage() {
+  const banners = [...(await heroBannersStore.getAll())].sort((a, b) => a.sortOrder - b.sortOrder);
 
   return (
     <div>

@@ -31,9 +31,9 @@ const trustPoints = [
   { icon: HeartHandshake, title: "Client-First Approach", description: "We tailor solutions to your budget, timeline and design preferences." },
 ];
 
-export default function AboutPage() {
-  const team = getTeam();
-  const brands = getBrands();
+export default async function AboutPage() {
+  const team = await getTeam();
+  const brands = await getBrands();
   return (
     <div className="pb-20">
       <Breadcrumbs items={[{ label: "About Us", href: "/about" }]} />

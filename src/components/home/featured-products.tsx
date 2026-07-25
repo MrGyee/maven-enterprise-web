@@ -4,8 +4,8 @@ import { getFeaturedProducts } from "@/lib/data/products";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { ProductCard } from "@/components/products/product-card";
 
-export function FeaturedProducts() {
-  const products = getFeaturedProducts().slice(0, 8);
+export async function FeaturedProducts() {
+  const products = (await getFeaturedProducts()).slice(0, 8);
   return (
     <section className="bg-secondary/40 py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

@@ -5,12 +5,13 @@ import { StickyMobileCta } from "@/components/layout/sticky-mobile-cta";
 import { JsonLd } from "@/components/shared/json-ld";
 import { getBusinessInfo, getLocalBusinessJsonLd } from "@/lib/data/business-info";
 
-export default function SiteLayout({ children }: { children: React.ReactNode }) {
-  const businessInfo = getBusinessInfo();
+export default async function SiteLayout({ children }: { children: React.ReactNode }) {
+  const businessInfo = await getBusinessInfo();
+  const localBusinessJsonLd = await getLocalBusinessJsonLd();
 
   return (
     <>
-      <JsonLd data={getLocalBusinessJsonLd()} />
+      <JsonLd data={localBusinessJsonLd} />
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />

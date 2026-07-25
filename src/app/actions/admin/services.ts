@@ -24,10 +24,10 @@ export async function createService(values: ServiceAdminValues): Promise<ActionR
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  if (servicesStore.getByKey(parsed.data.slug)) {
+  if (await servicesStore.getByKey(parsed.data.slug)) {
     return { success: false, error: "A service with this slug already exists." };
   }
-  servicesStore.create(parsed.data);
+  await servicesStore.create(parsed.data);
   revalidateServicePaths(parsed.data);
   return { success: true };
 }
@@ -41,15 +41,15 @@ export async function updateService(
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  const existing = servicesStore.getByKey(originalSlug);
+  const existing = await servicesStore.getByKey(originalSlug);
   if (!existing) {
     return { success: false, error: "Service not found." };
   }
-  if (parsed.data.slug !== originalSlug && servicesStore.getByKey(parsed.data.slug)) {
+  if (parsed.data.slug !== originalSlug && (await servicesStore.getByKey(parsed.data.slug))) {
     return { success: false, error: "A service with this slug already exists." };
   }
-  servicesStore.remove(originalSlug);
-  servicesStore.create(parsed.data);
+  await servicesStore.remove(originalSlug);
+  await servicesStore.create(parsed.data);
   revalidateServicePaths(existing);
   revalidateServicePaths(parsed.data);
   return { success: true };
@@ -57,11 +57,11 @@ export async function updateService(
 
 export async function deleteService(slug: string): Promise<ActionResult> {
   await requireAdmin();
-  const existing = servicesStore.getByKey(slug);
+  const existing = await servicesStore.getByKey(slug);
   if (!existing) {
     return { success: false, error: "Service not found." };
   }
-  servicesStore.remove(slug);
+  await servicesStore.remove(slug);
   revalidateServicePaths(existing);
   return { success: true };
 }

@@ -22,10 +22,10 @@ export async function createBrand(values: BrandAdminValues): Promise<ActionResul
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  if (brandsStore.getByKey(parsed.data.slug)) {
+  if (await brandsStore.getByKey(parsed.data.slug)) {
     return { success: false, error: "A brand with this slug already exists." };
   }
-  brandsStore.create(parsed.data);
+  await brandsStore.create(parsed.data);
   revalidateBrandPaths();
   return { success: true };
 }
@@ -39,24 +39,24 @@ export async function updateBrand(
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  if (!brandsStore.getByKey(originalSlug)) {
+  if (!(await brandsStore.getByKey(originalSlug))) {
     return { success: false, error: "Brand not found." };
   }
-  if (parsed.data.slug !== originalSlug && brandsStore.getByKey(parsed.data.slug)) {
+  if (parsed.data.slug !== originalSlug && (await brandsStore.getByKey(parsed.data.slug))) {
     return { success: false, error: "A brand with this slug already exists." };
   }
-  brandsStore.remove(originalSlug);
-  brandsStore.create(parsed.data);
+  await brandsStore.remove(originalSlug);
+  await brandsStore.create(parsed.data);
   revalidateBrandPaths();
   return { success: true };
 }
 
 export async function deleteBrand(slug: string): Promise<ActionResult> {
   await requireAdmin();
-  if (!brandsStore.getByKey(slug)) {
+  if (!(await brandsStore.getByKey(slug))) {
     return { success: false, error: "Brand not found." };
   }
-  brandsStore.remove(slug);
+  await brandsStore.remove(slug);
   revalidateBrandPaths();
   return { success: true };
 }

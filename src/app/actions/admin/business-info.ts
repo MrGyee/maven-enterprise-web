@@ -16,7 +16,7 @@ export async function updateBusinessInfo(values: BusinessInfoAdminValues): Promi
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  businessInfoStore.update(parsed.data);
+  await businessInfoStore.update(parsed.data);
   revalidatePath("/", "layout");
   revalidatePath("/admin/settings/business-info");
   return { success: true };

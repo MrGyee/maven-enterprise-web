@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/blog" },
 };
 
-export default function BlogIndexPage() {
-  const posts = [...getPublishedBlogPosts()].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+export default async function BlogIndexPage() {
+  const posts = [...(await getPublishedBlogPosts())].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
   return (
     <div className="pb-20">

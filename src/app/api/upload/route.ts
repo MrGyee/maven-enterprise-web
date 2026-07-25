@@ -1,18 +1,27 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import { mkdir, writeFile } from "node:fs/promises";
-import { join } from "node:path";
-import { randomUUID } from "node:crypto";
-import sharp from "sharp";
+import { v2 as cloudinary } from "cloudinary";
 import { decrypt, SESSION_COOKIE } from "@/lib/auth/session";
 
-// TODO Phase 3: swap this for a Cloudinary upload; the response shape
-// ({ url, alt }) is kept stable so admin forms don't need to change.
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
+  secure: true,
+});
+
 export async function POST(request: Request) {
   const cookie = (await cookies()).get(SESSION_COOKIE)?.value;
   const session = await decrypt(cookie);
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  if (!process.env.CLOUDINARY_CLOUD_NAME || !process.env.CLOUDINARY_API_KEY || !process.env.CLOUDINARY_API_SECRET) {
+    return NextResponse.json(
+      { error: "Cloudinary is not configured. Set CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY and CLOUDINARY_API_SECRET." },
+      { status: 500 }
+    );
   }
 
   const formData = await request.formData();
@@ -25,18 +34,22 @@ export async function POST(request: Request) {
   }
 
   const arrayBuffer = await file.arrayBuffer();
-  const inputBuffer = Buffer.from(arrayBuffer);
+  const base64 = Buffer.from(arrayBuffer).toString("base64");
+  const dataUri = `data:${file.type};base64,${base64}`;
 
-  const filename = `${Date.now()}-${randomUUID().slice(0, 8)}.webp`;
-  const uploadsDir = join(process.cwd(), "public", "uploads");
-  await mkdir(uploadsDir, { recursive: true });
-
-  const outputBuffer = await sharp(inputBuffer)
-    .resize({ width: 1600, withoutEnlargement: true })
-    .webp({ quality: 82 })
-    .toBuffer();
-
-  await writeFile(join(uploadsDir, filename), outputBuffer);
-
-  return NextResponse.json({ url: `/uploads/${filename}` });
+  try {
+    const result = await cloudinary.uploader.upload(dataUri, {
+      folder: "maven-enterprise",
+      // "Incoming" transformations: applied once, to the stored asset, so
+      // every delivery of this image is already resized/compressed/format-
+      // optimized without needing transformation params on every URL.
+      transformation: [{ width: 1600, crop: "limit" }, { quality: "auto", fetch_format: "auto" }],
+    });
+    return NextResponse.json({ url: result.secure_url });
+  } catch (error) {
+    return NextResponse.json(
+      { error: error instanceof Error ? error.message : "Upload failed" },
+      { status: 500 }
+    );
+  }
 }

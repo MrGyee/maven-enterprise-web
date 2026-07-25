@@ -1,10 +1,24 @@
--- Maven Enterprise Ltd — Phase 2 Supabase schema
--- Not run against any live project yet. Checked in so the mock data layer in
--- src/lib/data/*.ts has a straightforward, drop-in migration target once a
--- Supabase project is provisioned. Mirrors the TypeScript types in
--- src/lib/data/types.ts field-for-field.
+-- Maven Enterprise Ltd — Phase 3 Supabase schema
+--
+-- Deliberately denormalized: images/galleries/subcategories/process-steps
+-- etc. are stored as `jsonb` directly on the parent row rather than in
+-- child tables, because every domain type in src/lib/data/types.ts already
+-- treats them as embedded arrays, and the admin form layer
+-- (ImageGalleryUploadField, useFieldArray for subcategories/process steps)
+-- was built against that shape. This keeps the store layer to simple
+-- single-table CRUD per entity — no joins, no multi-table transactions on
+-- every admin save.
+--
+-- Access pattern: the app only ever talks to Supabase via the
+-- service_role key (server-only — see src/lib/supabase/server-client.ts),
+-- which bypasses Row Level Security entirely. RLS is enabled on every
+-- table below with NO policies attached, which blocks all access through
+-- Supabase's auto-generated REST API for the anon/authenticated roles
+-- (unused by this app) while the service role continues to work as normal.
 
 create extension if not exists "pgcrypto";
+
+-- Catalogue -------------------------------------------------------------
 
 create table categories (
   slug text primary key,
@@ -12,22 +26,12 @@ create table categories (
   description text not null,
   hero_image_url text not null,
   hero_image_alt text not null,
-  sort_order int not null default 0
-);
-
-create table subcategories (
-  slug text not null,
-  category_slug text not null references categories (slug) on delete cascade,
-  name text not null,
-  description text not null,
-  sort_order int not null default 0,
-  primary key (category_slug, slug)
+  subcategories jsonb not null default '[]'
 );
 
 create table brands (
   slug text primary key,
-  name text not null,
-  logo_url text
+  name text not null
 );
 
 create table products (
@@ -37,6 +41,7 @@ create table products (
   subcategory_slug text not null,
   short_description text not null,
   description text not null,
+  images jsonb not null default '[]',
   features jsonb not null default '[]',
   specifications jsonb not null default '[]',
   price numeric,
@@ -44,25 +49,10 @@ create table products (
   stock_status text not null check (stock_status in ('in_stock', 'made_to_order', 'out_of_stock')),
   installation_available boolean not null default false,
   brand_slug text references brands (slug),
-  featured boolean not null default false,
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now(),
-  foreign key (category_slug, subcategory_slug) references subcategories (category_slug, slug)
+  related_slugs jsonb not null default '[]',
+  featured boolean not null default false
 );
-
-create table product_images (
-  id uuid primary key default gen_random_uuid(),
-  product_slug text not null references products (slug) on delete cascade,
-  url text not null,
-  alt text not null,
-  sort_order int not null default 0
-);
-
-create table product_related (
-  product_slug text not null references products (slug) on delete cascade,
-  related_slug text not null references products (slug) on delete cascade,
-  primary key (product_slug, related_slug)
-);
+create index products_category_slug_idx on products (category_slug);
 
 create table services (
   slug text primary key,
@@ -72,18 +62,9 @@ create table services (
   hero_image_url text not null,
   hero_image_alt text not null,
   benefits jsonb not null default '[]',
+  gallery jsonb not null default '[]',
   process jsonb not null default '[]',
-  featured boolean not null default false,
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
-);
-
-create table service_gallery (
-  id uuid primary key default gen_random_uuid(),
-  service_slug text not null references services (slug) on delete cascade,
-  url text not null,
-  alt text not null,
-  sort_order int not null default 0
+  featured boolean not null default false
 );
 
 create table projects (
@@ -96,18 +77,12 @@ create table projects (
   materials_used jsonb not null default '[]',
   before_image_url text not null,
   before_image_alt text not null,
+  after_images jsonb not null default '[]',
   completed_date date not null,
-  featured boolean not null default false,
-  created_at timestamptz not null default now()
+  featured boolean not null default false
 );
 
-create table project_images (
-  id uuid primary key default gen_random_uuid(),
-  project_slug text not null references projects (slug) on delete cascade,
-  url text not null,
-  alt text not null,
-  sort_order int not null default 0
-);
+-- Content -----------------------------------------------------------------
 
 create table testimonials (
   id uuid primary key default gen_random_uuid(),
@@ -117,17 +92,14 @@ create table testimonials (
   quote text not null,
   rating int not null check (rating between 1 and 5),
   image_url text not null,
-  image_alt text not null,
-  published boolean not null default true,
-  sort_order int not null default 0
+  image_alt text not null
 );
 
 create table faqs (
   id uuid primary key default gen_random_uuid(),
   question text not null,
   answer text not null,
-  category text,
-  sort_order int not null default 0
+  category text
 );
 
 create table blog_posts (
@@ -140,11 +112,10 @@ create table blog_posts (
   cover_image_url text not null,
   cover_image_alt text not null,
   author text not null,
+  published_at date not null,
+  read_time_minutes int not null,
   seo_description text not null,
-  status text not null default 'draft' check (status in ('draft', 'published')),
-  published_at timestamptz,
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
+  status text not null default 'draft' check (status in ('draft', 'published'))
 );
 
 create table team_members (
@@ -153,9 +124,17 @@ create table team_members (
   role text not null,
   bio text not null,
   image_url text not null,
-  image_alt text not null,
+  image_alt text not null
+);
+
+create table hero_banners (
+  id uuid primary key default gen_random_uuid(),
+  url text not null,
+  alt text not null,
   sort_order int not null default 0
 );
+
+-- Business info: single settings row (id is always 1) ---------------------
 
 create table business_info (
   id int primary key default 1 check (id = 1),
@@ -167,12 +146,14 @@ create table business_info (
   address jsonb not null,
   hours jsonb not null default '[]',
   socials jsonb not null default '{}',
-  map_embed_url text,
+  map_embed_url text not null default '',
+  coordinates jsonb not null default '{"lat":0,"lng":0}',
   service_areas jsonb not null default '[]'
 );
 
--- Lead capture tables (Quote Request, Contact, Bulk Purchase, Contractor &
--- Supplier Registration forms all write here).
+-- Leads (Quote Request, Contact, Bulk Purchase, Contractor & Supplier
+-- Registration, Newsletter forms all write here) --------------------------
+
 create table quote_requests (
   id uuid primary key default gen_random_uuid(),
   name text not null,
@@ -234,53 +215,23 @@ create table newsletter_subscribers (
   created_at timestamptz not null default now()
 );
 
-create table whatsapp_click_events (
-  id uuid primary key default gen_random_uuid(),
-  source_page text not null,
-  context text,
-  created_at timestamptz not null default now()
-);
-
--- Row Level Security: public read on catalogue/content tables, no public
--- access to lead tables (writes go through server-side service role only).
+-- Row Level Security: enabled everywhere, no policies. Only the
+-- service_role key (server-only) can read/write; the anon/authenticated
+-- roles get nothing via Supabase's auto-generated REST API.
 alter table categories enable row level security;
-alter table subcategories enable row level security;
 alter table brands enable row level security;
 alter table products enable row level security;
-alter table product_images enable row level security;
-alter table product_related enable row level security;
 alter table services enable row level security;
-alter table service_gallery enable row level security;
 alter table projects enable row level security;
-alter table project_images enable row level security;
 alter table testimonials enable row level security;
 alter table faqs enable row level security;
 alter table blog_posts enable row level security;
 alter table team_members enable row level security;
+alter table hero_banners enable row level security;
 alter table business_info enable row level security;
-
-create policy "Public read access" on categories for select using (true);
-create policy "Public read access" on subcategories for select using (true);
-create policy "Public read access" on brands for select using (true);
-create policy "Public read access" on products for select using (true);
-create policy "Public read access" on product_images for select using (true);
-create policy "Public read access" on product_related for select using (true);
-create policy "Public read access" on services for select using (true);
-create policy "Public read access" on service_gallery for select using (true);
-create policy "Public read access" on projects for select using (true);
-create policy "Public read access" on project_images for select using (true);
-create policy "Public read access" on testimonials for select using (published = true);
-create policy "Public read access" on faqs for select using (true);
-create policy "Public read access" on blog_posts for select using (status = 'published');
-create policy "Public read access" on team_members for select using (true);
-create policy "Public read access" on business_info for select using (true);
-
--- Lead + analytics tables: RLS enabled with no public policies. Admin
--- dashboard (Phase 2) reads/writes via an authenticated Supabase role.
 alter table quote_requests enable row level security;
 alter table contact_messages enable row level security;
 alter table bulk_purchase_inquiries enable row level security;
 alter table contractor_registrations enable row level security;
 alter table supplier_registrations enable row level security;
 alter table newsletter_subscribers enable row level security;
-alter table whatsapp_click_events enable row level security;

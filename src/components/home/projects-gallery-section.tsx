@@ -4,8 +4,8 @@ import { getFeaturedProjects } from "@/lib/data/projects";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { ProjectCard } from "@/components/projects/project-card";
 
-export function ProjectsGallerySection() {
-  const projects = getFeaturedProjects();
+export async function ProjectsGallerySection() {
+  const projects = await getFeaturedProjects();
   return (
     <section className="bg-secondary/40 py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

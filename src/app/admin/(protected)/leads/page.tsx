@@ -37,8 +37,8 @@ function EmptyRow({ colSpan }: { colSpan: number }) {
   );
 }
 
-export default function AdminLeadsPage() {
-  const leads = leadsStore.getAll();
+export default async function AdminLeadsPage() {
+  const leads = await leadsStore.getAll();
 
   return (
     <div>

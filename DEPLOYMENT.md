@@ -2,53 +2,42 @@
 
 ## Current architecture
 
-- **Public site**: fully dynamic Next.js 16 App Router pages, no database
-  dependency for reads beyond the local JSON store.
-- **Admin CMS**: reads/writes `data/*.json` on disk (`src/lib/store/*.ts`)
-  and saves uploaded images to `public/uploads/` (`src/app/api/upload/route.ts`,
-  processed through `sharp`).
+- **Public site**: fully dynamic Next.js 16 App Router pages, reading
+  content from Supabase Postgres on every request (`src/lib/data/*.ts` ->
+  `src/lib/store/*.ts` -> `src/lib/supabase/server-client.ts`).
+- **Admin CMS**: reads/writes the same Supabase tables (`supabase/schema.sql`)
+  and saves uploaded images to Cloudinary (`src/app/api/upload/route.ts`),
+  which also handles resizing and format optimization on upload.
 - **Auth**: signed-cookie sessions (`src/lib/auth/session.ts`, `src/proxy.ts`),
-  credentials from `ADMIN_EMAIL` / `ADMIN_PASSWORD` / `SESSION_SECRET` env vars.
+  credentials from `ADMIN_EMAIL` / `ADMIN_PASSWORD` / `SESSION_SECRET` env
+  vars — unrelated to Supabase Auth, unchanged by the migration below.
 
-## ⚠️ Blocker for Vercel (or any serverless host)
+This replaces the earlier local-JSON-file + on-disk-upload design, which
+didn't work on Vercel (serverless functions have a read-only filesystem
+outside `/tmp`, and `/tmp` is wiped between invocations) — admin edits and
+image uploads would appear to succeed but not persist. Supabase and
+Cloudinary are both external, persistent services, so that limitation no
+longer applies.
 
-Vercel's serverless functions have a **read-only filesystem** except for
-`/tmp`, and `/tmp` is wiped between invocations and not shared across
-instances. That means, deployed as-is to Vercel:
+## One-time setup (new environment / new Supabase project)
 
-- Admin edits (product/service/project/etc. changes) will appear to save
-  successfully but **will not persist** — the next request may hit a
-  different function instance with the old data, and everything resets on
-  the next deploy.
-- Image uploads through the admin UI will fail the same way.
-- The public site (reads only) will work fine, since it just reads the
-  JSON files bundled at deploy time.
-
-**This needs to be fixed before the admin CMS is usable in production on
-Vercel.** Two accounts are needed that I can't create on your behalf:
-
-1. **Supabase** ([supabase.com](https://supabase.com), free tier is enough
-   to start) — Postgres database + storage. `supabase/schema.sql` in this
-   repo already mirrors every content type 1:1, ready to run against a new
-   project.
-2. **Cloudinary** ([cloudinary.com](https://cloudinary.com), free tier is
-   enough to start) — image hosting/optimization, referenced throughout the
-   original project spec.
-
-Once you have both, share (via a secure channel, not chat):
-- Supabase project URL + anon key + service role key
-- Cloudinary cloud name + API key + API secret
-
-...and I'll do the migration: swap `src/lib/store/*.ts` from file I/O to
-Supabase queries (the repository-function signatures were written so call
-sites don't change), point `/api/upload` at Cloudinary, and run
-`supabase/schema.sql` to provision the tables.
-
-**If you'd rather not wait**: deploying to a host with a persistent disk
-(a VPS, Railway, Render, Fly.io, Docker on your own infrastructure) works
-with the current code as-is — `data/` and `public/uploads/` just need to
-live on a persistent volume, no migration required. Let me know if you'd
-rather go this route.
+1. Create a [Supabase](https://supabase.com) project (free tier is enough to
+   start) and a [Cloudinary](https://cloudinary.com) account (same).
+2. In the Supabase SQL Editor, run `supabase/schema.sql` from this repo. It
+   creates every content and lead table with RLS enabled and no policies —
+   the app only ever connects with the `service_role` key (server-only,
+   bypasses RLS), so the tables are unreachable through Supabase's
+   auto-generated REST API for any other role.
+3. Copy `.env.local.example` to `.env.local` and fill in the real values
+   (Supabase: Settings -> API; Cloudinary: dashboard home page).
+4. Seed the database from the placeholder content in `data/*.json`:
+   ```bash
+   npm run seed:supabase
+   ```
+   Only run this once against a fresh database — see the comment at the top
+   of `scripts/seed-supabase.ts` for why re-running it isn't idempotent.
+5. `npm run dev`, log in to `/admin`, and confirm the public site renders
+   the seeded content.
 
 ## Environment variables
 
@@ -59,13 +48,13 @@ Set these in your hosting platform's dashboard (never commit them):
 | `ADMIN_EMAIL` | Yes | Admin login email. |
 | `ADMIN_PASSWORD` | Yes | Use a strong, unique password — not the dev value. |
 | `SESSION_SECRET` | Yes | Generate with `openssl rand -base64 32`. Rotating it logs everyone out. |
+| `SUPABASE_URL` | Yes | Project URL, Settings -> API. |
+| `SUPABASE_SERVICE_ROLE_KEY` | Yes | Settings -> API. Server-only — never expose to the client. |
+| `CLOUDINARY_CLOUD_NAME` | Yes | Cloudinary dashboard home page. |
+| `CLOUDINARY_API_KEY` | Yes | Cloudinary dashboard home page. |
+| `CLOUDINARY_API_SECRET` | Yes | Cloudinary dashboard home page — keep secret. |
 
-Once the Supabase/Cloudinary migration lands, this table will grow to
-include `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`,
-`CLOUDINARY_CLOUD_NAME`, etc.
-
-`.env.local.example` in the repo root always reflects the current minimum
-set.
+`.env.local.example` in the repo root always reflects the current full set.
 
 ## Domain
 
@@ -86,9 +75,8 @@ and I'll do it in one pass.
 4. Deploy. The build runs `next build`; no special build command needed.
 5. **Before announcing the site is live**: log in to `/admin`, make a small
    edit (e.g. add a test FAQ), and confirm it's still there after a page
-   reload and after the next deploy. If it disappears, the Supabase
-   migration above hasn't happened yet — don't rely on the admin CMS until
-   it has.
+   reload and after the next deploy — this proves the deployed instance is
+   actually reaching Supabase and not silently failing.
 
 ## Post-deploy smoke test
 
@@ -96,6 +84,7 @@ and I'll do it in one pass.
 - [ ] Quote form and Contact form submit successfully
 - [ ] WhatsApp floating button opens the right number
 - [ ] `/sitemap.xml` and `/robots.txt` return valid content
-- [ ] Admin login works and an edit persists (see above — this is the one
-  most likely to fail before the Supabase migration)
+- [ ] Admin login works and an edit persists after a reload and a redeploy
+- [ ] Uploading an image through an admin form returns a `res.cloudinary.com`
+  URL and renders correctly
 - [ ] `/privacy-policy` and `/terms` are reachable from the footer

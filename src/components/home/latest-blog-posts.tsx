@@ -4,8 +4,8 @@ import { getPublishedBlogPosts } from "@/lib/data/blog";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { BlogCard } from "@/components/blog/blog-card";
 
-export function LatestBlogPosts() {
-  const posts = [...getPublishedBlogPosts()]
+export async function LatestBlogPosts() {
+  const posts = [...(await getPublishedBlogPosts())]
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
     .slice(0, 3);
 

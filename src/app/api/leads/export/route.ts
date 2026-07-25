@@ -31,7 +31,7 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Invalid or missing type" }, { status: 400 });
   }
 
-  const rows = leadsStore.getAll()[type];
+  const rows = (await leadsStore.getAll())[type];
   const csv = toCsv(rows);
 
   return new NextResponse(csv, {

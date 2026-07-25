@@ -22,8 +22,8 @@ const perks = [
   { icon: Wrench, text: "Supply and installation quoted together" },
 ];
 
-export default function QuotePage() {
-  const businessInfo = getBusinessInfo();
+export default async function QuotePage() {
+  const businessInfo = await getBusinessInfo();
   return (
     <div className="pb-20">
       <Breadcrumbs items={[{ label: "Request Quotation", href: "/quote" }]} />

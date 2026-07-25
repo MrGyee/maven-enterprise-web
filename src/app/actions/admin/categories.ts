@@ -24,10 +24,10 @@ export async function createCategory(values: CategoryAdminValues): Promise<Actio
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  if (categoriesStore.getByKey(parsed.data.slug)) {
+  if (await categoriesStore.getByKey(parsed.data.slug)) {
     return { success: false, error: "A category with this slug already exists." };
   }
-  categoriesStore.create(parsed.data);
+  await categoriesStore.create(parsed.data);
   revalidateCategoryPaths(parsed.data);
   return { success: true };
 }
@@ -41,15 +41,15 @@ export async function updateCategory(
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  const existing = categoriesStore.getByKey(originalSlug);
+  const existing = await categoriesStore.getByKey(originalSlug);
   if (!existing) {
     return { success: false, error: "Category not found." };
   }
-  if (parsed.data.slug !== originalSlug && categoriesStore.getByKey(parsed.data.slug)) {
+  if (parsed.data.slug !== originalSlug && (await categoriesStore.getByKey(parsed.data.slug))) {
     return { success: false, error: "A category with this slug already exists." };
   }
-  categoriesStore.remove(originalSlug);
-  categoriesStore.create(parsed.data);
+  await categoriesStore.remove(originalSlug);
+  await categoriesStore.create(parsed.data);
   revalidateCategoryPaths(existing);
   revalidateCategoryPaths(parsed.data);
   return { success: true };
@@ -57,11 +57,11 @@ export async function updateCategory(
 
 export async function deleteCategory(slug: string): Promise<ActionResult> {
   await requireAdmin();
-  const existing = categoriesStore.getByKey(slug);
+  const existing = await categoriesStore.getByKey(slug);
   if (!existing) {
     return { success: false, error: "Category not found." };
   }
-  categoriesStore.remove(slug);
+  await categoriesStore.remove(slug);
   revalidateCategoryPaths(existing);
   return { success: true };
 }

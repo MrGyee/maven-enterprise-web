@@ -9,8 +9,8 @@ import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@
 
 export const dynamic = "force-dynamic";
 
-export default function AdminTeamPage() {
-  const team = getTeam();
+export default async function AdminTeamPage() {
+  const team = await getTeam();
 
   return (
     <div>

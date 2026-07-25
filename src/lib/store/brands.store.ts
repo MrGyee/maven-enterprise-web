@@ -1,7 +1,9 @@
-import { createCollectionStore } from "./collection";
+import { createSupabaseCollectionStore } from "./supabase-collection";
 import type { Brand } from "@/lib/data/types";
 
-export const brandsStore = createCollectionStore<Brand>(
-  "brands.json",
-  (b) => b.slug
+export const brandsStore = createSupabaseCollectionStore<Brand, Brand>(
+  "brands",
+  "slug",
+  (row) => row,
+  (b) => b
 );

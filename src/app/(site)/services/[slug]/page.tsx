@@ -19,7 +19,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const service = getServiceBySlug(slug);
+  const service = await getServiceBySlug(slug);
   if (!service) return {};
   return {
     title: `${service.name} Kenya`,
@@ -34,11 +34,11 @@ export default async function ServiceDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const service = getServiceBySlug(slug);
+  const service = await getServiceBySlug(slug);
   if (!service) notFound();
 
-  const otherServices = getServices().filter((s) => s.slug !== service.slug).slice(0, 3);
-  const businessInfo = getBusinessInfo();
+  const otherServices = (await getServices()).filter((s) => s.slug !== service.slug).slice(0, 3);
+  const businessInfo = await getBusinessInfo();
 
   return (
     <div className="pb-20">

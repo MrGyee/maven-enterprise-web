@@ -4,8 +4,8 @@ import { ProductForm } from "@/components/admin/products/product-form";
 
 export const dynamic = "force-dynamic";
 
-export default function NewProductPage() {
-  const categories = getCategories();
+export default async function NewProductPage() {
+  const categories = await getCategories();
   return (
     <div>
       <AdminListHeader title="Add Product" description="Create a new product in the catalogue." />

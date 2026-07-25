@@ -4,8 +4,8 @@ import { getFeaturedServices } from "@/lib/data/services";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { ServiceCard } from "@/components/services/service-card";
 
-export function InstallationServices() {
-  const services = getFeaturedServices();
+export async function InstallationServices() {
+  const services = await getFeaturedServices();
   return (
     <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-end justify-between gap-4">

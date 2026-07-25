@@ -8,8 +8,8 @@ import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@
 
 export const dynamic = "force-dynamic";
 
-export default function AdminCategoriesPage() {
-  const categories = getCategories();
+export default async function AdminCategoriesPage() {
+  const categories = await getCategories();
 
   return (
     <div>

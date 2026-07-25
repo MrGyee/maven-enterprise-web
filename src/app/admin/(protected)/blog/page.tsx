@@ -10,8 +10,8 @@ import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@
 
 export const dynamic = "force-dynamic";
 
-export default function AdminBlogPage() {
-  const posts = [...getBlogPosts()].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+export default async function AdminBlogPage() {
+  const posts = [...(await getBlogPosts())].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
   return (
     <div>

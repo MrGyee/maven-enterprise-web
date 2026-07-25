@@ -1,22 +1,22 @@
 import { businessInfoStore } from "@/lib/store/business-info.store";
-import type { BusinessInfo } from "@/lib/data/types";
 import { buildWhatsappLink } from "@/lib/whatsapp";
 
 export { defaultWhatsappMessage } from "@/lib/whatsapp";
 
-// Server-only: reads the current business info from the JSON store. Do not
+// Server-only: reads the current business info from Supabase. Do not
 // import this from a "use client" file — see src/lib/whatsapp.ts for the
 // client-safe helpers, and thread the fields you need down as props instead.
-export function getBusinessInfo(): BusinessInfo {
+export async function getBusinessInfo() {
   return businessInfoStore.get();
 }
 
-export function whatsappLink(message: string) {
-  return buildWhatsappLink(getBusinessInfo().whatsappNumber, message);
+export async function whatsappLink(message: string) {
+  const businessInfo = await getBusinessInfo();
+  return buildWhatsappLink(businessInfo.whatsappNumber, message);
 }
 
-export function getLocalBusinessJsonLd() {
-  const businessInfo = getBusinessInfo();
+export async function getLocalBusinessJsonLd() {
+  const businessInfo = await getBusinessInfo();
   return {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",

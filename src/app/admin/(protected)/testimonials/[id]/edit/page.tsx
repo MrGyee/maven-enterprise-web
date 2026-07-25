@@ -11,7 +11,7 @@ export default async function EditTestimonialPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const testimonial = getTestimonialById(id);
+  const testimonial = await getTestimonialById(id);
   if (!testimonial) notFound();
 
   return (

@@ -22,7 +22,7 @@ export async function generateMetadata({
   params: Promise<{ category: string; slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = await getProductBySlug(slug);
   if (!product) return {};
   return {
     title: `${product.name} | Buy in Kenya`,
@@ -46,13 +46,13 @@ export default async function ProductDetailPage({
   params: Promise<{ category: string; slug: string }>;
 }) {
   const { category: categorySlug, slug } = await params;
-  const product = getProductBySlug(slug);
-  const category = getCategoryBySlug(categorySlug);
+  const product = await getProductBySlug(slug);
+  const category = await getCategoryBySlug(categorySlug);
   if (!product || !category || product.categorySlug !== categorySlug) notFound();
 
-  const subcategory = getSubcategory(product.categorySlug, product.subcategorySlug);
-  const related = getRelatedProducts(product);
-  const businessInfo = getBusinessInfo();
+  const subcategory = await getSubcategory(product.categorySlug, product.subcategorySlug);
+  const related = await getRelatedProducts(product);
+  const businessInfo = await getBusinessInfo();
 
   const jsonLd = {
     "@context": "https://schema.org",

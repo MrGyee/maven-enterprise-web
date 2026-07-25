@@ -18,7 +18,14 @@ export const metadata: Metadata = {
 
 export default async function AdminDashboardPage() {
   const session = await verifySession();
-  const leads = leadsStore.getAll();
+  const [leads, products, categories, services, projects, blogPosts] = await Promise.all([
+    leadsStore.getAll(),
+    getProducts(),
+    getCategories(),
+    getServices(),
+    getProjects(),
+    getBlogPosts(),
+  ]);
   const totalLeads =
     leads.quoteRequests.length +
     leads.contactMessages.length +
@@ -27,11 +34,11 @@ export default async function AdminDashboardPage() {
     leads.supplierRegistrations.length;
 
   const stats = [
-    { label: "Products", value: getProducts().length, href: "/admin/products", icon: Package },
-    { label: "Categories", value: getCategories().length, href: "/admin/categories", icon: FolderTree },
-    { label: "Services", value: getServices().length, href: "/admin/services", icon: Wrench },
-    { label: "Projects", value: getProjects().length, href: "/admin/projects", icon: Briefcase },
-    { label: "Blog Posts", value: getBlogPosts().length, href: "/admin/blog", icon: Newspaper },
+    { label: "Products", value: products.length, href: "/admin/products", icon: Package },
+    { label: "Categories", value: categories.length, href: "/admin/categories", icon: FolderTree },
+    { label: "Services", value: services.length, href: "/admin/services", icon: Wrench },
+    { label: "Projects", value: projects.length, href: "/admin/projects", icon: Briefcase },
+    { label: "Blog Posts", value: blogPosts.length, href: "/admin/blog", icon: Newspaper },
     { label: "New Leads", value: totalLeads, href: "/admin/leads", icon: Inbox },
   ];
 

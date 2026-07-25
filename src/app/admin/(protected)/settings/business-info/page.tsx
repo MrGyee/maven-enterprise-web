@@ -4,8 +4,8 @@ import { BusinessInfoForm } from "@/components/admin/settings/business-info-form
 
 export const dynamic = "force-dynamic";
 
-export default function AdminBusinessInfoPage() {
-  const businessInfo = getBusinessInfo();
+export default async function AdminBusinessInfoPage() {
+  const businessInfo = await getBusinessInfo();
 
   return (
     <div>

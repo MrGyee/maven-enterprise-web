@@ -1,8 +1,8 @@
 import { getBrands } from "@/lib/data/brands";
 import { SectionHeading } from "@/components/shared/section-heading";
 
-export function BrandsStrip() {
-  const brands = getBrands();
+export async function BrandsStrip() {
+  const brands = await getBrands();
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <SectionHeading eyebrow="Our Partners" title="Brands We Stock" align="center" />

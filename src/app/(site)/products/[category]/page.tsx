@@ -14,7 +14,7 @@ export async function generateMetadata({
   params: Promise<{ category: string }>;
 }): Promise<Metadata> {
   const { category: categorySlug } = await params;
-  const category = getCategoryBySlug(categorySlug);
+  const category = await getCategoryBySlug(categorySlug);
   if (!category) return {};
   return {
     title: `${category.name} Kenya | Supply & Installation`,
@@ -29,10 +29,10 @@ export default async function CategoryPage({
   params: Promise<{ category: string }>;
 }) {
   const { category: categorySlug } = await params;
-  const category = getCategoryBySlug(categorySlug);
+  const category = await getCategoryBySlug(categorySlug);
   if (!category) notFound();
 
-  const products = getProductsByCategory(category.slug);
+  const products = await getProductsByCategory(category.slug);
 
   return (
     <div className="pb-20">

@@ -1,13 +1,13 @@
 import { servicesStore } from "@/lib/store/services.store";
 
-export function getServices() {
+export async function getServices() {
   return servicesStore.getAll();
 }
 
-export function getFeaturedServices() {
-  return getServices().filter((s) => s.featured);
+export async function getFeaturedServices() {
+  return (await getServices()).filter((s) => s.featured);
 }
 
-export function getServiceBySlug(slug: string) {
+export async function getServiceBySlug(slug: string) {
   return servicesStore.getByKey(slug);
 }

@@ -9,8 +9,8 @@ import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@
 
 export const dynamic = "force-dynamic";
 
-export default function AdminTestimonialsPage() {
-  const testimonials = getTestimonials();
+export default async function AdminTestimonialsPage() {
+  const testimonials = await getTestimonials();
 
   return (
     <div>

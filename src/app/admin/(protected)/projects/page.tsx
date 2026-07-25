@@ -10,8 +10,8 @@ import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@
 
 export const dynamic = "force-dynamic";
 
-export default function AdminProjectsPage() {
-  const projects = getProjects();
+export default async function AdminProjectsPage() {
+  const projects = await getProjects();
 
   return (
     <div>

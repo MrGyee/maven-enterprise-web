@@ -4,8 +4,8 @@ import { ArrowRight } from "lucide-react";
 import { getCategories } from "@/lib/data/categories";
 import { SectionHeading } from "@/components/shared/section-heading";
 
-export function FeaturedCategories() {
-  const categories = getCategories();
+export async function FeaturedCategories() {
+  const categories = await getCategories();
   return (
     <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-end justify-between gap-4">

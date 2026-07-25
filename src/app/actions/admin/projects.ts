@@ -24,10 +24,10 @@ export async function createProject(values: ProjectAdminValues): Promise<ActionR
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  if (projectsStore.getByKey(parsed.data.slug)) {
+  if (await projectsStore.getByKey(parsed.data.slug)) {
     return { success: false, error: "A project with this slug already exists." };
   }
-  projectsStore.create(parsed.data);
+  await projectsStore.create(parsed.data);
   revalidateProjectPaths(parsed.data);
   return { success: true };
 }
@@ -41,15 +41,15 @@ export async function updateProject(
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  const existing = projectsStore.getByKey(originalSlug);
+  const existing = await projectsStore.getByKey(originalSlug);
   if (!existing) {
     return { success: false, error: "Project not found." };
   }
-  if (parsed.data.slug !== originalSlug && projectsStore.getByKey(parsed.data.slug)) {
+  if (parsed.data.slug !== originalSlug && (await projectsStore.getByKey(parsed.data.slug))) {
     return { success: false, error: "A project with this slug already exists." };
   }
-  projectsStore.remove(originalSlug);
-  projectsStore.create(parsed.data);
+  await projectsStore.remove(originalSlug);
+  await projectsStore.create(parsed.data);
   revalidateProjectPaths(existing);
   revalidateProjectPaths(parsed.data);
   return { success: true };
@@ -57,11 +57,11 @@ export async function updateProject(
 
 export async function deleteProject(slug: string): Promise<ActionResult> {
   await requireAdmin();
-  const existing = projectsStore.getByKey(slug);
+  const existing = await projectsStore.getByKey(slug);
   if (!existing) {
     return { success: false, error: "Project not found." };
   }
-  projectsStore.remove(slug);
+  await projectsStore.remove(slug);
   revalidateProjectPaths(existing);
   return { success: true };
 }

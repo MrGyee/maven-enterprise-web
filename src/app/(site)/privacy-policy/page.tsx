@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
-export default function PrivacyPolicyPage() {
-  const businessInfo = getBusinessInfo();
+export default async function PrivacyPolicyPage() {
+  const businessInfo = await getBusinessInfo();
   const lastUpdated = new Date().toLocaleDateString("en-KE", { year: "numeric", month: "long", day: "numeric" });
 
   return (

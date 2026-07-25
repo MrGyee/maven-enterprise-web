@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
 };
 
-export default function ContactPage() {
-  const businessInfo = getBusinessInfo();
+export default async function ContactPage() {
+  const businessInfo = await getBusinessInfo();
   return (
     <div className="pb-8">
       <Breadcrumbs items={[{ label: "Contact", href: "/contact" }]} />

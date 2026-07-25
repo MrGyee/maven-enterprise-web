@@ -4,7 +4,8 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { whatsappLink, defaultWhatsappMessage } from "@/lib/data/business-info";
 
-export function CtaBanner() {
+export async function CtaBanner() {
+  const whatsappHref = await whatsappLink(defaultWhatsappMessage);
   return (
     <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
       <div className="relative overflow-hidden rounded-3xl bg-primary px-8 py-16 text-center sm:px-16">
@@ -27,7 +28,7 @@ export function CtaBanner() {
               <ArrowRight className="size-4" />
             </Link>
             <a
-              href={whatsappLink(defaultWhatsappMessage)}
+              href={whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
               className={cn(buttonVariants({ variant: "outline", size: "lg" }), "h-11 border-white/40 bg-transparent px-6 text-base text-primary-foreground hover:bg-white/10 hover:text-primary-foreground")}

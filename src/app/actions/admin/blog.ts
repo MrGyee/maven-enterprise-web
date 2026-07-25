@@ -24,10 +24,10 @@ export async function createBlogPost(values: BlogPostAdminValues): Promise<Actio
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  if (blogStore.getByKey(parsed.data.slug)) {
+  if (await blogStore.getByKey(parsed.data.slug)) {
     return { success: false, error: "A blog post with this slug already exists." };
   }
-  blogStore.create(parsed.data);
+  await blogStore.create(parsed.data);
   revalidateBlogPaths(parsed.data);
   return { success: true };
 }
@@ -41,15 +41,15 @@ export async function updateBlogPost(
   if (!parsed.success) {
     return { success: false, error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
-  const existing = blogStore.getByKey(originalSlug);
+  const existing = await blogStore.getByKey(originalSlug);
   if (!existing) {
     return { success: false, error: "Blog post not found." };
   }
-  if (parsed.data.slug !== originalSlug && blogStore.getByKey(parsed.data.slug)) {
+  if (parsed.data.slug !== originalSlug && (await blogStore.getByKey(parsed.data.slug))) {
     return { success: false, error: "A blog post with this slug already exists." };
   }
-  blogStore.remove(originalSlug);
-  blogStore.create(parsed.data);
+  await blogStore.remove(originalSlug);
+  await blogStore.create(parsed.data);
   revalidateBlogPaths(existing);
   revalidateBlogPaths(parsed.data);
   return { success: true };
@@ -57,11 +57,11 @@ export async function updateBlogPost(
 
 export async function deleteBlogPost(slug: string): Promise<ActionResult> {
   await requireAdmin();
-  const existing = blogStore.getByKey(slug);
+  const existing = await blogStore.getByKey(slug);
   if (!existing) {
     return { success: false, error: "Blog post not found." };
   }
-  blogStore.remove(slug);
+  await blogStore.remove(slug);
   revalidateBlogPaths(existing);
   return { success: true };
 }

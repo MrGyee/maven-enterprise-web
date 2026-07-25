@@ -16,9 +16,9 @@ const quickLinks = [
   { href: "/quote", label: "Request Quotation" },
 ];
 
-export function Footer() {
-  const businessInfo = getBusinessInfo();
-  const categories = getCategories();
+export async function Footer() {
+  const businessInfo = await getBusinessInfo();
+  const categories = await getCategories();
   const socialLinks = [
     { href: businessInfo.socials.facebook, icon: FacebookIcon, label: "Facebook" },
     { href: businessInfo.socials.instagram, icon: InstagramIcon, label: "Instagram" },

@@ -2,8 +2,8 @@ import { getFaqs } from "@/lib/data/faqs";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { FaqAccordion } from "@/components/shared/faq-accordion";
 
-export function FaqSection() {
-  const faqs = getFaqs().slice(0, 8);
+export async function FaqSection() {
+  const faqs = (await getFaqs()).slice(0, 8);
   return (
     <section className="bg-secondary/40 py-20">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
