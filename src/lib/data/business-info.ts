@@ -23,7 +23,7 @@ export function getLocalBusinessJsonLd() {
     name: businessInfo.legalName,
     description:
       "Supplier, distributor and installer of interior finishing products across Kenya, including décor, sanitary ware, kitchen fittings, flooring, lighting and plumbing supplies.",
-    image: "https://www.mavenenterprise.co.ke/og-image.jpg",
+    image: "https://www.mavenenterprise.co.ke/opengraph-image",
     telephone: businessInfo.phones[0],
     email: businessInfo.email,
     address: {
