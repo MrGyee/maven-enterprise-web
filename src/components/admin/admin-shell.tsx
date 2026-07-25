@@ -2,6 +2,7 @@
 
 import { useState, type ReactNode } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
@@ -15,9 +16,13 @@ export function AdminShell({ email, children }: { email: string; children: React
     <div className="flex min-h-screen bg-secondary/30">
       <aside className="hidden w-64 shrink-0 border-r border-border bg-background lg:block">
         <div className="flex h-16 items-center gap-2 border-b border-border px-4">
-          <span className="flex size-8 items-center justify-center rounded-lg bg-primary font-heading text-sm font-semibold text-primary-foreground">
-            M
-          </span>
+          <Image
+            src="/brand-icon-master.png"
+            alt="Maven Enterprise Ltd"
+            width={32}
+            height={32}
+            className="size-8 rounded-lg"
+          />
           <span className="font-heading text-sm font-semibold text-foreground">Maven Admin</span>
         </div>
         <AdminSidebar />

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -32,9 +33,14 @@ export function Header() {
     <header className="sticky top-0 z-30 border-b border-border/70 bg-background/80 backdrop-blur-md supports-backdrop-filter:bg-background/60">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <span className="flex size-9 items-center justify-center rounded-lg bg-primary font-heading text-lg font-semibold text-primary-foreground">
-            M
-          </span>
+          <Image
+            src="/brand-icon-master.png"
+            alt="Maven Enterprise Ltd"
+            width={36}
+            height={36}
+            className="size-9 rounded-lg"
+            priority
+          />
           <span className="font-heading text-lg font-semibold tracking-tight text-foreground">
             Maven Enterprise
           </span>

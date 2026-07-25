@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { LoginForm } from "@/components/admin/login-form";
 
 export const metadata: Metadata = {
@@ -17,9 +18,14 @@ export default async function AdminLoginPage({
     <div className="flex min-h-screen items-center justify-center bg-secondary/40 px-4">
       <div className="w-full max-w-sm rounded-2xl border border-border bg-card p-8 shadow-sm">
         <div className="mb-6 text-center">
-          <span className="mx-auto flex size-11 items-center justify-center rounded-lg bg-primary font-heading text-lg font-semibold text-primary-foreground">
-            M
-          </span>
+          <Image
+            src="/brand-icon-master.png"
+            alt="Maven Enterprise Ltd"
+            width={44}
+            height={44}
+            className="mx-auto size-11 rounded-lg"
+            priority
+          />
           <h1 className="mt-4 font-heading text-xl font-semibold text-foreground">
             Maven Enterprise Admin
           </h1>

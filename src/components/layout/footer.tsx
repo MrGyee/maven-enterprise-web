@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { getBusinessInfo } from "@/lib/data/business-info";
 import { getCategories } from "@/lib/data/categories";
@@ -32,9 +33,13 @@ export async function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-1">
           <Link href="/" className="flex items-center gap-2">
-            <span className="flex size-9 items-center justify-center rounded-lg bg-primary font-heading text-lg font-semibold text-primary-foreground">
-              M
-            </span>
+            <Image
+              src="/brand-icon-master.png"
+              alt="Maven Enterprise Ltd"
+              width={36}
+              height={36}
+              className="size-9 rounded-lg"
+            />
             <span className="font-heading text-lg font-semibold text-foreground">
               Maven Enterprise
             </span>
