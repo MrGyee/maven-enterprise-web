@@ -125,3 +125,43 @@ export const blogPostAdminSchema = z.object({
   status: z.enum(["draft", "published"]),
 });
 export type BlogPostAdminValues = z.infer<typeof blogPostAdminSchema>;
+
+export const heroBannerAdminSchema = z.object({
+  id: z.string().trim().min(1),
+  url: z.string().trim().min(1, "Image is required"),
+  alt: z.string().trim().min(1, "Alt text is required"),
+  sortOrder: z.number(),
+});
+export const heroBannersAdminSchema = z.array(heroBannerAdminSchema);
+export type HeroBannerAdminValues = z.infer<typeof heroBannerAdminSchema>;
+
+export const businessInfoAdminSchema = z.object({
+  legalName: z.string().trim().min(1, "Legal name is required"),
+  tagline: z.string().trim().min(1, "Tagline is required"),
+  phones: z.array(z.string().trim().min(1)).min(1, "Add at least one phone number"),
+  whatsappNumber: z
+    .string()
+    .trim()
+    .regex(/^\d+$/, "Digits only, no + or spaces (e.g. 254700123456)"),
+  email: z.string().trim().email("Enter a valid email address"),
+  address: z.object({
+    street: z.string().trim().min(1, "Street is required"),
+    area: z.string().trim().min(1, "Area is required"),
+    city: z.string().trim().min(1, "City is required"),
+    country: z.string().trim().min(1, "Country is required"),
+  }),
+  hours: z.array(
+    z.object({ days: z.string().trim().min(1), time: z.string().trim().min(1) })
+  ),
+  socials: z.object({
+    facebook: z.string().trim(),
+    instagram: z.string().trim(),
+    twitter: z.string().trim(),
+    linkedin: z.string().trim(),
+    tiktok: z.string().trim(),
+  }),
+  mapEmbedUrl: z.string().trim(),
+  coordinates: z.object({ lat: z.number(), lng: z.number() }),
+  serviceAreas: z.array(z.string().trim().min(1)),
+});
+export type BusinessInfoAdminValues = z.infer<typeof businessInfoAdminSchema>;
