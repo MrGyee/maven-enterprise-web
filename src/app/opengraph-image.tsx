@@ -21,7 +21,7 @@ export default function OpengraphImage() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          background: "linear-gradient(135deg, #0F7B48 0%, #0b5c36 100%)",
+          background: "linear-gradient(135deg, #1B211D 0%, #2B1608 100%)",
           color: "#ffffff",
           fontFamily: "sans-serif",
           position: "relative",
@@ -38,7 +38,7 @@ export default function OpengraphImage() {
         <div style={{ display: "flex", fontSize: 64, fontWeight: 700, letterSpacing: -1 }}>
           Maven Enterprise Ltd
         </div>
-        <div style={{ display: "flex", fontSize: 30, marginTop: 16, color: "#C9A227" }}>
+        <div style={{ display: "flex", fontSize: 30, marginTop: 16, color: "#FF8A50" }}>
           Trusted Interior Solutions Partner in Kenya
         </div>
       </div>
