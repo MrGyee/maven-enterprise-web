@@ -4,7 +4,7 @@ import { SectionHeading } from "@/components/shared/section-heading";
 export async function GoogleMapSection() {
   const businessInfo = await getBusinessInfo();
   return (
-    <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+    <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
       <SectionHeading
         eyebrow="Find Us"
         title="Visit Our Showroom"

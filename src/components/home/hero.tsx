@@ -28,7 +28,7 @@ export function Hero({
   }, [heroImages.length]);
 
   return (
-    <section className="relative flex min-h-[88vh] items-center overflow-hidden bg-foreground">
+    <section className="relative flex min-h-[70vh] items-center overflow-hidden bg-foreground">
       <div className="absolute inset-0">
         <AnimatePresence initial={false}>
           <motion.div
@@ -52,7 +52,7 @@ export function Hero({
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" />
       </div>
 
-      <div className="relative mx-auto max-w-4xl px-4 py-32 text-center sm:px-6 lg:px-8">
+      <div className="relative mx-auto max-w-4xl px-4 py-24 text-center sm:px-6 lg:px-8">
         <motion.span
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}

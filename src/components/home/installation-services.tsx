@@ -7,7 +7,7 @@ import { ServiceCard } from "@/components/services/service-card";
 export async function InstallationServices() {
   const services = await getFeaturedServices();
   return (
-    <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+    <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <SectionHeading
           eyebrow="What We Do"

@@ -41,7 +41,7 @@ export default async function ServiceDetailPage({
   const businessInfo = await getBusinessInfo();
 
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: service.name, href: `/services/${service.slug}` }]} />
 
       <div className="relative mx-4 overflow-hidden rounded-3xl sm:mx-6 lg:mx-8">
@@ -123,7 +123,7 @@ export default async function ServiceDetailPage({
       </div>
 
       {otherServices.length > 0 && (
-        <div className="mx-auto mt-16 max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-2xl font-semibold text-foreground">Other Services</h2>
           <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {otherServices.map((s) => (

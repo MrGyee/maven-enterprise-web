@@ -7,7 +7,7 @@ import { ProductCard } from "@/components/products/product-card";
 export async function FeaturedProducts() {
   const products = (await getFeaturedProducts()).slice(0, 8);
   return (
-    <section className="bg-secondary/40 py-20">
+    <section className="bg-secondary/40 py-14">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <SectionHeading

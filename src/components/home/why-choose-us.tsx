@@ -20,7 +20,7 @@ const stats = [
 
 export function WhyChooseUs() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+    <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
       <SectionHeading
         eyebrow="Why Maven Enterprise"
         title="Why Choose Maven Enterprise Ltd"
@@ -41,7 +41,7 @@ export function WhyChooseUs() {
         ))}
       </div>
 
-      <div className="mt-16 grid grid-cols-2 gap-6 rounded-3xl bg-secondary/70 p-8 sm:grid-cols-4 sm:p-10">
+      <div className="mt-12 grid grid-cols-2 gap-6 rounded-3xl bg-secondary/70 p-8 sm:grid-cols-4 sm:p-10">
         {stats.map((stat) => (
           <AnimatedCounter key={stat.label} {...stat} />
         ))}

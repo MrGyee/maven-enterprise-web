@@ -17,7 +17,7 @@ export default async function BlogIndexPage() {
   const posts = [...(await getPublishedBlogPosts())].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <Breadcrumbs items={[{ label: "Blog", href: "/blog" }]} />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading

@@ -76,7 +76,7 @@ export default async function ProductDetailPage({
   };
 
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <JsonLd data={jsonLd} />
       <Breadcrumbs
         items={[
@@ -166,7 +166,7 @@ export default async function ProductDetailPage({
       </div>
 
       {related.length > 0 && (
-        <div className="mx-auto mt-16 max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-2xl font-semibold text-foreground">Related Products</h2>
           <div className="mt-6 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
             {related.map((p) => (

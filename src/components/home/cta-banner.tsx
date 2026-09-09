@@ -7,8 +7,8 @@ import { whatsappLink, defaultWhatsappMessage } from "@/lib/data/business-info";
 export async function CtaBanner() {
   const whatsappHref = await whatsappLink(defaultWhatsappMessage);
   return (
-    <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
-      <div className="relative overflow-hidden rounded-3xl bg-primary px-8 py-16 text-center sm:px-16">
+    <section className="mx-auto max-w-7xl px-4 pb-14 sm:px-6 lg:px-8">
+      <div className="relative overflow-hidden rounded-3xl bg-primary px-8 py-12 text-center sm:px-16">
         <div className="pointer-events-none absolute -right-16 -top-16 size-64 rounded-full bg-white/10" />
         <div className="pointer-events-none absolute -bottom-20 -left-10 size-72 rounded-full bg-black/10" />
         <div className="relative">

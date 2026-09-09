@@ -17,7 +17,7 @@ export default async function PrivacyPolicyPage() {
   const lastUpdated = new Date().toLocaleDateString("en-KE", { year: "numeric", month: "long", day: "numeric" });
 
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <Breadcrumbs items={[{ label: "Privacy Policy", href: "/privacy-policy" }]} />
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <div className="flex gap-3 rounded-2xl border border-gold/40 bg-gold/10 p-4 text-sm text-foreground">

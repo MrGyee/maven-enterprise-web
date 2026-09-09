@@ -47,7 +47,7 @@ export default async function ProjectDetailPage({
   const businessInfo = await getBusinessInfo();
 
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <Breadcrumbs items={[{ label: "Projects", href: "/projects" }, { label: project.title, href: `/projects/${project.slug}` }]} />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

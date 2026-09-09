@@ -35,7 +35,7 @@ export default async function CategoryPage({
   const products = await getProductsByCategory(category.slug);
 
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <Breadcrumbs items={[{ label: "Products", href: "/products" }, { label: category.name, href: `/products/${category.slug}` }]} />
 
       <div className="relative mx-4 overflow-hidden rounded-3xl sm:mx-6 lg:mx-8">

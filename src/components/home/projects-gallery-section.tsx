@@ -7,7 +7,7 @@ import { ProjectCard } from "@/components/projects/project-card";
 export async function ProjectsGallerySection() {
   const projects = await getFeaturedProjects();
   return (
-    <section className="bg-secondary/40 py-20">
+    <section className="bg-secondary/40 py-14">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <SectionHeading

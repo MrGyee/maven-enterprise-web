@@ -5,7 +5,7 @@ import { FaqAccordion } from "@/components/shared/faq-accordion";
 export async function FaqSection() {
   const faqs = (await getFaqs()).slice(0, 8);
   return (
-    <section className="bg-secondary/40 py-20">
+    <section className="bg-secondary/40 py-14">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="FAQs"

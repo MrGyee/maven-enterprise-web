@@ -29,8 +29,8 @@ export async function Footer() {
   ];
 
   return (
-    <footer className="border-t border-border bg-secondary/60 pb-20 md:pb-0">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-4 lg:px-8">
+    <footer className="border-t border-border bg-secondary/60 pb-16 md:pb-0">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-1">
           <Link href="/" className="flex items-center gap-2">
             <Image

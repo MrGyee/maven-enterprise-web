@@ -25,7 +25,7 @@ const perks = [
 export default async function QuotePage() {
   const businessInfo = await getBusinessInfo();
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <Breadcrumbs items={[{ label: "Request Quotation", href: "/quote" }]} />
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <SectionHeading

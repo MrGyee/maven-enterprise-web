@@ -32,7 +32,7 @@ export default async function ContactPage() {
           description="Have a question about our products or services? Reach out via phone, WhatsApp, or the form below and our team will respond promptly."
         />
 
-        <div className="mt-10 grid gap-10 lg:grid-cols-5">
+        <div className="mt-8 grid gap-10 lg:grid-cols-5">
           <div className="space-y-6 lg:col-span-2">
             <div className="rounded-2xl border border-border bg-card p-6">
               <ul className="space-y-4 text-sm">

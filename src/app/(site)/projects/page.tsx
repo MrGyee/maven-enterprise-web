@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default async function ProjectsPage() {
   const projects = await getProjects();
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <Breadcrumbs items={[{ label: "Projects", href: "/projects" }]} />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading

@@ -35,7 +35,7 @@ export default async function AboutPage() {
   const team = await getTeam();
   const brands = await getBrands();
   return (
-    <div className="pb-20">
+    <div className="pb-14">
       <Breadcrumbs items={[{ label: "About Us", href: "/about" }]} />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -68,7 +68,7 @@ export default async function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-20 grid gap-6 sm:grid-cols-2">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2">
           <div className="rounded-2xl border border-border bg-card p-8">
             <Target className="size-8 text-primary" />
             <h2 className="mt-4 font-heading text-xl font-semibold text-foreground">Our Mission</h2>
@@ -89,7 +89,7 @@ export default async function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-20">
+        <div className="mt-14">
           <SectionHeading eyebrow="What Drives Us" title="Our Core Values" align="center" />
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {coreValues.map((value) => (
@@ -101,7 +101,7 @@ export default async function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-20">
+        <div className="mt-14">
           <SectionHeading eyebrow="Confidence" title="Why Clients Trust Us" align="center" />
           <div className="mt-10 grid gap-6 sm:grid-cols-3">
             {trustPoints.map(({ icon: Icon, title, description }) => (
@@ -116,7 +116,7 @@ export default async function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-20">
+        <div className="mt-14">
           <SectionHeading eyebrow="Our People" title="Meet the Team" align="center" />
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {team.map((member) => (
@@ -132,7 +132,7 @@ export default async function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-20 grid gap-10 sm:grid-cols-2">
+        <div className="mt-14 grid gap-10 sm:grid-cols-2">
           <div>
             <SectionHeading eyebrow="Recognised" title="Certifications" />
             <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
@@ -154,7 +154,7 @@ export default async function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-20 flex flex-col items-center gap-4 rounded-3xl bg-primary px-8 py-14 text-center">
+        <div className="mt-14 flex flex-col items-center gap-4 rounded-3xl bg-primary px-8 py-10 text-center">
           <h2 className="font-heading text-2xl font-semibold text-primary-foreground sm:text-3xl">
             Let&apos;s Work on Your Next Project
           </h2>
