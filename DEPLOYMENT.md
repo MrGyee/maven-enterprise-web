@@ -53,6 +53,12 @@ Set these in your hosting platform's dashboard (never commit them):
 | `CLOUDINARY_CLOUD_NAME` | Yes | Cloudinary dashboard home page. |
 | `CLOUDINARY_API_KEY` | Yes | Cloudinary dashboard home page. |
 | `CLOUDINARY_API_SECRET` | Yes | Cloudinary dashboard home page — keep secret. |
+| `NEXT_PUBLIC_GA_MEASUREMENT_ID` | No | Google Analytics 4 Measurement ID (`G-...`). Leave unset to ship with no GA tracking. |
+| `NEXT_PUBLIC_META_PIXEL_ID` | No | Meta Pixel ID. Leave unset to ship with no Meta tracking. |
+
+The two analytics vars are `NEXT_PUBLIC_`, so they're baked into the client
+bundle at build time — changing either one requires a rebuild/redeploy, not
+just an env var update. See `src/components/shared/analytics.tsx`.
 
 `.env.local.example` in the repo root always reflects the current full set.
 

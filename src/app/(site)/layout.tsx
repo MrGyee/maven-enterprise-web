@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/footer";
 import { WhatsAppFloatButton } from "@/components/layout/whatsapp-float-button";
 import { StickyMobileCta } from "@/components/layout/sticky-mobile-cta";
 import { JsonLd } from "@/components/shared/json-ld";
+import { Analytics } from "@/components/shared/analytics";
 import { getBusinessInfo, getLocalBusinessJsonLd } from "@/lib/data/business-info";
 
 export default async function SiteLayout({ children }: { children: React.ReactNode }) {
@@ -12,6 +13,7 @@ export default async function SiteLayout({ children }: { children: React.ReactNo
   return (
     <>
       <JsonLd data={localBusinessJsonLd} />
+      <Analytics />
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
