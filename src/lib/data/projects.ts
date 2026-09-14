@@ -1,8 +1,9 @@
+import { cache } from "react";
 import { projectsStore } from "@/lib/store/projects.store";
 
-export async function getProjects() {
+export const getProjects = cache(async () => {
   return projectsStore.getAll();
-}
+});
 
 export async function getFeaturedProjects() {
   return (await getProjects()).filter((p) => p.featured);
@@ -14,6 +15,6 @@ export async function getProjectsByCategory(category: string) {
   return all.filter((p) => p.category === category);
 }
 
-export async function getProjectBySlug(slug: string) {
+export const getProjectBySlug = cache(async (slug: string) => {
   return projectsStore.getByKey(slug);
-}
+});

@@ -26,9 +26,12 @@ export const metadata: Metadata = {
 };
 
 export default async function Home() {
-  const businessInfo = await getBusinessInfo();
-  const heroBanners = [...(await heroBannersStore.getAll())].sort((a, b) => a.sortOrder - b.sortOrder);
-  const testimonials = await getTestimonials();
+  const [businessInfo, heroBannersRaw, testimonials] = await Promise.all([
+    getBusinessInfo(),
+    heroBannersStore.getAll(),
+    getTestimonials(),
+  ]);
+  const heroBanners = [...heroBannersRaw].sort((a, b) => a.sortOrder - b.sortOrder);
 
   return (
     <>

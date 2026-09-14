@@ -1,17 +1,18 @@
+import { cache } from "react";
 import { productsStore } from "@/lib/store/products.store";
 import type { Product } from "@/lib/data/types";
 
-export async function getProducts() {
+export const getProducts = cache(async () => {
   return productsStore.getAll();
-}
+});
 
 export async function getFeaturedProducts() {
   return (await getProducts()).filter((p) => p.featured);
 }
 
-export async function getProductBySlug(slug: string) {
+export const getProductBySlug = cache(async (slug: string) => {
   return productsStore.getByKey(slug);
-}
+});
 
 export async function getProductsByCategory(categorySlug: string) {
   return (await getProducts()).filter((p) => p.categorySlug === categorySlug);

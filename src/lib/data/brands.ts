@@ -1,9 +1,10 @@
+import { cache } from "react";
 import { brandsStore } from "@/lib/store/brands.store";
 
-export async function getBrands() {
+export const getBrands = cache(async () => {
   return brandsStore.getAll();
-}
+});
 
-export async function getBrandBySlug(slug: string) {
+export const getBrandBySlug = cache(async (slug: string) => {
   return brandsStore.getByKey(slug);
-}
+});

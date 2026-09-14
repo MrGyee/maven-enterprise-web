@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { businessInfoStore } from "@/lib/store/business-info.store";
 import { buildWhatsappLink } from "@/lib/whatsapp";
 
@@ -6,9 +7,12 @@ export { defaultWhatsappMessage } from "@/lib/whatsapp";
 // Server-only: reads the current business info from Supabase. Do not
 // import this from a "use client" file — see src/lib/whatsapp.ts for the
 // client-safe helpers, and thread the fields you need down as props instead.
-export async function getBusinessInfo() {
+// cache()'d because layout, footer, and several homepage sections each call
+// this independently — without it, one page load fires off 5+ identical
+// Supabase queries instead of 1.
+export const getBusinessInfo = cache(async () => {
   return businessInfoStore.get();
-}
+});
 
 export async function whatsappLink(message: string) {
   const businessInfo = await getBusinessInfo();

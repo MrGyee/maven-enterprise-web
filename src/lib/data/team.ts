@@ -1,9 +1,10 @@
+import { cache } from "react";
 import { teamStore } from "@/lib/store/team.store";
 
-export async function getTeam() {
+export const getTeam = cache(async () => {
   return teamStore.getAll();
-}
+});
 
-export async function getTeamMemberById(id: string) {
+export const getTeamMemberById = cache(async (id: string) => {
   return teamStore.getByKey(id);
-}
+});

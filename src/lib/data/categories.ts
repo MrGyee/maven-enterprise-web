@@ -1,12 +1,13 @@
+import { cache } from "react";
 import { categoriesStore } from "@/lib/store/categories.store";
 
-export async function getCategories() {
+export const getCategories = cache(async () => {
   return categoriesStore.getAll();
-}
+});
 
-export async function getCategoryBySlug(slug: string) {
+export const getCategoryBySlug = cache(async (slug: string) => {
   return categoriesStore.getByKey(slug);
-}
+});
 
 export async function getSubcategory(categorySlug: string, subcategorySlug: string) {
   const category = await getCategoryBySlug(categorySlug);

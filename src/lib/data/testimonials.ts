@@ -1,9 +1,10 @@
+import { cache } from "react";
 import { testimonialsStore } from "@/lib/store/testimonials.store";
 
-export async function getTestimonials() {
+export const getTestimonials = cache(async () => {
   return testimonialsStore.getAll();
-}
+});
 
-export async function getTestimonialById(id: string) {
+export const getTestimonialById = cache(async (id: string) => {
   return testimonialsStore.getByKey(id);
-}
+});

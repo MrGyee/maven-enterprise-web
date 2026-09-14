@@ -1,9 +1,10 @@
+import { cache } from "react";
 import { faqsStore } from "@/lib/store/faqs.store";
 
-export async function getFaqs() {
+export const getFaqs = cache(async () => {
   return faqsStore.getAll();
-}
+});
 
-export async function getFaqById(id: string) {
+export const getFaqById = cache(async (id: string) => {
   return faqsStore.getByKey(id);
-}
+});
