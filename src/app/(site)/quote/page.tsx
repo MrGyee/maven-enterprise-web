@@ -46,7 +46,7 @@ export default async function QuotePage() {
 
         <div className="mt-10 rounded-2xl border border-border bg-card p-6 sm:p-8">
           <Suspense>
-            <QuoteForm whatsappNumber={businessInfo.whatsappNumber} />
+            <QuoteForm whatsappNumber={businessInfo.whatsappNumber} redirectOnSuccess />
           </Suspense>
           <p className="mt-6 text-center text-sm text-muted-foreground">
             Prefer to chat directly?{" "}

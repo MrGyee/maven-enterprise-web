@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { toast } from "sonner";
 import { quoteFormSchema, type QuoteFormValues } from "@/lib/validation/forms";
 import { submitQuoteRequest } from "@/app/actions/leads";
@@ -16,10 +16,17 @@ import { Button } from "@/components/ui/button";
 export function QuoteForm({
   whatsappNumber,
   onSuccess,
+  redirectOnSuccess = false,
 }: {
   whatsappNumber: string;
   onSuccess?: () => void;
+  // Redirect to /thank-you instead of showing an inline success state — use
+  // this on the standalone /quote page, not inside the quick-quote popup
+  // (which just closes itself and leaves the visitor on the page they were
+  // browsing).
+  redirectOnSuccess?: boolean;
 }) {
+  const router = useRouter();
   const searchParams = useSearchParams();
   const prefill = searchParams.get("product") ?? searchParams.get("service") ?? "";
   const [success, setSuccess] = useState(false);
@@ -37,6 +44,10 @@ export function QuoteForm({
   async function onSubmit(values: QuoteFormValues) {
     const result = await submitQuoteRequest(values);
     if (result.success) {
+      if (redirectOnSuccess) {
+        router.push("/thank-you");
+        return;
+      }
       setSuccess(true);
       onSuccess?.();
     } else {
