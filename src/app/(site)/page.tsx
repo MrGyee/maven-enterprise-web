@@ -4,6 +4,7 @@ import { WhyChooseUs } from "@/components/home/why-choose-us";
 import { FeaturedCategories } from "@/components/home/featured-categories";
 import { FeaturedProducts } from "@/components/home/featured-products";
 import { InstallationServices } from "@/components/home/installation-services";
+import { TradeBanner } from "@/components/home/trade-banner";
 import { ProjectsGallerySection } from "@/components/home/projects-gallery-section";
 import { BrandsStrip } from "@/components/home/brands-strip";
 import { TestimonialsSection } from "@/components/home/testimonials-section";
@@ -40,6 +41,7 @@ export default async function Home() {
       <FeaturedCategories />
       <FeaturedProducts />
       <InstallationServices />
+      <TradeBanner />
       <ProjectsGallerySection />
       <BrandsStrip />
       <TestimonialsSection testimonials={testimonials} />
