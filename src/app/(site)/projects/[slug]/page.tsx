@@ -8,6 +8,7 @@ import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { WhatsappCtaButton } from "@/components/shared/whatsapp-cta-button";
+import { JsonLd } from "@/components/shared/json-ld";
 import { cn } from "@/lib/utils";
 import { getBusinessInfo } from "@/lib/data/business-info";
 
@@ -46,8 +47,45 @@ export default async function ProjectDetailPage({
   if (!project) notFound();
   const businessInfo = await getBusinessInfo();
 
+  // No Schema.org type maps cleanly onto a "before/after renovation case
+  // study," so CreativeWork + additionalProperty (PropertyValue pairs) is
+  // the closest honest fit — no special rich-result eligibility, but it
+  // gives both Google and LLM/GEO crawlers clean, structured facts about
+  // the project instead of nothing at all.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: project.title,
+    description: project.description,
+    image: [project.beforeImage.url, ...project.afterImages.map((i) => i.url)],
+    dateCreated: project.completedDate,
+    contentLocation: {
+      "@type": "Place",
+      name: project.location,
+    },
+    creator: {
+      "@type": "HomeAndConstructionBusiness",
+      name: businessInfo.legalName,
+    },
+    about: categoryLabel[project.category],
+    additionalProperty: [
+      ...project.servicesProvided.map((service) => ({
+        "@type": "PropertyValue",
+        name: "Service Provided",
+        value: service,
+      })),
+      ...project.materialsUsed.map((material) => ({
+        "@type": "PropertyValue",
+        name: "Material Used",
+        value: material,
+      })),
+    ],
+    url: `https://www.mavenenterprise.co.ke/projects/${project.slug}`,
+  };
+
   return (
     <div className="pb-14">
+      <JsonLd data={jsonLd} />
       <Breadcrumbs items={[{ label: "Projects", href: "/projects" }, { label: project.title, href: `/projects/${project.slug}` }]} />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
