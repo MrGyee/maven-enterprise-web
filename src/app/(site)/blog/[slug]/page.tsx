@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { Calendar, Clock, User } from "lucide-react";
-import { getBlogPostBySlug, getRelatedBlogPosts } from "@/lib/data/blog";
+import Link from "next/link";
+import { getBlogPostBySlug, getRelatedBlogPosts, slugifyBlogTerm } from "@/lib/data/blog";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { BlogCard } from "@/components/blog/blog-card";
 import { JsonLd } from "@/components/shared/json-ld";
@@ -54,7 +55,12 @@ export default async function BlogPostPage({
       <Breadcrumbs items={[{ label: "Blog", href: "/blog" }, { label: post.title, href: `/blog/${post.slug}` }]} />
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <span className="text-xs font-semibold uppercase tracking-widest text-primary">{post.category}</span>
+        <Link
+          href={`/blog/category/${slugifyBlogTerm(post.category)}`}
+          className="text-xs font-semibold uppercase tracking-widest text-primary hover:underline"
+        >
+          {post.category}
+        </Link>
         <h1 className="mt-2 font-heading text-3xl font-semibold text-foreground sm:text-4xl">{post.title}</h1>
         <div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
           <span className="flex items-center gap-1.5">
@@ -85,9 +91,13 @@ export default async function BlogPostPage({
 
         <div className="mt-8 flex flex-wrap gap-2">
           {post.tags.map((tag) => (
-            <span key={tag} className="rounded-full bg-secondary px-3 py-1 text-xs text-muted-foreground">
+            <Link
+              key={tag}
+              href={`/blog/tag/${slugifyBlogTerm(tag)}`}
+              className="rounded-full bg-secondary px-3 py-1 text-xs text-muted-foreground hover:bg-primary hover:text-primary-foreground"
+            >
               #{tag}
-            </span>
+            </Link>
           ))}
         </div>
       </div>
