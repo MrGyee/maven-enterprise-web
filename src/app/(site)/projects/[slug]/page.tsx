@@ -3,14 +3,17 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Calendar, ArrowRight } from "lucide-react";
-import { getProjectBySlug } from "@/lib/data/projects";
+import { getProjectBySlug, getProjectsByCategory } from "@/lib/data/projects";
+import { getServices } from "@/lib/data/services";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { WhatsappCtaButton } from "@/components/shared/whatsapp-cta-button";
 import { JsonLd } from "@/components/shared/json-ld";
+import { ProjectCard } from "@/components/projects/project-card";
 import { cn } from "@/lib/utils";
 import { getBusinessInfo } from "@/lib/data/business-info";
+import { getSolutionForProjectCategory } from "@/lib/solutions";
 
 const categoryLabel: Record<string, string> = {
   residential: "Residential",
@@ -45,7 +48,14 @@ export default async function ProjectDetailPage({
   const { slug } = await params;
   const project = await getProjectBySlug(slug);
   if (!project) notFound();
-  const businessInfo = await getBusinessInfo();
+  const [businessInfo, services, relatedProjects] = await Promise.all([
+    getBusinessInfo(),
+    getServices(),
+    getProjectsByCategory(project.category),
+  ]);
+  const serviceBySlug = new Map(services.map((s) => [s.name, s.slug]));
+  const otherProjects = relatedProjects.filter((p) => p.slug !== project.slug).slice(0, 3);
+  const solution = getSolutionForProjectCategory(project.category);
 
   // No Schema.org type maps cleanly onto a "before/after renovation case
   // study," so CreativeWork + additionalProperty (PropertyValue pairs) is
@@ -132,11 +142,23 @@ export default async function ProjectDetailPage({
           <div>
             <h2 className="font-heading text-lg font-semibold text-foreground">Services Provided</h2>
             <ul className="mt-3 flex flex-wrap gap-2">
-              {project.servicesProvided.map((service) => (
-                <li key={service} className="rounded-full bg-accent px-3 py-1 text-sm text-accent-foreground">
-                  {service}
-                </li>
-              ))}
+              {project.servicesProvided.map((service) => {
+                const serviceSlug = serviceBySlug.get(service);
+                return (
+                  <li key={service}>
+                    {serviceSlug ? (
+                      <Link
+                        href={`/services/${serviceSlug}`}
+                        className="rounded-full bg-accent px-3 py-1 text-sm text-accent-foreground hover:bg-primary hover:text-primary-foreground"
+                      >
+                        {service}
+                      </Link>
+                    ) : (
+                      <span className="rounded-full bg-accent px-3 py-1 text-sm text-accent-foreground">{service}</span>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
           <div>
@@ -153,6 +175,11 @@ export default async function ProjectDetailPage({
 
         <div className="mt-12 flex flex-wrap gap-3 rounded-2xl bg-secondary/60 p-6">
           <p className="mr-auto text-sm font-medium text-foreground">Have a similar project in mind?</p>
+          {solution && (
+            <Link href={`/solutions/${solution.slug}`} className={cn(buttonVariants({ variant: "outline", size: "lg" }))}>
+              Solutions for {solution.label}
+            </Link>
+          )}
           <Link href="/quote" className={cn(buttonVariants({ size: "lg" }))}>
             Request Quotation
             <ArrowRight className="size-4" />
@@ -163,6 +190,22 @@ export default async function ProjectDetailPage({
           />
         </div>
       </div>
+
+      {otherProjects.length > 0 && (
+        <div className="mx-auto mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <h2 className="font-heading text-2xl font-semibold text-foreground">More {categoryLabel[project.category]} Projects</h2>
+            <Link href="/projects" className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline">
+              View all projects <ArrowRight className="size-4" />
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {otherProjects.map((p) => (
+              <ProjectCard key={p.slug} project={p} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

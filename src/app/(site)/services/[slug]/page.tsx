@@ -2,15 +2,19 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { CheckCircle2, ArrowRight } from "lucide-react";
+import { CheckCircle2, ArrowRight, Calculator, Package } from "lucide-react";
 import { getServices, getServiceBySlug } from "@/lib/data/services";
+import { getProjects } from "@/lib/data/projects";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { WhatsappCtaButton } from "@/components/shared/whatsapp-cta-button";
 import { ServiceCard } from "@/components/services/service-card";
+import { ProjectCard } from "@/components/projects/project-card";
 import { JsonLd } from "@/components/shared/json-ld";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { getBusinessInfo } from "@/lib/data/business-info";
+import { serviceCalculatorSlug, serviceProductCategorySlug } from "@/lib/service-relations";
+import { getCalculatorConfig } from "@/lib/calculators";
 
 export const dynamic = "force-dynamic";
 
@@ -39,7 +43,14 @@ export default async function ServiceDetailPage({
   if (!service) notFound();
 
   const otherServices = (await getServices()).filter((s) => s.slug !== service.slug).slice(0, 3);
+  const relatedProjects = (await getProjects())
+    .filter((p) => p.servicesProvided.includes(service.name))
+    .slice(0, 3);
   const businessInfo = await getBusinessInfo();
+
+  const calculatorSlug = serviceCalculatorSlug[service.slug];
+  const calculator = calculatorSlug ? getCalculatorConfig(calculatorSlug) : undefined;
+  const productCategorySlug = serviceProductCategorySlug[service.slug];
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -137,8 +148,44 @@ export default async function ServiceDetailPage({
               className="w-full"
             />
           </div>
+
+          {(calculator || productCategorySlug) && (
+            <div className="mt-5 flex flex-col gap-2 border-t border-border pt-5">
+              {calculator && (
+                <Link
+                  href={`/calculators/${calculator.slug}`}
+                  className="flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+                >
+                  <Calculator className="size-4" />
+                  Estimate quantity & cost
+                  <ArrowRight className="ml-auto size-3.5" />
+                </Link>
+              )}
+              {productCategorySlug && (
+                <Link
+                  href={`/products/${productCategorySlug}`}
+                  className="flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+                >
+                  <Package className="size-4" />
+                  Browse related products
+                  <ArrowRight className="ml-auto size-3.5" />
+                </Link>
+              )}
+            </div>
+          )}
         </aside>
       </div>
+
+      {relatedProjects.length > 0 && (
+        <div className="mx-auto mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="font-heading text-2xl font-semibold text-foreground">Projects Using This Service</h2>
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedProjects.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        </div>
+      )}
 
       {otherServices.length > 0 && (
         <div className="mx-auto mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">

@@ -134,3 +134,19 @@ export const solutionAudiences: SolutionAudience[] = [
 export function getSolutionAudience(slug: string) {
   return solutionAudiences.find((a) => a.slug === slug);
 }
+
+// Explicit (not derived from projectCategories) so residential/commercial/etc.
+// each point at exactly one audience page — several audiences share overlapping
+// projectCategories values for their own project-showcase filtering, which
+// would make a derived reverse lookup ambiguous.
+const projectCategoryToSolutionSlug: Record<ProjectCategory, string> = {
+  residential: "homeowners",
+  commercial: "commercial-office",
+  office: "commercial-office",
+  retail: "commercial-office",
+  hospitality: "hospitality",
+};
+
+export function getSolutionForProjectCategory(category: ProjectCategory) {
+  return getSolutionAudience(projectCategoryToSolutionSlug[category]);
+}
