@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { getBusinessInfo } from "@/lib/data/business-info";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
@@ -6,6 +7,8 @@ import { SectionHeading } from "@/components/shared/section-heading";
 import { GoogleMapSection } from "@/components/shared/google-map-section";
 import { WhatsappCtaButton } from "@/components/shared/whatsapp-cta-button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { ContactForm } from "@/components/contact/contact-form";
 import { BulkPurchaseForm } from "@/components/contact/bulk-purchase-form";
 import { ContractorRegistrationForm } from "@/components/contact/contractor-registration-form";
@@ -67,6 +70,18 @@ export default async function ContactPage() {
                 message="Hello Maven Enterprise Ltd. I would like to inquire about your products and services."
                 className="mt-6 w-full"
               />
+            </div>
+            <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
+              <h3 className="font-heading text-sm font-semibold text-foreground">Running a construction or fit-out project?</h3>
+              <p className="mt-1.5 text-sm text-muted-foreground">
+                Send us your BOQ, material schedule, drawings or product list for a project quotation.
+              </p>
+              <Link
+                href="/boq"
+                className={cn(buttonVariants({ variant: "outline", size: "lg" }), "mt-4 w-full")}
+              >
+                Submit Your BOQ
+              </Link>
             </div>
           </div>
 

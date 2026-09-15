@@ -14,12 +14,14 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { CartBadge } from "@/components/cart/cart-badge";
 
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
   { href: "/services", label: "Services" },
   { href: "/projects", label: "Projects" },
+  { href: "/boq", label: "Trade & BOQ" },
   { href: "/about", label: "About Us" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
@@ -66,16 +68,19 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-2 lg:flex">
+          <CartBadge />
           <Link href="/quote" className={cn(buttonVariants({}), "ml-2")}>
             Request Quotation
           </Link>
         </div>
 
-        <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger render={<Button variant="ghost" size="icon" />} className="lg:hidden">
-            <Menu className="size-5" />
-            <span className="sr-only">Open menu</span>
-          </SheetTrigger>
+        <div className="flex items-center gap-1 lg:hidden">
+          <CartBadge />
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger render={<Button variant="ghost" size="icon" />}>
+              <Menu className="size-5" />
+              <span className="sr-only">Open menu</span>
+            </SheetTrigger>
           <SheetContent side="right" className="w-4/5 sm:max-w-xs">
             <SheetHeader>
               <SheetTitle>Maven Enterprise Ltd</SheetTitle>
@@ -102,7 +107,8 @@ export function Header() {
               </Link>
             </div>
           </SheetContent>
-        </Sheet>
+          </Sheet>
+        </div>
       </div>
     </header>
   );

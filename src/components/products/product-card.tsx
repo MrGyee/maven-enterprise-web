@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Wrench } from "lucide-react";
 import type { Product } from "@/lib/data/types";
 import { Badge } from "@/components/ui/badge";
+import { AddToQuoteButton } from "@/components/cart/add-to-quote-button";
 
 const stockLabel: Record<Product["stockStatus"], string> = {
   in_stock: "In Stock",
@@ -54,6 +55,7 @@ export function ProductCard({ product }: { product: Product }) {
               : product.priceUnit ?? "Quote on request"}
           </span>
         </div>
+        <AddToQuoteButton product={product} size="sm" label="Add to Quote" className="mt-1 w-full" />
       </div>
     </Link>
   );

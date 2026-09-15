@@ -9,3 +9,22 @@ export const defaultWhatsappMessage =
 export function buildWhatsappLink(whatsappNumber: string, message: string) {
   return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 }
+
+// Contextual message builders so every CTA site-wide generates a
+// consistent, useful opening message instead of ad-hoc strings scattered
+// across components.
+export function buildProductWhatsappMessage(productName: string) {
+  return `Hi Maven, I'm interested in ${productName}. Please send me availability and pricing.`;
+}
+
+export function buildProjectWhatsappMessage(projectType: string, location: string) {
+  return `Hi Maven, I have a ${projectType} project in ${location} and would like a quotation.`;
+}
+
+export function buildContractorWhatsappMessage() {
+  return "Hi Maven, I'm a contractor and would like information about Maven Trade and project pricing.";
+}
+
+export function buildServiceWhatsappMessage(serviceName: string) {
+  return `Hi Maven, I'm interested in ${serviceName}. I'd like to discuss my project.`;
+}

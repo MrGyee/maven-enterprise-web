@@ -9,10 +9,12 @@ import { ProductGallery } from "@/components/products/product-gallery";
 import { ProductCard } from "@/components/products/product-card";
 import { WhatsappCtaButton } from "@/components/shared/whatsapp-cta-button";
 import { JsonLd } from "@/components/shared/json-ld";
+import { AddToQuoteButton } from "@/components/cart/add-to-quote-button";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { getBusinessInfo } from "@/lib/data/business-info";
+import { buildProductWhatsappMessage } from "@/lib/whatsapp";
 
 export const dynamic = "force-dynamic";
 
@@ -149,9 +151,10 @@ export default async function ProductDetailPage({
           )}
 
           <div className="mt-8 flex flex-wrap gap-3">
+            <AddToQuoteButton product={product} size="lg" className="h-11 px-6" />
             <Link
               href={`/quote?product=${encodeURIComponent(product.name)}`}
-              className={cn(buttonVariants({ size: "lg" }), "h-11 px-6")}
+              className={cn(buttonVariants({ variant: "outline", size: "lg" }), "h-11 px-6")}
             >
               Request Quotation
               <ArrowRight className="size-4" />
@@ -159,7 +162,7 @@ export default async function ProductDetailPage({
             <WhatsappCtaButton
               whatsappNumber={businessInfo.whatsappNumber}
               label="Ask on WhatsApp"
-              message={`Hello Maven Enterprise Ltd, I would like to inquire about the ${product.name} (${product.categorySlug}/${product.slug}).`}
+              message={buildProductWhatsappMessage(product.name)}
             />
           </div>
         </div>

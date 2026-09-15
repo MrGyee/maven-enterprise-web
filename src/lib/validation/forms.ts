@@ -63,3 +63,85 @@ export const supplierRegistrationSchema = z.object({
   productsSupplied: z.string().trim().min(2, "Please describe the products you supply."),
 });
 export type SupplierRegistrationValues = z.infer<typeof supplierRegistrationSchema>;
+
+// Project Quote cart (src/lib/cart/) ----------------------------------------
+
+export const projectQuoteItemSchema = z.object({
+  slug: z.string(),
+  name: z.string(),
+  image: z.string().optional(),
+  priceUnit: z.string().optional(),
+  price: z.number().optional(),
+  quantity: z.number().int().min(1),
+});
+export type ProjectQuoteItem = z.infer<typeof projectQuoteItemSchema>;
+
+export const projectQuoteRequestSchema = z.object({
+  name,
+  company: z.string().trim().optional().or(z.literal("")),
+  phone,
+  email,
+  items: z.array(projectQuoteItemSchema).min(1, "Add at least one product to your quote."),
+  notes: z.string().trim().max(2000).optional().or(z.literal("")),
+});
+export type ProjectQuoteRequestValues = z.infer<typeof projectQuoteRequestSchema>;
+
+// BOQ / project procurement submission (src/app/(site)/boq/) ---------------
+
+export const boqEnquiryTypes = [
+  "Product quotation",
+  "Full project quotation",
+  "BOQ pricing",
+  "Installation",
+  "Design consultation",
+  "Bulk/contractor pricing",
+] as const;
+
+export const boqProjectTypes = [
+  "Residential",
+  "Apartment Development",
+  "Office",
+  "Hotel / Hospitality",
+  "Retail",
+  "School / Institution",
+  "Commercial",
+  "Other",
+] as const;
+
+export const boqProjectStatuses = [
+  "Planning",
+  "Design stage",
+  "Ready for procurement",
+  "Construction underway",
+  "Renovation underway",
+] as const;
+
+export const boqRequirements = ["Supply", "Installation", "Both", "Product alternatives", "Quantity review"] as const;
+
+export const boqFileSchema = z.object({
+  url: z.string(),
+  publicId: z.string(),
+  resourceType: z.string(),
+  originalName: z.string(),
+  format: z.string().optional(),
+  bytes: z.number().optional(),
+});
+export type BoqFile = z.infer<typeof boqFileSchema>;
+
+export const boqSubmissionSchema = z.object({
+  enquiryType: z.enum(boqEnquiryTypes),
+  projectType: z.enum(boqProjectTypes),
+  county: z.string().trim().optional().or(z.literal("")),
+  area: z.string().trim().optional().or(z.literal("")),
+  siteLocation: z.string().trim().optional().or(z.literal("")),
+  projectStatus: z.enum(boqProjectStatuses),
+  requirements: z.array(z.enum(boqRequirements)).min(1, "Select at least one requirement."),
+  files: z.array(boqFileSchema),
+  notes: z.string().trim().max(2000).optional().or(z.literal("")),
+  name,
+  company: z.string().trim().optional().or(z.literal("")),
+  phone,
+  email,
+  preferredContact: z.enum(["phone", "whatsapp", "email"]),
+});
+export type BoqSubmissionValues = z.infer<typeof boqSubmissionSchema>;

@@ -13,8 +13,14 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default async function ThankYouPage() {
+export default async function ThankYouPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ ref?: string; type?: string }>;
+}) {
   const businessInfo = await getBusinessInfo();
+  const { ref, type } = await searchParams;
+  const isBoq = type === "boq";
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center px-4 text-center">
@@ -22,16 +28,25 @@ export default async function ThankYouPage() {
         <CheckCircle2 className="size-8" />
       </span>
       <h1 className="mt-6 font-heading text-2xl font-semibold text-foreground sm:text-3xl">
-        Thank you — your quote request is in!
+        {isBoq ? "Your project request has been received." : "Thank you — your quote request is in!"}
       </h1>
+      {ref && (
+        <p className="mt-3 rounded-full bg-secondary px-4 py-1.5 font-mono text-sm font-semibold text-foreground">
+          {ref}
+        </p>
+      )}
       <p className="mt-3 max-w-md text-sm leading-relaxed text-muted-foreground">
-        Our team will review your request and get back to you within 1
-        business day. For a faster response, continue the conversation on
-        WhatsApp right now.
+        {isBoq
+          ? "Our team will review your requirements and get back to you with pricing and next steps. Keep your reference number for any follow-up."
+          : "Our team will review your request and get back to you within 1 business day. For a faster response, continue the conversation on WhatsApp right now."}
       </p>
       <WhatsappCtaButton
         whatsappNumber={businessInfo.whatsappNumber}
-        message="Hello Maven Enterprise Ltd, I just submitted a quote request through your website and would like to follow up."
+        message={
+          ref
+            ? `Hello Maven Enterprise Ltd, I just submitted a request through your website (reference ${ref}) and would like to follow up.`
+            : "Hello Maven Enterprise Ltd, I just submitted a quote request through your website and would like to follow up."
+        }
         label="Continue on WhatsApp"
         className="mt-6"
       />

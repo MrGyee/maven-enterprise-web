@@ -16,6 +16,8 @@ import {
   Image as ImageIcon,
   Building2,
   Inbox,
+  ShoppingCart,
+  ClipboardList,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -49,6 +51,8 @@ const navGroups = [
     items: [
       { href: "/admin/settings/business-info", label: "Business Info", icon: Building2 },
       { href: "/admin/leads", label: "Leads", icon: Inbox },
+      { href: "/admin/project-quotes", label: "Project Quotes", icon: ShoppingCart },
+      { href: "/admin/boq", label: "BOQ Submissions", icon: ClipboardList },
     ],
   },
 ];

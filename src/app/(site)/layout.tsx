@@ -4,6 +4,7 @@ import { WhatsAppFloatButton } from "@/components/layout/whatsapp-float-button";
 import { StickyMobileCta } from "@/components/layout/sticky-mobile-cta";
 import { JsonLd } from "@/components/shared/json-ld";
 import { CookieConsent } from "@/components/shared/cookie-consent";
+import { CartProvider } from "@/lib/cart/cart-context";
 import { getBusinessInfo, getLocalBusinessJsonLd } from "@/lib/data/business-info";
 
 export default async function SiteLayout({ children }: { children: React.ReactNode }) {
@@ -11,7 +12,7 @@ export default async function SiteLayout({ children }: { children: React.ReactNo
   const localBusinessJsonLd = await getLocalBusinessJsonLd();
 
   return (
-    <>
+    <CartProvider>
       <JsonLd data={localBusinessJsonLd} />
       <CookieConsent />
       <Header />
@@ -19,6 +20,6 @@ export default async function SiteLayout({ children }: { children: React.ReactNo
       <Footer />
       <WhatsAppFloatButton whatsappNumber={businessInfo.whatsappNumber} />
       <StickyMobileCta phoneNumber={businessInfo.phones[0]} whatsappNumber={businessInfo.whatsappNumber} />
-    </>
+    </CartProvider>
   );
 }
