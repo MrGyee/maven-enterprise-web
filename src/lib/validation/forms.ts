@@ -72,7 +72,9 @@ export const projectQuoteItemSchema = z.object({
   image: z.string().optional(),
   priceUnit: z.string().optional(),
   price: z.number().optional(),
-  quantity: z.number().int().min(1),
+  // Not .int() — calculator-derived quantities are fractional for
+  // continuously-priced products (e.g. 15.4 m² of flooring).
+  quantity: z.number().positive(),
 });
 export type ProjectQuoteItem = z.infer<typeof projectQuoteItemSchema>;
 
