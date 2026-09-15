@@ -21,6 +21,7 @@ export default async function ThankYouPage({
   const businessInfo = await getBusinessInfo();
   const { ref, type } = await searchParams;
   const isBoq = type === "boq";
+  const isTrade = type === "trade";
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center px-4 text-center">
@@ -28,7 +29,11 @@ export default async function ThankYouPage({
         <CheckCircle2 className="size-8" />
       </span>
       <h1 className="mt-6 font-heading text-2xl font-semibold text-foreground sm:text-3xl">
-        {isBoq ? "Your project request has been received." : "Thank you — your quote request is in!"}
+        {isBoq
+          ? "Your project request has been received."
+          : isTrade
+            ? "Your Maven Trade application has been received."
+            : "Thank you — your quote request is in!"}
       </h1>
       {ref && (
         <p className="mt-3 rounded-full bg-secondary px-4 py-1.5 font-mono text-sm font-semibold text-foreground">
@@ -38,7 +43,9 @@ export default async function ThankYouPage({
       <p className="mt-3 max-w-md text-sm leading-relaxed text-muted-foreground">
         {isBoq
           ? "Our team will review your requirements and get back to you with pricing and next steps. Keep your reference number for any follow-up."
-          : "Our team will review your request and get back to you within 1 business day. For a faster response, continue the conversation on WhatsApp right now."}
+          : isTrade
+            ? "Our team will review your application and get back to you regarding your Maven Trade account. Keep your reference number for any follow-up."
+            : "Our team will review your request and get back to you within 1 business day. For a faster response, continue the conversation on WhatsApp right now."}
       </p>
       <WhatsappCtaButton
         whatsappNumber={businessInfo.whatsappNumber}

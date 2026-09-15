@@ -11,7 +11,7 @@ const quickLinks = [
   { href: "/products", label: "Products" },
   { href: "/services", label: "Services" },
   { href: "/projects", label: "Projects" },
-  { href: "/boq", label: "Trade & BOQ" },
+  { href: "/trade", label: "Trade & BOQ" },
   { href: "/about", label: "About Us" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },

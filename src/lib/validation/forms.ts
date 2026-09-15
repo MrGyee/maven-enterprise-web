@@ -145,3 +145,29 @@ export const boqSubmissionSchema = z.object({
   preferredContact: z.enum(["phone", "whatsapp", "email"]),
 });
 export type BoqSubmissionValues = z.infer<typeof boqSubmissionSchema>;
+
+// Maven Trade registration (src/app/(site)/trade/register/) ----------------
+
+export const tradeBusinessTypes = [
+  "Contractor",
+  "Developer",
+  "Architect",
+  "Interior Designer",
+  "Quantity Surveyor",
+  "Project Manager",
+  "Commercial Property",
+  "Other",
+] as const;
+
+export const tradeApplicationSchema = z.object({
+  companyName: z.string().trim().min(2, "Please enter your company name."),
+  contactPerson: name,
+  phone,
+  email,
+  businessType: z.enum(tradeBusinessTypes),
+  yearsInBusiness: z.string().trim().optional().or(z.literal("")),
+  projectLocations: z.string().trim().optional().or(z.literal("")),
+  typicalProjectSize: z.string().trim().optional().or(z.literal("")),
+  productsOfInterest: z.string().trim().optional().or(z.literal("")),
+});
+export type TradeApplicationValues = z.infer<typeof tradeApplicationSchema>;
