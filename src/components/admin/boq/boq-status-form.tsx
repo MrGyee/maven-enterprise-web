@@ -55,7 +55,9 @@ export function BoqStatusForm({
           onValueChange={(v) => setForm((f) => ({ ...f, status: v as BoqStatus }))}
         >
           <SelectTrigger id="boq-status" className="w-full">
-            <SelectValue />
+            <SelectValue>
+              {() => statusOptions.find((opt) => opt.value === form.status)?.label}
+            </SelectValue>
           </SelectTrigger>
           <SelectContent>
             {statusOptions.map((opt) => (

@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Calculator } from "lucide-react";
 import { getCategories } from "@/lib/data/categories";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { SectionHeading } from "@/components/shared/section-heading";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 
@@ -69,6 +71,24 @@ export default async function ProductsPage() {
               </div>
             </Link>
           ))}
+        </div>
+
+        <div className="mt-10 flex flex-col items-start gap-4 rounded-2xl bg-secondary/50 p-6 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-3">
+            <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
+              <Calculator className="size-5" />
+            </span>
+            <div>
+              <h2 className="font-heading text-base font-semibold text-foreground">Not sure how much you need?</h2>
+              <p className="text-sm text-muted-foreground">
+                Use our material calculators to estimate quantity and cost for flooring, wall panels and wallpaper.
+              </p>
+            </div>
+          </div>
+          <Link href="/calculators" className={cn(buttonVariants({ variant: "outline" }), "shrink-0")}>
+            Try a Calculator
+            <ArrowRight className="size-4" />
+          </Link>
         </div>
       </div>
     </div>

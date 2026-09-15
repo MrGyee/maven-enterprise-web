@@ -32,3 +32,7 @@ export function buildServiceWhatsappMessage(serviceName: string) {
 export function buildSolutionWhatsappMessage(audienceLabel: string) {
   return `Hi Maven, I'm a ${audienceLabel.toLowerCase()} looking for interior supply and installation support for my project.`;
 }
+
+export function buildCalculatorWhatsappMessage(productName: string, quantityLabel: string, areaM2: number) {
+  return `Hi Maven, I used your calculator for a ${areaM2}m² area and estimated I need ${quantityLabel} of ${productName}. Please confirm pricing and availability.`;
+}

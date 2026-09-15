@@ -105,12 +105,18 @@ export function HeaderNav({ categories, services }: { categories: Category[]; se
                       </NavigationMenuLink>
                     ))}
                   </div>
-                  <div className="mt-4 flex items-center justify-between border-t border-border pt-3">
+                  <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-border pt-3">
                     <NavigationMenuLink
                       render={<Link href="/products" />}
                       className="inline-flex w-auto items-center gap-1 p-0 text-sm font-medium text-primary hover:bg-transparent hover:underline"
                     >
                       View All Products <ArrowRight className="size-3.5" />
+                    </NavigationMenuLink>
+                    <NavigationMenuLink
+                      render={<Link href="/calculators" />}
+                      className="inline-flex w-auto items-center gap-1 p-0 text-sm font-medium text-primary hover:bg-transparent hover:underline"
+                    >
+                      Material Calculators <ArrowRight className="size-3.5" />
                     </NavigationMenuLink>
                     <NavigationMenuLink
                       render={<Link href="/trade" />}
@@ -248,6 +254,13 @@ export function HeaderNav({ categories, services }: { categories: Category[]; se
                           className="rounded-md px-2 py-2 text-sm font-medium text-primary hover:bg-accent"
                         >
                           View All Products
+                        </Link>
+                        <Link
+                          href="/calculators"
+                          onClick={() => setOpen(false)}
+                          className="rounded-md px-2 py-2 text-sm font-medium text-primary hover:bg-accent"
+                        >
+                          Material Calculators
                         </Link>
                       </div>
                     </AccordionContent>

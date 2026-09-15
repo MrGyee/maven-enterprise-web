@@ -47,7 +47,9 @@ export function TradeStatusForm({
           onValueChange={(v) => setForm((f) => ({ ...f, status: v as TradeApplicationStatus }))}
         >
           <SelectTrigger id="trade-status" className="w-full">
-            <SelectValue />
+            <SelectValue>
+              {() => statusOptions.find((opt) => opt.value === form.status)?.label}
+            </SelectValue>
           </SelectTrigger>
           <SelectContent>
             {statusOptions.map((opt) => (

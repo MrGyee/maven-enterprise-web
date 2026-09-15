@@ -356,7 +356,11 @@ export function BoqForm({ whatsappNumber }: { whatsappNumber: string }) {
                   onValueChange={(v) => setValue("preferredContact", v as BoqSubmissionValues["preferredContact"])}
                 >
                   <SelectTrigger id="boq-preferred" className="w-full">
-                    <SelectValue />
+                    <SelectValue>
+                      {() =>
+                        ({ phone: "Phone Call", whatsapp: "WhatsApp", email: "Email" })[values.preferredContact]
+                      }
+                    </SelectValue>
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="phone">Phone Call</SelectItem>
