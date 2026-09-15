@@ -28,3 +28,7 @@ export function buildContractorWhatsappMessage() {
 export function buildServiceWhatsappMessage(serviceName: string) {
   return `Hi Maven, I'm interested in ${serviceName}. I'd like to discuss my project.`;
 }
+
+export function buildSolutionWhatsappMessage(audienceLabel: string) {
+  return `Hi Maven, I'm a ${audienceLabel.toLowerCase()} looking for interior supply and installation support for my project.`;
+}

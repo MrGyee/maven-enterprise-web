@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { ArrowRight, Menu } from "lucide-react";
+import { ArrowRight, Menu, Home as HomeIcon, PenTool, HardHat, Building2, Briefcase, Hotel } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
@@ -31,6 +31,9 @@ import {
 } from "@/components/ui/navigation-menu";
 import { CartBadge } from "@/components/cart/cart-badge";
 import type { Category, Service } from "@/lib/data/types";
+import { solutionAudiences } from "@/lib/solutions";
+
+const solutionIconMap = { Home: HomeIcon, PenTool, HardHat, Building2, Briefcase, Hotel };
 
 const trailingLinks = [
   { href: "/projects", label: "Projects" },
@@ -149,6 +152,39 @@ export function HeaderNav({ categories, services }: { categories: Category[]; se
               </NavigationMenuContent>
             </NavigationMenuItem>
 
+            <NavigationMenuItem>
+              <NavigationMenuTrigger className={cn(isActive("/solutions") && "bg-muted text-foreground")}>
+                Solutions
+              </NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <div className="w-[420px] p-5">
+                  <div className="grid grid-cols-2 gap-1">
+                    {solutionAudiences.map((audience) => {
+                      const Icon = solutionIconMap[audience.icon];
+                      return (
+                        <NavigationMenuLink
+                          key={audience.slug}
+                          render={<Link href={`/solutions/${audience.slug}`} />}
+                          className="items-center gap-2 p-2 text-sm"
+                        >
+                          <Icon className="size-4 shrink-0 text-primary" />
+                          {audience.navLabel}
+                        </NavigationMenuLink>
+                      );
+                    })}
+                  </div>
+                  <div className="mt-3 border-t border-border pt-3">
+                    <NavigationMenuLink
+                      render={<Link href="/solutions" />}
+                      className="inline-flex w-auto items-center gap-1 p-0 text-sm font-medium text-primary hover:bg-transparent hover:underline"
+                    >
+                      View All Solutions <ArrowRight className="size-3.5" />
+                    </NavigationMenuLink>
+                  </div>
+                </div>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+
             {trailingLinks.map((link) => (
               <NavigationMenuItem key={link.href}>
                 <NavigationMenuLink
@@ -239,6 +275,33 @@ export function HeaderNav({ categories, services }: { categories: Category[]; se
                           className="rounded-md px-2 py-2 text-sm font-medium text-primary hover:bg-accent"
                         >
                           View All Services
+                        </Link>
+                      </div>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="solutions">
+                    <AccordionTrigger className="px-3 text-sm font-medium text-foreground">
+                      Solutions
+                    </AccordionTrigger>
+                    <AccordionContent className="px-3">
+                      <div className="flex flex-col gap-0.5">
+                        {solutionAudiences.map((audience) => (
+                          <Link
+                            key={audience.slug}
+                            href={`/solutions/${audience.slug}`}
+                            onClick={() => setOpen(false)}
+                            className="rounded-md px-2 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
+                          >
+                            {audience.navLabel}
+                          </Link>
+                        ))}
+                        <Link
+                          href="/solutions"
+                          onClick={() => setOpen(false)}
+                          className="rounded-md px-2 py-2 text-sm font-medium text-primary hover:bg-accent"
+                        >
+                          View All Solutions
                         </Link>
                       </div>
                     </AccordionContent>
