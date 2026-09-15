@@ -1,6 +1,7 @@
 import { cache } from "react";
 import { businessInfoStore } from "@/lib/store/business-info.store";
 import { buildWhatsappLink } from "@/lib/whatsapp";
+import { getTestimonials } from "@/lib/data/testimonials";
 
 export { defaultWhatsappMessage } from "@/lib/whatsapp";
 
@@ -21,6 +22,20 @@ export async function whatsappLink(message: string) {
 
 export async function getLocalBusinessJsonLd() {
   const businessInfo = await getBusinessInfo();
+  const testimonials = await getTestimonials();
+  const ratingCount = testimonials.length;
+  const aggregateRating =
+    ratingCount > 0
+      ? {
+          "@type": "AggregateRating",
+          ratingValue: (
+            testimonials.reduce((sum, t) => sum + t.rating, 0) / ratingCount
+          ).toFixed(1),
+          reviewCount: ratingCount,
+          bestRating: 5,
+          worstRating: 1,
+        }
+      : undefined;
   return {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
@@ -58,5 +73,6 @@ export async function getLocalBusinessJsonLd() {
     ],
     sameAs: Object.values(businessInfo.socials),
     url: "https://www.mavenenterprise.co.ke",
+    aggregateRating,
   };
 }

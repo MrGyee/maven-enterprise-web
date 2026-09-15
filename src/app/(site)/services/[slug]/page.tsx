@@ -7,6 +7,7 @@ import { getServices, getServiceBySlug } from "@/lib/data/services";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { WhatsappCtaButton } from "@/components/shared/whatsapp-cta-button";
 import { ServiceCard } from "@/components/services/service-card";
+import { JsonLd } from "@/components/shared/json-ld";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { getBusinessInfo } from "@/lib/data/business-info";
@@ -40,8 +41,25 @@ export default async function ServiceDetailPage({
   const otherServices = (await getServices()).filter((s) => s.slug !== service.slug).slice(0, 3);
   const businessInfo = await getBusinessInfo();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: service.name,
+    name: service.name,
+    description: service.shortDescription,
+    image: service.heroImage.url,
+    provider: {
+      "@type": "HomeAndConstructionBusiness",
+      name: businessInfo.legalName,
+      telephone: businessInfo.phones[0],
+    },
+    areaServed: businessInfo.serviceAreas,
+    url: `https://www.mavenenterprise.co.ke/services/${service.slug}`,
+  };
+
   return (
     <div className="pb-14">
+      <JsonLd data={jsonLd} />
       <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: service.name, href: `/services/${service.slug}` }]} />
 
       <div className="relative mx-4 overflow-hidden rounded-3xl sm:mx-6 lg:mx-8">

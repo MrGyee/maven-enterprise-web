@@ -33,10 +33,27 @@ export function AnimatedCounter({
       viewport={{ once: true }}
       className="text-center"
     >
-      <span ref={ref} className="font-heading text-4xl font-semibold text-primary sm:text-5xl">
+      <span
+        ref={ref}
+        data-counter-live
+        className="font-heading text-4xl font-semibold text-primary sm:text-5xl"
+      >
         {display}
         {suffix}
       </span>
+      {/* The animation starts from 0, so crawlers that read raw HTML without
+          running JS (some SEO/LLM fetchers) would otherwise see "0" for
+          every stat. <noscript> content ships in the server HTML but is
+          only rendered by browsers with JS disabled, where it hides the
+          live (perpetually-0) span via CSS and shows the real number
+          instead — real browsers with JS enabled never see this block. */}
+      <noscript>
+        <style>{"[data-counter-live] { display: none; }"}</style>
+        <span className="font-heading text-4xl font-semibold text-primary sm:text-5xl">
+          {value}
+          {suffix}
+        </span>
+      </noscript>
       <p className="mt-1 text-sm font-medium text-muted-foreground">{label}</p>
     </motion.div>
   );
