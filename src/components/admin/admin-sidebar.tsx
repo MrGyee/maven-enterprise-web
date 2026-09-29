@@ -19,6 +19,7 @@ import {
   ShoppingCart,
   ClipboardList,
   Handshake,
+  Search,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -56,6 +57,10 @@ const navGroups = [
       { href: "/admin/boq", label: "BOQ Submissions", icon: ClipboardList },
       { href: "/admin/trade", label: "Trade Applications", icon: Handshake },
     ],
+  },
+  {
+    label: "Insights",
+    items: [{ href: "/admin/seo", label: "SEO", icon: Search }],
   },
 ];
 
